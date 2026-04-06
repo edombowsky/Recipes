@@ -1,0 +1,6 @@
+# .rgignore
+.obsidian/
+.smart-env/
+.history/
+zAttachments/
+.git/

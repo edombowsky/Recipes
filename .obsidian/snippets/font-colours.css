@@ -1,0 +1,35 @@
+body.theme-dark {
+/*    --bold-color: red !important;*/
+    --italic-color: var(--color-green); !important;
+    --highlight-color: yellow; !important;
+    --bold-color: var(--color-orange);
+/*    --text-highlight-bg: var(--color-green);*/
+
+    --link-color: salmon;
+    --link-color-hover: #fcb3ab;
+/*    --link-external-color: olive;*/
+    --link-external-color-hover: #d1e189;
+}
+
+/* ==highlight== text color */
+.theme-dark .cm-s-obsidian span.cm-highlight, .markdown-rendered mark {
+    color: var(--color-yellow);
+}
+
+.theme-dark .search-result-file-matched-text {
+    color: var(--color-yellow);
+}
+/*- bold internal link -*/
+.theme-dark .cm-s-obsidian .cm-hmd-internal-link.cm-strong, strong > a.internal-link {
+    color: var(--color-yellow);
+}
+
+/*- bold markdown link -*/
+.theme-dark .cm-s-obsidian .cm-link, strong > a.external-link {
+   color: var(--color-red);
+}
+
+/*- bold external link -*/
+.theme-dark .cm-s-obsidian .cm-url.cm-strong, strong > a.external-link {
+  color: var(--color-pink);
+}

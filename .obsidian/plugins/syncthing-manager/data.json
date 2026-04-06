@@ -1,0 +1,13 @@
+{
+  "updateInterval": 30,
+  "showStatusBar": true,
+  "showRibbonIcon": true,
+  "language": "en",
+  "modalConflict": true,
+  "syncthingHost": "device-specific",
+  "syncthingPort": "device-specific",
+  "useHttps": false,
+  "syncthingApiKey": "device-specific",
+  "syncthingFolderId": "device-specific",
+  "syncthingFolderLabel": "device-specific"
+}

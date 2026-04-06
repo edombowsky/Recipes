@@ -1,0 +1,3 @@
+.mb-button.green-button > button {
+  color: var(--color-green);
+}

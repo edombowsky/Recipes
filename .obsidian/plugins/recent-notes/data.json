@@ -1,0 +1,20 @@
+{
+  "maxNotesToShow": 10,
+  "showMarkdownFiles": true,
+  "showImageFiles": false,
+  "showPDFFiles": false,
+  "showAudioFiles": false,
+  "showVideoFiles": false,
+  "showCanvasFiles": true,
+  "showCSVFiles": false,
+  "excludedFolders": [],
+  "excludedFiles": [],
+  "excludedTags": [],
+  "previewLines": 0,
+  "showTime": true,
+  "pinnedNotes": [],
+  "dateFormat": "YYYY.MM.DD",
+  "propertyModified": "",
+  "density": "compact",
+  "openInNewTab": "new"
+}

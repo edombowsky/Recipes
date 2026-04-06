@@ -1,0 +1,79 @@
+filters:
+  and:
+    - file.folder == "Recipes"
+views:
+  - type: cards
+    name: All Recipes
+    filters:
+      and:
+        - type == ["recipe"]
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.banner
+  - type: table
+    name: All Recipes - Table
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - cuisine
+      - meal_type
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.cuisine: 138
+  - type: cards
+    name: Desserts
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - course.contains("Dessert")
+    image: note.banner
+  - type: cards
+    name: Appetizers
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - course.contains("Appetizer")
+    image: note.banner
+  - type: cards
+    name: Soup
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - course.contains("Soup")
+    image: note.banner
+  - type: cards
+    name: Main
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - course.contains("Main")
+    image: note.banner
+  - type: cards
+    name: Tips
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - type == ["tip"]
+    image: note.banner
+  - type: cards
+    name: Vegan
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - type.contains("recipe")
+        - vegan == true
+    image: note.banner
+  - type: cards
+    name: Vegetarian
+    filters:
+      and:
+        - type.contains("recipe")
+        - vegetarian == true
+    image: note.banner

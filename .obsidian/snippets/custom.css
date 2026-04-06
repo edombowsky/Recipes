@@ -1,0 +1,85 @@
+/* ---------------------------------------------------------- */
+/* Taken from: https://forum.obsidian.md/t/disable-word-wrap-for-code-blocks/13210/19 */
+/* Disable word wrap for code blocks and adds the hscroll bar in Preview
+/* mode, but not in edit. */
+
+.markdown-preview-view pre,
+.markdown-preview-view code :not(pre) {
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.markdown-rendered div > pre > code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.markdown-preview-view code[class*='lang'] {
+  overflow-x: auto;
+  white-space: pre;
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+/* https://forum.obsidian.md/t/css-snippet-to-change-the-color-of-numbered-lists/82897/2?u=emd1959 */
+/* Changes the colour of numbered lists          */
+/* The first two lines are for Reading view, the */
+/* second two lines are for the editor.          */
+ol > li::marker,
+ol > li.is-collapsed::marker,
+.cm-s-obsidian .cm-formatting-list,
+.cm-s-obsidian .is-collapsed ~ .cm-formatting-list {
+  color: #68ff92;
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+/* Nested lists with different enumerators */
+/* https://www.reddit.com/r/ObsidianMD/comments/1bhn31u/comment/kveprqz/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button */
+
+ol li {
+  list-style-type: decimal;
+}
+
+ol ol li {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol li {
+  list-style-type: lower-roman;
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+/* Removing Indentation From Lists in Tables? (Dataview) */
+/* https://www.reddit.com/r/ObsidianMD/comments/1hedxcr/comment/m24948w/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button */
+.dataview-result-list-li {
+  list-style: none;
+  margin-inline-start: 0px !important;
+  text-align: center;
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+/* Tab colours */
+.theme-dark {
+  /* Tabs: non-current tab title and X while window unfocused */
+  /* Stacked Tabs: non-current tab while window unfocused */
+  --tab-text-color: #ff0000;
+
+  /* Tabs, Stacked Tabs: current tab title while window unfocused */
+  --tab-text-color-active: #00ff00;
+
+  /* Tabs: Excepting mouse hover, all tab X buttons when window is focused, and current tab X when unfocused. */
+  /* Stacked Tabs: non-current tab title while window focused, and ALL X buttons always */
+  --tab-text-color-focused: #0000ff;
+
+  --tab-text-color-focused-active: #ff00ff;
+  --tab-text-color-focused-highlighted: #ffff00;
+
+  /* Tabs: Current tab title while window focused. Any tab X button when hovered. */
+  /* Stacked Tabs: current tab title while window focused. */
+  --tab-text-color-focused-active-current: #00ffff;
+}
+/* ---------------------------------------------------------- */

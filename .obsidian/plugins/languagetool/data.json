@@ -1,0 +1,23 @@
+{
+  "serverUrl": "https://api.languagetool.org",
+  "autoCheckDelay": 3000,
+  "shouldAutoCheck": true,
+  "languageVariety": {
+    "en": "en-GB",
+    "de": "de-DE",
+    "pt": "pt-PT",
+    "ca": "ca-ES"
+  },
+  "dictionary": [
+    "Cremini",
+    "shakshuka",
+    "Shakshuka"
+  ],
+  "syncDictionary": false,
+  "remoteDictionary": [],
+  "pickyMode": true,
+  "longCheckNotification": true,
+  "motherTongue": "en",
+  "disabledRules": "EN_UPPER_CASE_NGRAM",
+  "staticLanguage": "en-GB"
+}

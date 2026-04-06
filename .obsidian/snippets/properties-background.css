@@ -1,0 +1,45 @@
+/*
+ * https://www.reddit.com/r/ObsidianMD/comments/1mk1s57/really_enjoying_the_baseline_theme_after_some/
+ */
+
+/* Properties box background styling */
+.metadata-container {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+/* Alternative with subtle shadow */
+.metadata-container {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+
+}
+
+/* Custom color variant (uncomment and adjust colors as needed) */
+/*
+.metadata-container {
+    background-color: rgba(100, 150, 200, 0.1);
+    border: 1px solid rgba(100, 150, 200, 0.3);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+*/
+
+/* Dark theme specific adjustments */
+.theme-dark .metadata-container {
+  background-color: rgb(50, 50, 50);
+  border-color: var(--background-modifier-border-hover);
+}
+
+/* Light theme specific adjustments */
+.theme-light .metadata-container {
+  background-color: rgb(243, 245, 247);
+  border-color: var(--background-modifier-border);
+}

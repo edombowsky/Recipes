@@ -1,0 +1,6 @@
+{
+  "printCommand": "[{title}] by {channel}",
+  "autoLink": true,
+  "blacklistedDomains": "",
+  "defaultLinkFormat": "[{title}]"
+}

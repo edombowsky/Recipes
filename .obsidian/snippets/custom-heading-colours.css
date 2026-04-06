@@ -1,0 +1,56 @@
+/* https://gist.github.com/hegemanjr/83138e8174590fc0a0b43ead7e9cd854 */
+
+:root {
+  --faded-blue: #7fbbb3;
+  --faded-aqua: #83c092;
+  --faded-green: #a7c080;
+  --faded-yellow: #dbbc7f;
+  --faded-orange: #e69875;
+  --faded-red: #e67e80;
+  --faded-purple: #b99cd6;
+
+  --light-blue: #5a93a2;
+  --light-aqua: #569d79;
+  --light-green: #899c40;
+  --light-yellow: #bf983d;
+  --light-orange: #f57d26;
+  --light-red: #f85552;
+  --light-purple: #a150f2;
+}
+
+.theme-dark {
+  --h1-color: var(--faded-blue);
+  --h2-color: var(--faded-aqua);
+  --h3-color: var(--faded-green);
+  --h4-color: var(--faded-yellow);
+  --h5-color: var(--faded-orange);
+  --h6-color: var(--faded-red);
+}
+
+.theme-light {
+  --h1-color: var(--light-blue);
+  --h2-color: var(--light-aqua);
+  --h3-color: var(--light-green);
+  --h4-color: var(--light-yellow);
+  --h5-color: var(--light-orange);
+  --h6-color: var(--light-red);
+}
+
+/* .cm-header-1 {
+  color: #f37b84;
+}
+.cm-header-2 {
+  color: #ffd98c;
+}
+.cm-header-3 {
+  color: #9ff369;
+}
+.cm-header-4 {
+  color: #59d5c4;
+}
+.cm-header-5 {
+  color: #2a8aff;
+}
+.cm-header-6 {
+  color: #b99aff;
+} */

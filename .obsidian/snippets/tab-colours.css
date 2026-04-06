@@ -1,0 +1,21 @@
+/* https://forum.obsidian.md/t/how-to-change-color-of-tab-text/58512 */
+
+.theme-dark {
+  /* Tabs: non-current tab title and X while window unfocused */
+  /* Stacked Tabs: non-current tab while window unfocused */
+  --tab-text-color: var(--color-orange);
+
+  /* Tabs, Stacked Tabs: current tab title while window unfocused */
+  --tab-text-color-active: var(--color-green);
+
+  /* Tabs: Excepting mouse hover, all tab X buttons when window is focused, and current tab X when unfocused. */
+  /* Stacked Tabs: non-current tab title while window focused, and ALL X buttons always */
+  --tab-text-color-focused: var(--color-orange);
+
+  --tab-text-color-focused-active: var(--color-green);
+  --tab-text-color-focused-highlighted: var(--color-green);
+
+  /* Tabs: Current tab title while window focused. Any tab X button when hovered. */
+  /* Stacked Tabs: current tab title while window focused. */
+  --tab-text-color-focused-active-current: var(--color-green);
+}

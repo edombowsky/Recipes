@@ -1,0 +1,52 @@
+/* https://www.reddit.com/r/ObsidianMD/comments/1j07gj5/just_sharing_a_small_css_tweak_for_horizontal_rule/?share_id=B3vrwskVeGMBAYM4jgRes&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=10 */
+
+/* Common hr styles for both markdown views */
+.markdown-source-view.mod-cm6 hr,
+.markdown-preview-view hr {
+  position: relative;
+  overflow: initial;
+  border: none;
+  height: 1px;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(
+    to right,
+    transparent 0%,
+    #b68d40 16%,
+    /* Bronze gold (start) */ #e1a95f 46%,
+    /* Light gold (gradually brightening) */ transparent 48%,
+    /* Center fully transparent */ transparent 52%,
+    /* Center fully transparent */ #e1a95f 54%,
+    /* Light gold (restarting) */ #b68d40 84%,
+    /* Bronze gold (end) */ transparent 100%
+  );
+}
+
+/* Margin adjustments */
+.markdown-source-view.mod-cm6 hr {
+  margin-block-start: 0.8em;
+  margin-block-end: 0.2em;
+}
+
+.markdown-preview-view hr {
+  margin-block-start: 2em;
+  margin-block-end: 1.2em;
+}
+
+/* Common hr::after styles for both markdown views */
+.markdown-source-view.mod-cm6 hr::after,
+.markdown-preview-view hr::after {
+  content: '✧';
+  display: inline-block;
+  font-size: 1.4rem;
+  border-width: 2px;
+  position: absolute;
+  color: #ffc800 !important; /* Neon gold color */
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* ✨ Add neon effect */
+  text-shadow: 0 0 3px #ffc800, /* Very small glow */ 0 0 6px #ffd700,
+    /* Moderate glow */ 0 0 12px #ffa500; /* Softly diffused glow */
+}

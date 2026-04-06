@@ -1,0 +1,10 @@
+Breakfast  
+Brunch  
+Lunch  
+Dinner  
+Bread  
+Condiment  
+Dressing  
+Seasoning  
+Side  
+Snack
