@@ -11,7 +11,6 @@ meal_type: Bread
 cuisine:
   - Georgian
 course:
-  - Main
 servings: 4 breads (8 servings)
 prep_time: 1 hr
 cooking_time: 25-32 mins

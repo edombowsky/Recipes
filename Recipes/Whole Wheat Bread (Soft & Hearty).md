@@ -2,18 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Bread
 cuisine:
   - International
 course:
-  - Main
-servings: 
+servings:
 prep_time: 4 hrs 30 mins
 cooking_time: 38 mins
 total_time: 5 hrs 10 mins

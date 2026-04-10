@@ -2,14 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
   - British
 course:
-  - Main
 servings: 12 servings
 total_time: 30 mins
 prep_time: 15 mins

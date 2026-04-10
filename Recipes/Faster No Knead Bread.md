@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Side
   - Bread
 cuisine:
   - American
 course:
-  - Main
 servings: 1 loaf
 total_time: 4 hrs 25 mins
 prep_time: 5 mins

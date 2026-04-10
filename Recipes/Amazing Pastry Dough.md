@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
@@ -14,7 +14,6 @@ cuisine:
 servings: 8 servings
 course:
   - Dessert
-  - Main
 total_time: 2 hrs 10 mins
 prep_time: 45 mins + 1 hr chilling
 cooking_time: 25 mins
@@ -22,8 +21,8 @@ source: https://pastrieslikeapro.com/amazing-pastry-dough-recipe/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.05 15:52:11.000 -0700
-updated: 2025.01.15 09:40:34.430 -0800
+created: 2024.10.05 15:52:11.000-07:00
+updated: 2026.04.09 00:38:12.862-07:00
 banner: "[[multi-layers-of-pastry.jpg]]"
 banner-y: 0.62
 ---

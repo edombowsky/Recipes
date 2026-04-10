@@ -2,21 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Bread
 cuisine:
   - Egyptian
   - Middle-Eastern
 course:
-  - Main
 servings: 8 pitas
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 total_time: 1 hr 48 mins
 source: https://www.themediterraneandish.com/homemade-pita-bread-recipe/
 obsidianUIMode: preview

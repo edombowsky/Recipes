@@ -66,6 +66,7 @@
   "vaultTitle": "navigation",
   "syncModes": {
     "vaultProfile": "local",
+    "homepage": "synced",
     "folderSortOrder": "synced",
     "tagSortOrder": "local",
     "propertySortOrder": "synced",
@@ -100,9 +101,10 @@
   "mouseBackForwardAction": "history",
   "startView": "navigation",
   "showInfoButtons": true,
-  "homepage": "Recipe Collection.md",
-  "mobileHomepage": null,
-  "useMobileHomepage": false,
+  "homepage": {
+    "source": "file",
+    "file": "Recipe Collection.md"
+  },
   "showTooltips": true,
   "showTooltipPath": true,
   "desktopBackground": "separate",
@@ -168,7 +170,7 @@
   "propertySortOrder": "alpha-asc",
   "showAllPropertiesFolder": true,
   "scopePropertiesToCurrentContext": false,
-  "defaultListMode": "standard",
+  "defaultListMode": "compact",
   "defaultFolderSort": "modified-desc",
   "propertySortKey": "",
   "propertySortSecondary": "title",
@@ -465,7 +467,7 @@
     "#64748b",
     "#78716c"
   ],
-  "lastShownVersion": "2.5.6",
+  "lastShownVersion": "2.5.7",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": [],

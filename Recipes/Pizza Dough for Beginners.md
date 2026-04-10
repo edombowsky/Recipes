@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Bread
 cuisine:
   - Italian
 course:
-  - Main
 servings: 2 1 12 inch pizza's
 prep_time: 2 hrs 15 mins
 cooking_time: 15 mins

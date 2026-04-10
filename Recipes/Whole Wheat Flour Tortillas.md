@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
   - Bread
@@ -12,8 +12,7 @@ cuisine:
   - Mexican
 servings: 8 servings
 course:
-  - Main
-total_time: 
+total_time:
 prep_time: 20 mins
 cooking_time: 10 mins
 source: https://food-guide.canada.ca/en/recipes/whole-wheat-flour-tortillas/

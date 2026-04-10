@@ -2,18 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
   - Bread
 cuisine:
   - International
 course:
-  - Main
 servings: 1 loaf
 prep_time: 3 hrs 20 mins
 cooking_time: 1 hr

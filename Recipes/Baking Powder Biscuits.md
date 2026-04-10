@@ -7,12 +7,11 @@ favourite: true
 tried: true
 vegan:
 vegetarian:
-meal_type: Side
+meal_type: Bread
 cuisine:
   - American
   - Canadian
 course:
-  - Main
 servings: 24 biscuits
 prep_time: 10 mins
 cooking_time: 12-20 minutes
@@ -22,7 +21,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2025.12.21 16:39:53.129-08:00
+updated: 2026.04.09 00:37:14.318-07:00
 banner: "[[baking-powder-biscuits.jpg]]"
 ---
 

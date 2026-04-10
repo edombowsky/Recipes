@@ -7,7 +7,7 @@ created: 2025.07.04 17:29:34.000-07:00
 modified: Sunday, July 6th 2025, 2:12:26 pm
 cssclasses:
   - dashboard
-updated: 2025.12.07 20:40:56.441-08:00
+updated: 2026.04.09 00:25:28.022-07:00
 ---
 
 ```meta-bind-button
@@ -66,33 +66,33 @@ cssclasses: list-cards
 - [[Vegan Recipes|Vegan]]
 - [[Favourite Recipes|Favourites]]
 - [[Recipe Tips|Tips]]
-%%
 
->[!question]- What are you looking for  
+>[!question]- What are you looking for
 ><br>
 >
 >>[!multi-column|center-fixed]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Appetizers|Appetizers]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Desserts|Desserts]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Main|Main]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Soup|Soup]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>[[Recipe Collection.base#Tips|Tips]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Vegan|Vegan]]
 >>
->>>[!blank-container]  
+>>>[!blank-container]
 >>>[[Recipe Collection.base#Vegetarian|Vegetarian]]
+%%
 
 ---
 

@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Side
   - Bread
 cuisine:
   - Greek
 course:
-  - Main
 servings: 1 loaf
 total_time: 11 hrs
 prep_time: 5 mins

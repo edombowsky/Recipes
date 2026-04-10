@@ -2,18 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Bread
 cuisine:
   - American
   - British
 course:
-  - Main
 servings: 8-11 biscuits
 prep_time: 15 mins
 cooking_time: 20 mins

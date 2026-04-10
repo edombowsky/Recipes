@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Dinner
   - Lunch
@@ -16,13 +16,13 @@ course:
 servings: 1 14" pizza
 total_time: 20 mins
 prep_time: 20 mins
-cooking_time: 
+cooking_time:
 source: https://www.jennycancook.com/recipes/20-minute-pizza-dough/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.11.20 09:48:38.000 -0800
-updated: 2024.11.20 09:57:11.610 -0800
+created: 2024.11.20 09:48:38.000-08:00
+updated: 2026.04.09 00:37:50.285-07:00
 banner: "[[20-Minute-Pizza-Dough.jpg]]"
 ---
 

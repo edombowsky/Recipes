@@ -10,7 +10,6 @@ vegetarian:
 meal_type: Bread
 cuisine:
 course:
-  - Main
 servings: 8 servings
 prep_time: 30 mins
 cooking_time: 15 mins

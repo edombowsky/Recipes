@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Breakfast
   - Brunch
@@ -16,7 +16,6 @@ meal_type:
 cuisine:
   - International
 course:
-  - Main
 servings: 6 servings
 total_time: 45 mins (includes 10 mins resting)
 prep_time: 15 mins

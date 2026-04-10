@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
-meal_type:
+meal_type: Bread
   - Brunch
   - Breakfast
 cuisine:
   - British
 course:
-  - Main
 servings: 8 muffins
 total_time: 2 hrs 10 mins
 prep_time: 2 hrs
@@ -21,8 +20,8 @@ source: https://www.facebook.com/reel/458099077376369
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.20 15:22:18.000 -0700
-updated: 2025.02.15 23:16:48.862 -0800
+created: 2024.10.20 15:22:18.000-07:00
+updated: 2026.04.09 00:39:33.216-07:00
 banner: "[[Vegan-English-Muffins.png]]"
 ---
 

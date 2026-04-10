@@ -11,7 +11,6 @@ meal_type: Bread
 cuisine:
   - International
 course:
-  - Main
 servings: 6 loaves
 prep_time:
 cooking_time:

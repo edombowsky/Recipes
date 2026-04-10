@@ -2,14 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Indian
 servings: 8 servings
 course:
-  - Main
 total_time: 1 hr 35 mins
 prep_time: 1 hr 15 mins
 cooking_time: 20 mins

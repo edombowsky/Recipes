@@ -2,14 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 4-8 servings
 course:
-  - Main
 total_time: 20 mins
 prep_time: 15 mins
 cooking_time: 6 mins

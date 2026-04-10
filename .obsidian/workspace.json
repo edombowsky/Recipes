@@ -15,10 +15,24 @@
               "state": {
                 "file": "Recipe Collection.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Recipe Collection"
+            }
+          },
+          {
+            "id": "c3159da57d6bea53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/3 Ingredient Easiest Bread You'll EVER Make.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3 Ingredient Easiest Bread You'll EVER Make"
             }
           }
         ]
@@ -127,39 +141,6 @@
             }
           },
           {
-            "id": "81778afd393efbf3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Recipe Collection.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Recipe Collection"
-            }
-          },
-          {
-            "id": "a8ec891df77d0676",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Recipe Collection.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Recipe Collection"
-            }
-          },
-          {
             "id": "6e7566b7ed7188d7",
             "type": "leaf",
             "state": {
@@ -204,10 +185,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Recipes/3 Ingredient Easiest Bread You'll EVER Make.md",
+    "30 - Sources/Clippings/How to mount USB drive in Linux.md",
+    "Recipes/Vegan English Muffins.md",
     "Recipe Collection.md",
+    "Recipes/Amazing Pastry Dough.md",
+    "Recipes/20-Minute Pizza Dough.md",
+    "Recipes/Baking Powder Biscuits.md",
+    "Recipes/Doritos Flavoured Popcorn.md",
+    "Recipes/2-Hour Crusty No Knead Rolls.md",
+    "Recipes/2 Ingredient No Yeast Artisan Bread.md",
+    "Recipes/Chili Cheese Popcorn.md",
+    "zAttachments/chilli-cheese-popcorn.jpeg",
+    "zAttachments/Unconfirmed 437478.crdownload",
+    "Artificial Intelligence.md",
+    "Python Web Frameworks.md",
+    "zAttachments/3-Ingredient Easiest Bread.png",
     "Recipes/5-Minute Caprese Salad Bites.md",
     "Recipes/Ultimate Cheesy Pizzette.md",
-    "Recipes/2 Ingredient No Yeast Artisan Bread.md",
     "Recipes/Easy Baked Onion Rings.md",
     "Recipes/Oven Baked Onion Rings.md",
     "Recipes/Chickpea and Vegetable Curry.md",
@@ -228,27 +223,13 @@
     "Recipes/Oven-Roasted Turkey Breast.md",
     "Recipes/Perfect Baked Potato.md",
     "Recipes/Homemade Biscuits.md",
-    "Recipes/Best Shakshuka.md",
-    "Recipes/Shakshouka (Poached Eggs Recipe).md",
     "zAttachments/best-shakshuka.jpg",
-    "90 - Organize/Lookups/Lookup - Recipe Cuisine.md",
-    "Recipes/Garlic Knots.md",
     "zAttachments/garlic-knots.jpg",
-    "Recipes/Another Lentil Soup.md",
-    "Recipes/Lentil Soup.md",
     "Another Lentil Soup Nutrition.webp",
-    "zAttachments/lentil-soup.jpg",
-    "Recipes/Oven Roasted Potatoes.md",
-    "Recipes/Roasted Garlic Mashed Potatoes.md",
-    "Recipes/French Toast Casserole.md",
-    "zAttachments/french-toast-casserole.jpg",
-    "Recipes/Good Sources of Online Recipes and Tools.md",
-    "Recipes/Homemade Fries.md",
     "Recipe Collection.base",
     "zAttachments/nanaimobarrecipe.pdf",
     "Untitled.base",
     "30 - Sources/Clippings",
-    "30 - Sources",
-    "New folder"
+    "30 - Sources"
   ]
 }

@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Side
   - Bread
 cuisine:
   - American
 course:
-  - Main
 servings: 8 rolls
 total_time: 2 hrs
 prep_time: 10 mins
@@ -21,10 +20,11 @@ source: https://www.jennycancook.com/recipes/2-hour-crusty-no-knead-rolls/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.11.20 10:12:35.000 -0800
-updated: 2025.09.17 19:35:12.382 -0700
+created: 2024.11.20 10:12:35.000-08:00
+updated: 2026.04.09 00:34:09.081-07:00
 banner: "[[2-hour-crusty-no-knead-rolls.jpg]]"
 ---
+
 These rolls depend on a very hot oven (450° F) for the initial blast of heat. My oven takes 35 minutes to reach 450. The best way to be sure is to use an oven thermometer. Always [[No Knead Crusty Rolls#Aerating Flour|aerate]] (not sift) your flour before measuring!
 
 Just in time for Thanksgiving, here is an even faster way to make [[No Knead Crusty Rolls|my original crusty rolls]]. And you can make them ahead and freeze. They freeze beautifully, and you can re-crisp, directly from freezer to oven, in minutes. They are even more crusty when you freeze and reheat!

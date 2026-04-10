@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
 vegetarian: true
 meal_type:
@@ -13,7 +13,6 @@ meal_type:
 cuisine:
   - Mexican
 course:
-  - Main
 servings: 14 tortillas
 total_time: 1 hr 20 mins
 prep_time: 55 mins

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Snack
 cuisine:
@@ -21,10 +21,11 @@ source: https://www.thekitchn.com/5-fabulous-ways-to-flavor-your-popcorn-227616
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.01.23 18:16:04.000 -0800
-updated: 2025.01.23 18:25:28.491 -0800
-banner: "[[chilli-cheese-popcorn.jfif]]"
+created: 2025.01.23 18:16:04.000-08:00
+updated: 2026.04.09 00:28:27.662-07:00
+banner: "[[chilli-cheese-popcorn.jpeg]]"
 ---
+
 Because cheesy popcorn is totally irresistible. Nutritional yeast is the secret ingredient that brings you super “cheesy” popcorn without, well, the cheese.
 
 ## Ingredients

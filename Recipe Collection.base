@@ -28,13 +28,6 @@ views:
     columnSize:
       note.cuisine: 138
   - type: cards
-    name: Desserts
-    filters:
-      and:
-        - file.folder == "Recipes"
-        - course.contains("Dessert")
-    image: note.banner
-  - type: cards
     name: Appetizers
     filters:
       and:
@@ -42,11 +35,28 @@ views:
         - course.contains("Appetizer")
     image: note.banner
   - type: cards
+    name: Bread
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - meal_type.contains("Bread")
+    order:
+      - file.name
+      - course
+    image: note.banner
+  - type: cards
     name: Soup
     filters:
       and:
         - file.folder == "Recipes"
         - course.contains("Soup")
+    image: note.banner
+  - type: cards
+    name: Desserts
+    filters:
+      and:
+        - file.folder == "Recipes"
+        - course.contains("Dessert")
     image: note.banner
   - type: cards
     name: Main

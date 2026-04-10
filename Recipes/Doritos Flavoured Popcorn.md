@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Snack
 cuisine:
@@ -17,13 +17,13 @@ servings: 10 cups
 total_time: 10 mins
 prep_time: 5 mins
 cooking_time: 5 mins
-source: 
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.01.23 18:16:04.000 -0800
-updated: 2025.08.23 11:01:14.659 -0700
-banner: "[[chilli-cheese-popcorn.jfif]]"
+created: 2025.01.23 18:16:04.000-08:00
+updated: 2026.04.09 00:31:38.324-07:00
+banner: "[[chilli-cheese-popcorn.jpeg]]"
 ---
 
 ## Ingredients

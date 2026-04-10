@@ -2,14 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 8 slices
 course:
-  - Main
 total_time: 1 hr 5 mins
 prep_time: 5 mins
 cooking_time: 1 hr
@@ -18,7 +17,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-updated: 2026.01.12 15:33:12.152-08:00
+updated: 2026.04.09 00:32:54.475-07:00
 created: 2024.05.22 16:18:42.000-07:00
 meal_type:
   - Brunch

@@ -2,17 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Bread
 cuisine:
   - International
 course:
-  - Main
 servings: 8 bagels
 prep_time: 2 hrs 10 mins
 cooking_time: 25 mins
