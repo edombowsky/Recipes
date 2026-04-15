@@ -22,8 +22,8 @@ source: https://www.themediterraneandish.com/mediterranean-salmon-burger-recipe/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.09 18:39:06.000 -0700
-updated: 2025.03.09 18:51:53.937 -0700
+created: 2025.03.09 18:39:06.000-07:00
+updated: 2026.04.12 18:34:28.271-07:00
 banner: "[[salmon-burger.jpg]]"
 ---
 

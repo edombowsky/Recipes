@@ -8,6 +8,7 @@ Canadian
 Chinese
 Egyptian
 European
+Filipino
 French
 Greek
 Georgian
@@ -37,4 +38,6 @@ TexMex
 Thai
 Tunisian
 Turkish
+Ukaranian
+Uzbek
 Vietnamese

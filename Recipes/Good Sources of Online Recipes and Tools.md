@@ -13,7 +13,7 @@ prep_time:
 cooking_time:
 source:
 created: 2023.09.19 21:00:00.000-07:00
-updated: 2026.01.11 16:24:21.127-08:00
+updated: 2026.04.12 18:52:52.736-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
@@ -54,6 +54,7 @@ meal_type:
 - [Recipes — Tasting History](https://www.tastinghistory.com/recipes)
 - [Dinner with Julie](https://www.dinnerwithjulie.com/)
 - [Recipes — Love and Lemons](https://www.loveandlemons.com/recipes/)
+- [the kitch](https://www.thekitchn.com/​)
 
 ### Baking
 
