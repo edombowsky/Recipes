@@ -25,10 +25,10 @@
   "outliner-md",
   "smart-link-formatter",
   "table-editor-obsidian",
-  "languagetool",
   "obsidian-trim-whitespace",
   "obsidian-text-format",
   "recipe-grabber",
   "metadata-menu",
-  "syncthing-manager"
+  "syncthing-manager",
+  "harper"
 ]
