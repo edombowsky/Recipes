@@ -22,7 +22,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.04.14 20:20:35.535-07:00
+updated: 2026.04.15 13:31:29.056-07:00
 banner: "[[Beef-Plov-Beef-Rice-Pilaf.jpg]]"
 ---
 
@@ -30,7 +30,7 @@ This Eastern European plov is the ultimate comfort food. It’s packed with ten
 
 This Beef Rice Pilaf is the best I’ve tried. I appreciate discovering recipes that are a hit with my whole family (it’s never awesome to be in the kitchen for hours and then be the only one eating what you made because you feel too guilty to toss your efforts into the waste receptacle (doesn’t that sound better than garbage can?).
 
-This recipe makes a big batch which is great since it reheats really well. That’s my favorite way to eat it; crisped over a skillet and served with a pickle. I’m not sure why but I crave pickles with plov.
+This recipe makes a big batch which is great since it reheats really well. That’s my favourite way to eat it; crisped over a skillet and served with a pickle. I’m not sure why but I crave pickles with plov.
 
 We’ve been looking for a great beef plov recipe for a L-O-N-G time! Plov is originally an Uzbek dish, but every Ukrainian I know makes and loves plov and this is more the Ukrainian version. P.S. I do have a [chicken plov recipe posted here](https://natashaskitchen.com/ukrainian-chicken-plov-rice-pilaf/ " chicken plov") (if you wanted a quicker plov recipe).
 
@@ -81,3 +81,51 @@ I discovered this recipe through [Olga’s Blog](http://www.olgasflavorfactory.
 ![](https://www.youtube.com/watch?v=gLNFikMeoQ8)
 
 [I learned how to make delicious Uzbek Plov... in Uzbekistan](https://www.reddit.com/r/Cooking/comments/8d7wg0/recipe_i_learned_how_to_make_delicious_uzbek_plov/)
+
+![](https://www.youtube.com/watch?v=OeA39PDtU4k)
+
+![](https://www.youtube.com/watch?v=WJqW5n4NYW0)
+
+---
+
+![](https://www.youtube.com/watch?v=mhAO4P5QHZA)
+
+Ingredients:
+- [ ] 600 g lamb or beef, - cut into large chunks
+- [ ] 3 cups medium grain, preferably dev-zira rice or alternatively basmati rice, 600 g
+- [ ] 2 large or 3 medium onions
+- [ ] 800 g carrots, cut into batonettes
+- [ ] 150 g tail fat, rendered (sub for sunflower or other neutral oil)
+- [ ] 100 ml sunflower or linseed oil, 1/2 cup (optional)
+- [ ] 1 bulb of garlic, outer layer peeled
+- [ ] 2 red chilies (optional)
+- [ ] 1 cup cooked chickpeas (optional)
+- [ ] 2 tsp cumin seeds
+- [ ] 1 tbsp black raisins (optional)
+- [ ] 4 tsp salt, extra for soaking the rice
+
+Instructions:
+1. Soak the rice in salted hot water for at least 30 minutes.
+2. Wash and rinse the rice 3 – 4 times until the water is clear, drain, and set aside the rice.
+3. Cut the meat into large chunks and set aside
+4. Cut the tail fat into small pieces and set aside
+5. Thinly chop the onions and cut the carrots into thick sticks, batonettes
+6. Grind 2 tsp cumin seeds into a coarse powder and set aside.
+7. Heat up a large wok shaped pot or Dutch oven and add the tail fat, render the fat on medium heat
+8. Discard the unrendered hard pieces and add 1 cup sunflower or linseed oil
+9. Once the oil is hot and starts to smoke, add half of the onions, fry until nicely browned and fragrant
+10. Next, add the meat and fry for about 10 minutes until nicely browned on all sides
+11. Once the meat is browned, add rest of the onions, stir, and cook for 5 minutes
+12. Next, add the carrots, stir, and cook for 5 minutes until caramelized.
+13. Add 2 tsp salt and cumin. Stir to combine and insert the garlic bulb into the middle of the pot.
+14. Add hot water just barely to submerge the ingredients, 1 cm above the ingredients.
+15. Optionally add 1 cup chickpeas at this stage.
+16. Switch to low heat and cook for 30 minutes on a simmer until the carrots are soft and a nice brown broth is obtained, which is called “zirvak”.
+17. Add and evenly layer the rice over the ingredients, add 2 tsp salt over the rice.
+18. Add more water if the water level is too low, just to barely submerge the rice.
+19. Make couple of holes / dents with the back of a wooden spoon for steam to escape.
+20. Once the water is evaporated, bring the rice together in the middle like a mound, avoiding contact with the edges of the pot
+21. Cover the rice with a large enough plate and cover the pot with a towel
+22. Close the lid on top and let it steam on lowest heat for 45 minutes before serving.
+23. Remove the plate and the paper towel. Remove the garlic bulb and gently stir the pilaf.
+24. Serve in a large plate and garnish with extra meat, chilies, and garlic
