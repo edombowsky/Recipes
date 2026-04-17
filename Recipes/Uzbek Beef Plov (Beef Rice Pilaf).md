@@ -22,7 +22,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.04.15 13:31:29.056-07:00
+updated: 2026.04.16 09:54:05.393-07:00
 banner: "[[Beef-Plov-Beef-Rice-Pilaf.jpg]]"
 ---
 
@@ -85,6 +85,10 @@ I discovered this recipe through [Olga’s Blog](http://www.olgasflavorfactory.
 ![](https://www.youtube.com/watch?v=OeA39PDtU4k)
 
 ![](https://www.youtube.com/watch?v=WJqW5n4NYW0)
+
+![](https://www.youtube.com/watch?v=jwAY3mloS9M)
+
+![](https://www.youtube.com/shorts/2BYor-JeMg8)
 
 ---
 
