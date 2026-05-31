@@ -6,7 +6,7 @@ author:
 published: 2016-07-10
 created: 2025.12.15 00:00:00.000-08:00
 description: "Wondering how long to thaw your turkey so it’s ready to go into the oven at the right time? Here are three safe ways to thaw frozen turkey, plus tips for the best results."
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 18:40:00.450-08:00
 ---
 There are three ways to thaw a frozen turkey: in the refrigerator, in cold water, and in the microwave. Whether you're a plan-ahead cook or need a last-minute solution, take a look at the guidelines below for how to thaw a turkey, then choose the method and timeline that works best for you.

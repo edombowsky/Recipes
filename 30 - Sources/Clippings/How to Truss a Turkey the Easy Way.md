@@ -6,7 +6,7 @@ author:
 published: 2016-07-16
 created: 2025.12.15 00:00:00.000-08:00
 description: "Learn how to truss a turkey, step by step, for roasting this Thanksgiving."
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 17:38:29.447-08:00
 ---
 ![Thanksgiving Turkey](https://www.allrecipes.com/thmb/lLVa95VETTDnpjxgPycbnwsj0T0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/102117501-Thanksgiving-Turkey-Photo-by-Meredith-resized-9c2397004d944023af5c6584acceb50f.jpg)

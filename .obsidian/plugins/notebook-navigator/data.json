@@ -103,7 +103,8 @@
   "showInfoButtons": true,
   "homepage": {
     "source": "file",
-    "file": "Recipe Collection.md"
+    "file": "Recipe Collection.md",
+    "createMissingPeriodicNote": true
   },
   "showTooltips": true,
   "showTooltipPath": true,
@@ -467,7 +468,7 @@
     "#64748b",
     "#78716c"
   ],
-  "lastShownVersion": "2.5.7",
+  "lastShownVersion": "2.6.2",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": [],

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
@@ -21,10 +21,11 @@ source: https://www.kitchensanctuary.com/chicken-biryani/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.29 16:04:52.000 -0700
-updated: 2025.03.29 16:25:09.548 -0700
+created: 2025.03.29 16:04:52.000-07:00
+updated: 2026.04.18 18:32:13.187-07:00
 banner: "[[chicken-biryani.webp]]"
 ---
+
 Tender chicken in a **richly spiced sauce**, layered up with fragrant, flavour-packed rice and topped with saffron and thinly sliced fried onion. Chicken Biryani is one of those special dishes that gets passed down through generations. Second helpings **are a must**!
 
 ## Ingredients

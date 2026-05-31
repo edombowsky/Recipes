@@ -3779,6 +3779,8 @@ var import_obsidian3 = __toModule(require("obsidian"));
 var import_obsidian2 = __toModule(require("obsidian"));
 
 // src/utils.ts
+var MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+var URL_REGEX = /https?:\/\/[^\s)]+/g;
 function escapeMarkdownChars(text) {
   return text.replace(/([\[\]|*_`\\])/g, "\\$1");
 }
@@ -3809,10 +3811,73 @@ function unescapeHtml(text) {
 function isLink(text) {
   return !!text.match(/^https?:\/\//);
 }
+function isPositionProtected(allLines, lineNum, ch) {
+  const line = allLines[lineNum];
+  const textBefore = line.substring(0, ch);
+  const backticksBefore = (textBefore.match(/`/g) || []).length;
+  if (backticksBefore % 2 === 1)
+    return true;
+  const charBefore = ch > 0 ? line[ch - 1] : "";
+  const charAfter = ch < line.length ? line[ch] : "";
+  if (charBefore === "`" || charAfter === "`")
+    return true;
+  let inCodeBlock = false;
+  for (let i = 0; i < lineNum; i++) {
+    if (allLines[i].trim().startsWith("```")) {
+      inCodeBlock = !inCodeBlock;
+    }
+  }
+  if (inCodeBlock)
+    return true;
+  if (lineNum === 0 && line.trim() === "---")
+    return true;
+  if (lineNum > 0 && allLines[0].trim() === "---") {
+    let inFrontmatter = true;
+    for (let i = 1; i <= lineNum; i++) {
+      if (allLines[i].trim() === "---") {
+        inFrontmatter = false;
+        break;
+      }
+    }
+    if (inFrontmatter)
+      return true;
+  }
+  const fullTextBefore = allLines.slice(0, lineNum).join("\n") + "\n" + textBefore;
+  const openComments = (fullTextBefore.match(/<!--/g) || []).length;
+  const closeComments = (fullTextBefore.match(/-->/g) || []).length;
+  if (openComments > closeComments)
+    return true;
+  return false;
+}
+function findUnformattedUrls(allLines, startLine, endLine) {
+  URL_REGEX.lastIndex = 0;
+  const results = [];
+  for (let lineNum = startLine; lineNum <= endLine; lineNum++) {
+    const line = allLines[lineNum];
+    const markdownRanges = [];
+    MARKDOWN_LINK_REGEX.lastIndex = 0;
+    let mdMatch;
+    while ((mdMatch = MARKDOWN_LINK_REGEX.exec(line)) !== null) {
+      markdownRanges.push({ start: mdMatch.index, end: mdMatch.index + mdMatch[0].length });
+    }
+    URL_REGEX.lastIndex = 0;
+    let urlMatch;
+    while ((urlMatch = URL_REGEX.exec(line)) !== null) {
+      const start = urlMatch.index;
+      const end = start + urlMatch[0].length;
+      if (markdownRanges.some((r) => start >= r.start && end <= r.end))
+        continue;
+      if (isPositionProtected(allLines, lineNum, start))
+        continue;
+      results.push({ url: urlMatch[0], line: lineNum, start, end });
+    }
+  }
+  return results;
+}
 function extractMarkdownLink(line, cursorCh) {
-  const markdownLinkRegex = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+  MARKDOWN_LINK_REGEX.lastIndex = 0;
   let match;
-  while ((match = markdownLinkRegex.exec(line)) !== null) {
+  while ((match = MARKDOWN_LINK_REGEX.exec(line)) !== null) {
     const start = match.index;
     const end = start + match[0].length;
     if (cursorCh >= start && cursorCh <= end) {
@@ -3826,9 +3891,9 @@ function extractMarkdownLink(line, cursorCh) {
   return null;
 }
 function extractPlainUrl(line, cursorCh) {
-  const urlRegex = /https?:\/\/[^\s)]+/g;
+  URL_REGEX.lastIndex = 0;
   let match;
-  while ((match = urlRegex.exec(line)) !== null) {
+  while ((match = URL_REGEX.exec(line)) !== null) {
     const start = match.index;
     const end = start + match[0].length;
     if (cursorCh >= start && cursorCh <= end) {
@@ -3862,7 +3927,7 @@ var import_obsidian = __toModule(require("obsidian"));
 function blank(text) {
   return text === void 0 || text === null || text === "";
 }
-function generateUniqueToken(url, placeholderText = "Loading...") {
+function generateUniqueToken(url) {
   const id = `link-placeholder-${Date.now()}_${Math.floor(Math.random() * 1e6)}`;
   return `<span class="link-loading" id="${id}" ${url ? `url="${url}"` : ""}>Loading...</span>`;
 }
@@ -3873,7 +3938,7 @@ function getUrlFinalSegment(url) {
     const nonEmptySegments = segments.filter((segment) => segment.length > 0);
     const last = nonEmptySegments.pop();
     return last || "File";
-  } catch (_) {
+  } catch (e) {
     return url;
   }
 }
@@ -3886,7 +3951,7 @@ function loadElectronWindow(window, url) {
           if (window && !window.isDestroyed()) {
             window.webContents.stop();
           }
-        } catch (err) {
+        } catch (e) {
         }
         reject(new Error(`Timeout loading URL: ${url}`));
       }, 3e4);
@@ -4491,7 +4556,7 @@ var DefaultClient = class extends Client {
       return { title };
     });
   }
-  matches(url) {
+  matches() {
     return true;
   }
 };
@@ -4715,6 +4780,13 @@ var SmartLinkFormatterPlugin = class extends import_obsidian4.Plugin {
           this.formatLinkAtCursor(editor);
         }
       });
+      this.addCommand({
+        id: "format-all-links",
+        name: "Format all links",
+        editorCallback: (editor) => {
+          this.formatAllLinks(editor);
+        }
+      });
       this.cleanupOrphanedPlaceholders();
     });
   }
@@ -4820,50 +4892,8 @@ var SmartLinkFormatterPlugin = class extends import_obsidian4.Plugin {
     if (potentialLinkMatch && charAfterCursor === ")") {
       return false;
     }
-    const backticksBefore = (textBeforeCursor.match(/`/g) || []).length;
-    if (backticksBefore % 2 === 1) {
-      return false;
-    }
-    const charBeforeCursor = cursor.ch > 0 ? line[cursor.ch - 1] : "";
-    if (charBeforeCursor === "`" || charAfterCursor === "`") {
-      return false;
-    }
     const allLines = editor.getValue().split("\n");
-    let inCodeBlock = false;
-    for (let i = 0; i < cursor.line; i++) {
-      const trimmedLine = allLines[i].trim();
-      if (trimmedLine.startsWith("```")) {
-        inCodeBlock = !inCodeBlock;
-      }
-    }
-    if (inCodeBlock) {
-      return false;
-    }
-    if (cursor.line === 0 && line.trim() === "---") {
-      return false;
-    }
-    if (cursor.line > 0) {
-      let inFrontmatter = false;
-      if (allLines[0].trim() === "---") {
-        inFrontmatter = true;
-        for (let i = 1; i <= cursor.line; i++) {
-          if (allLines[i].trim() === "---") {
-            inFrontmatter = false;
-            break;
-          }
-        }
-      }
-      if (inFrontmatter) {
-        return false;
-      }
-    }
-    const fullTextBeforeCursor = allLines.slice(0, cursor.line).join("\n") + "\n" + textBeforeCursor;
-    const openComments = (fullTextBeforeCursor.match(/<!--/g) || []).length;
-    const closeComments = (fullTextBeforeCursor.match(/-->/g) || []).length;
-    if (openComments > closeComments) {
-      return false;
-    }
-    return true;
+    return !isPositionProtected(allLines, cursor.line, cursor.ch);
   }
   shouldOverride(editor) {
     if (this.settings.pasteIntoSelection && editor.somethingSelected()) {
@@ -4894,8 +4924,9 @@ var SmartLinkFormatterPlugin = class extends import_obsidian4.Plugin {
         editor.replaceRange(newText, startPos, endPos);
         didReplace = true;
       } else {
-        console.warn("Smart Link Formatter: Placeholder not found in editor content.");
-        didReplace = false;
+        console.warn("Smart Link Formatter: Placeholder not found, inserting at cursor position.");
+        editor.replaceSelection(newText);
+        didReplace = true;
       }
     } catch (error) {
       console.error("Smart Link Formatter: Failed to replace placeholder.", error);
@@ -4904,6 +4935,28 @@ var SmartLinkFormatterPlugin = class extends import_obsidian4.Plugin {
     }
     this.activePlaceholders.delete(placeholder);
     return didReplace;
+  }
+  formatAllLinks(editor) {
+    const hasSelection = editor.somethingSelected();
+    const allLines = editor.getValue().split("\n");
+    let startLine, endLine;
+    if (hasSelection) {
+      startLine = editor.getCursor("from").line;
+      endLine = editor.getCursor("to").line;
+    } else {
+      startLine = 0;
+      endLine = allLines.length - 1;
+    }
+    const urls = findUnformattedUrls(allLines, startLine, endLine).filter((u) => !this.isBlacklisted(u.url));
+    if (urls.length === 0) {
+      new import_obsidian4.Notice("No unformatted links found");
+      return;
+    }
+    new import_obsidian4.Notice(`Formatting ${urls.length} link${urls.length > 1 ? "s" : ""}...`);
+    for (const { url, line, start, end } of urls.reverse()) {
+      editor.setSelection({ line, ch: start }, { line, ch: end });
+      this.handleFormat(url, editor);
+    }
   }
   formatLinkAtCursor(editor) {
     return __async(this, null, function* () {

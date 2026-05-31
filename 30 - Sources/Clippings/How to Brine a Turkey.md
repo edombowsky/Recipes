@@ -6,7 +6,7 @@ author:
 published: 2014-09-12
 created: 2025.12.15 00:00:00.000-08:00
 description: "Learn step-by-step how to brine a turkey the best way. Find out the proper salt-to-water ratio and how long to wet brine a turkey for Thanksgiving."
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 18:27:39.607-08:00
 ---
 

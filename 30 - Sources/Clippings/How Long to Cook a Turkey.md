@@ -7,7 +7,7 @@ author:
 published: 2014-05-28
 created: 2025.12.15 00:00:00.000-08:00
 description: "How long you need to cook your holiday turkey depends on a number of factors, including weight, oven temperature, and whether or not it's stuffed."
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 17:54:28.299-08:00
 ---
 How long you cook your turkey can vary, depending on the temperature of the oven and whether your turkey recipe calls for a stuffed or unstuffed bird. We recommend roasting turkey at **350 degrees F (175 degrees C) for** **13 minutes per pound** for an unstuffed turkey. We've done the maths for you — check out the turkey cook time chart below to determine both turkey cook times and estimated servings (with leftovers!).

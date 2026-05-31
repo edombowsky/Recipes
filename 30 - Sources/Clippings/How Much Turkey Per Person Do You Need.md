@@ -6,7 +6,7 @@ author:
 published: 2014-09-24
 created: 2025.12.15 00:00:00.000-08:00
 description: "How much turkey per person—it's the eternal question! Use this guide to see how much turkey to buy for your Thanksgiving dinner, including how much you need for leftovers, too!"
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 18:41:42.227-08:00
 ---
 ![Perfect Turkey on a white dish with faux leaves and cranberries](https://www.allrecipes.com/thmb/ttAOI9k2zNMe_WVcOOZ1FFt0UMI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Perfect-Turkey-f68aa570e166481e930ef4710da01702.jpg)

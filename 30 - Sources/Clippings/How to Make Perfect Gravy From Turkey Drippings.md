@@ -6,7 +6,7 @@ author:
 published: 2014-11-19
 created: 2025.12.15 00:00:00.000-08:00
 description: "Learn how to make the best turkey gravy from pan drippings with these easy step-by-step instructions. Then ladle it over your turkey and all the sides!"
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 17:52:48.805-08:00
 ---
 ![Turkey Gravy With Pan Drippings](https://www.allrecipes.com/thmb/StTn2l21voaSpxsv6S8Jf9hr4fQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/gravy32016-56f1399b3df78ce5f83ba309.jpg)

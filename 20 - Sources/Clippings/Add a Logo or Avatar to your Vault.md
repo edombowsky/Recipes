@@ -5,7 +5,7 @@ author:
 published:
 created: 2025.07.05 00:00:00.000 -0700
 description: "Dashboard++ — a simple organization and navigation method for Obsidian Vaults - Toolbox for Thought"
-tags: ["clippings"]
+tags: ["clipping"]
 obsidianUIMode: "preview"
 modified: Saturday, July 5th 2025, 4:41:16 pm
 updated: 2025.11.16 00:06:20.019 -0800

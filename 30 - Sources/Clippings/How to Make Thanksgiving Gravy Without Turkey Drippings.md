@@ -7,7 +7,7 @@ author:
 published: 2017-10-04
 created: 2025.12.15 00:00:00.000-08:00
 description: "Learn how to make turkey gravy without drippings from scratch with roux, broth, and aromatics, and get tips for making turkey gravy ahead of time."
-tags: ["clippings"]
+tags: ["clipping"]
 updated: 2025.12.15 17:51:07.128-08:00
 ---
 ![A white china gravy boat on a saucer filled with brown gravy](https://www.allrecipes.com/thmb/gjZwNOF1qEPLq8WXu4sFU9xQc-w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/302661_original-2000-d78c06860ce94337b6e467b51df095c5.jpg)

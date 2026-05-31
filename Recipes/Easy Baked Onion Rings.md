@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried: true
 meal_type:
   - Side
 cuisine:
@@ -21,7 +21,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2024.10.07 20:53:12.000-07:00
-updated: 2026.03.22 01:04:16.571-07:00
+updated: 2026.04.23 17:41:19.342-07:00
 banner: "[[easy-baked-onion-rings.jpg]]"
 ---
 

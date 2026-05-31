@@ -30,5 +30,6 @@
   "recipe-grabber",
   "metadata-menu",
   "syncthing-manager",
-  "harper"
+  "harper",
+  "tag-wrangler"
 ]
