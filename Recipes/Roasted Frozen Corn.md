@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 vegan: true
 vegetarian: true
@@ -21,8 +21,8 @@ source: https://buildyourbite.com/roasted-frozen-corn/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.04.15 15:33:23.000 -0700
-updated: 2025.04.15 20:32:37.987 -0700
+created: 2025.04.15 15:33:23.000-07:00
+updated: 2026.08.01 19:52:36.121-07:00
 banner: "[[roasted-frozen-corn.jpg]]"
 ---
 

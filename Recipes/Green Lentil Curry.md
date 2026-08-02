@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite: true
 tried: true
 meal_type:
@@ -19,8 +19,8 @@ source: https://ifoodreal.com/green-lentil-curry/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.08.31 12:46:12.155 -0700
-updated: 2024.08.31 14:34:50.835 -0700
+created: 2024.08.31 12:46:12.155-07:00
+updated: 2026.08.01 20:05:54.431-07:00
 banner: "[[green-lentil-curry.webp]]"
 ---
 

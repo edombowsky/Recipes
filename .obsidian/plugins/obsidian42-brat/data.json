@@ -1,13 +1,6 @@
 {
-  "pluginList": [
-    "gustjose/obsidian-syncthing-manager"
-  ],
-  "pluginSubListFrozenVersion": [
-    {
-      "repo": "gustjose/obsidian-syncthing-manager",
-      "version": "latest"
-    }
-  ],
+  "pluginList": [],
+  "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": true,
   "updateThemesAtStartup": true,
@@ -17,7 +10,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
-  "globalTokenName": "brat-gh-global",
+  "globalTokenName": "obsidian-gh",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": true,
   "allowIncompatiblePlugins": false

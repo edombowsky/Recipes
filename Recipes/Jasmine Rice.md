@@ -3,14 +3,19 @@ class: Recipe
 type:
   - tip
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 vegan: true
 vegetarian: true
-meal_type: [Lunch, Dinner, Side]
-cuisine: [Thai]
-course: [Main]
+meal_type:
+  - Lunch
+  - Dinner
+  - Side
+cuisine:
+  - Thai
+course:
+  - Main
 servings: 3-4 servings
 prep_time: 1 min
 cooking_time: 12 mins
@@ -20,10 +25,11 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.05.15 22:19:00.000 -0700
-updated: 2025.10.26 11:50:08.305 -0700
+created: 2025.05.15 22:19:00.000-07:00
+updated: 2026.08.01 20:12:48.334-07:00
 banner: "[[Jasmine-Rice.webp]]"
 ---
+
 **You’ve been cooking Jasmine Rice wrong your whole life!** Most recipes get it wrong because it’s not widely known that jasmine rice is softer than most, so you need LESS water than normal white rice so it’s fluffy rather than gummy.  Use just 1 1/4 cups water for every 1 cup of jasmine rice (the standard for typical white rice is 1 1/2 cups water to 1 cup rice).
 
 ## There is NO NEED to Rinse Rice
@@ -72,7 +78,7 @@ Once you get the rice and water ratio right, then the steps are exactly the same
 
 ## Instructions
 
-### No Rinsing (my Everyday method)
+### No Rinsing (My Everyday mEthod)
 
 1. Place rice and water in a medium saucepan (one with a tight-fitting lid). Bring to rapid simmer with NO LID on medium high.
 2. Turn down to low or medium low so it's simmering gently, then place lid on. Do not lift lid during cook.

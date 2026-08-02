@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 meal_type:
   - Lunch
@@ -21,8 +21,8 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-created: 2024.06.04 17:04:30.185 -0700
-updated: 2025.03.17 15:26:15.816 -0700
+created: 2024.06.04 17:04:30.185-07:00
+updated: 2026.08.01 20:08:54.733-07:00
 banner: "[[Lentil-Chili.webp]]"
 ---
 

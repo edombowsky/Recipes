@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Breakfast
 cuisine:
@@ -21,8 +21,8 @@ source: https://downshiftology.com/recipes/poached-eggs
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.12.01 22:47:26.000 -0800
-updated: 2024.12.01 23:24:33.550 -0800
+created: 2024.12.01 22:47:26.000-08:00
+updated: 2026.08.01 19:53:17.152-07:00
 banner: "[[poached-eggs.webp]]"
 ---
 

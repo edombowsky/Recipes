@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: false
 tried: true
 vegan:
@@ -20,8 +20,8 @@ source: https://addapinch.com/perfect-chocolate-buttercream-frosting-recipe/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.11.02 08:04:45.835 -0800
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.01 19:59:19.694-07:00
 banner: "[[perfect-chocolate-buttercream.jpg]]"
 ---
 

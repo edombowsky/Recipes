@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
-favourite:
+rating: 7
+favourite: true
 tried: true
 vegan:
 vegetarian:
@@ -21,8 +21,8 @@ source: https://addapinch.com/the-best-chocolate-cake-recipe-ever/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.01 17:16:46.000 -0800
-updated: 2025.11.02 08:05:24.398 -0800
+created: 2025.03.01 17:16:46.000-08:00
+updated: 2026.08.01 20:08:03.234-07:00
 banner: "[[silce-of-chocolate-cake.jpg]]"
 ---
 

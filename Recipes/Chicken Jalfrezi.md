@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - Indian
@@ -14,8 +14,8 @@ total_time: 35 mins
 prep_time: 5 mins
 cooking_time: 30 mins
 source: https://www.kitchensanctuary.com/chicken-jalfrezi-pilau-rice/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.04.01 21:09:27.856 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:59:45.281-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

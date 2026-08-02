@@ -12,7 +12,26 @@
       "hiddenFileNames": [],
       "hiddenFileTags": [],
       "periodicNotesFolder": "",
-      "propertyKeys": [],
+      "propertyKeys": [
+        {
+          "key": "course",
+          "showInNavigation": true,
+          "showInList": false,
+          "showInFileMenu": false
+        },
+        {
+          "key": "cuisine",
+          "showInNavigation": true,
+          "showInList": false,
+          "showInFileMenu": false
+        },
+        {
+          "key": "meal_type",
+          "showInNavigation": true,
+          "showInList": false,
+          "showInFileMenu": false
+        }
+      ],
       "navRainbow": {
         "mode": "foreground",
         "balanceHueLuminance": true,
@@ -60,7 +79,8 @@
           "transitionStyle": "hue",
           "scope": "root"
         }
-      }
+      },
+      "descendantExcludedFolders": []
     }
   ],
   "vaultTitle": "navigation",
@@ -74,6 +94,9 @@
     "useFloatingToolbars": "synced",
     "dualPane": "local",
     "dualPaneOrientation": "local",
+    "narrowSidebarLayout": "synced",
+    "narrowSidebarTriggerMode": "synced",
+    "narrowSidebarCustomWidth": "synced",
     "paneTransitionDuration": "local",
     "toolbarVisibility": "local",
     "pinNavigationBanner": "synced",
@@ -89,7 +112,7 @@
     "featureImagePixelSize": "synced",
     "uiScale": "local"
   },
-  "createNewNotesInNewTab": false,
+  "createNewNotesInNewTab": true,
   "autoRevealActiveFile": true,
   "autoRevealShortestPath": true,
   "autoRevealIgnoreRightSidebar": true,
@@ -106,8 +129,12 @@
     "file": "Recipe Collection.md",
     "createMissingPeriodicNote": true
   },
+  "narrowSidebarLayout": "singlePane",
+  "narrowSidebarTriggerMode": "fitPanes",
+  "narrowSidebarCustomWidth": 350,
   "showTooltips": true,
   "showTooltipPath": true,
+  "showTooltipWordCount": false,
   "desktopBackground": "separate",
   "mobileScale": 1,
   "useFloatingToolbars": true,
@@ -129,9 +156,12 @@
   "showNoteCount": true,
   "separateNoteCounts": true,
   "showIndentGuides": false,
+  "navCountLeaderStyle": "none",
   "rootLevelSpacing": 0,
   "collapseBehavior": "all",
   "smartCollapse": true,
+  "excludeVaultRootFromCollapse": false,
+  "collapseOtherBranchesOnExpand": false,
   "autoSelectFirstFileOnFocusChange": false,
   "autoExpandNavItems": false,
   "springLoadedFolders": true,
@@ -157,7 +187,8 @@
   "enableFolderNoteLinks": true,
   "hideFolderNoteInList": true,
   "pinCreatedFolderNote": false,
-  "openFolderNotesInNewTab": false,
+  "folderNoteOpenLocation": "current-tab",
+  "showNearestFolderNoteInSidebar": true,
   "showTags": true,
   "showTagIcons": true,
   "showAllTagsFolder": true,
@@ -172,23 +203,29 @@
   "showAllPropertiesFolder": true,
   "scopePropertiesToCurrentContext": false,
   "defaultListMode": "compact",
-  "defaultFolderSort": "modified-desc",
+  "defaultFolderSort": "filename-asc",
   "propertySortKey": "",
   "propertySortSecondary": "title",
+  "manualSortPropertyKey": "sort_index",
+  "manualSortGroupHeaderProperty": "group_header",
+  "manualSortNewNotePlacement": "below-selected-note",
+  "confirmBeforeManualSort": true,
   "revealFileOnListChanges": true,
   "listPaneTitle": "header",
   "noteGrouping": "date",
   "showSelectedNavigationPills": false,
+  "stickyGroupHeaders": true,
+  "showFolderGroupPaths": true,
+  "showGroupHeaderItemCounts": false,
+  "showCurrentFolderFilesAtBottom": false,
   "filterPinnedByFolder": false,
-  "showPinnedGroupHeader": true,
-  "showPinnedIcon": true,
-  "optimizeNoteHeight": true,
   "showQuickActions": true,
   "quickActionRevealInFolder": true,
   "quickActionAddTag": true,
   "quickActionAddToShortcuts": true,
   "quickActionPinNote": true,
   "quickActionOpenInNewTab": true,
+  "hideDrawingPreviewImages": true,
   "useFrontmatterMetadata": false,
   "frontmatterIconField": "icon",
   "frontmatterColorField": "color",
@@ -201,20 +238,24 @@
   "showFileBackgroundUnfinishedTask": false,
   "unfinishedTaskBackgroundColor": "#ef000050",
   "showFileIcons": true,
+  "useFolderIconForFiles": false,
   "showFilenameMatchIcons": false,
   "fileNameIconMap": {},
   "showCategoryIcons": false,
   "fileTypeIconMap": {},
+  "fileTypeIconPreset": "none",
   "fileNameRows": 1,
-  "showFilePreview": true,
+  "useFolderColorForTitles": false,
+  "showFilePreview": false,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
+  "skipCalloutsInPreview": false,
   "stripHtmlInPreview": true,
   "stripLatexInPreview": true,
   "previewRows": 2,
   "previewProperties": [],
   "previewPropertiesFallback": true,
-  "showFeatureImage": true,
+  "showFeatureImage": false,
   "featureImageProperties": [
     "thumbnail",
     "featureResized",
@@ -237,27 +278,35 @@
   "showPropertiesOnSeparateRows": true,
   "enablePropertyInternalLinks": true,
   "enablePropertyExternalLinks": true,
-  "notePropertyType": "none",
+  "textCountDisplay": "none",
+  "textCountPlacement": "title",
+  "characterCountSpaces": "include",
+  "wordCountTargetProperty": "word-goal",
+  "showWordCountPercentage": false,
   "showFileDate": true,
   "alphabeticalDateMode": "modified",
   "showParentFolder": true,
+  "showParentFolderFullPath": false,
   "parentFolderClickRevealsFile": false,
   "showParentFolderColor": true,
   "showParentFolderIcon": false,
   "calendarEnabled": true,
   "calendarPlacement": "left-sidebar",
   "calendarConfirmBeforeCreate": true,
+  "calendarShowHiddenItems": false,
   "calendarLocale": "system-default",
   "calendarWeekendDays": "sat-sun",
   "calendarMonthHeadingFormat": "full",
   "calendarHighlightToday": true,
   "calendarShowFeatureImage": true,
+  "calendarShowTasks": true,
   "calendarMonthHighlights": {},
   "calendarShowWeekNumber": false,
   "calendarShowQuarter": false,
   "calendarShowYearCalendar": true,
   "calendarLeftPlacement": "navigation",
   "calendarIntegrationMode": "notebook-navigator",
+  "calendarPeriodicNotesLocaleSource": "calendar",
   "calendarCustomFilePattern": "YYYY/YYYYMMDD",
   "calendarCustomWeekPattern": "",
   "calendarCustomMonthPattern": "",
@@ -302,6 +351,12 @@
     "pane:end": [
       {
         "key": "End",
+        "modifiers": []
+      }
+    ],
+    "pane:rename": [
+      {
+        "key": "F2",
         "modifiers": []
       }
     ],
@@ -376,6 +431,22 @@
         "key": "ArrowDown",
         "modifiers": [
           "Shift"
+        ]
+      }
+    ],
+    "list:manual-sort-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
+    "list:manual-sort-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": [
+          "Mod"
         ]
       }
     ],
@@ -468,7 +539,7 @@
     "#64748b",
     "#78716c"
   ],
-  "lastShownVersion": "2.6.2",
+  "lastShownVersion": "3.3.0",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": [],

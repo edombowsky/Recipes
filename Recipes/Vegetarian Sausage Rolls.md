@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 vegan:
@@ -22,10 +22,11 @@ source: https://www.kitchensanctuary.com/vegetarian-sausage-rolls/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.29 17:20:45.000 -0700
-updated: 2025.10.15 22:33:32.614 -0700
+created: 2025.03.29 17:20:45.000-07:00
+updated: 2026.08.01 20:03:25.701-07:00
 banner: "[[vegetarian-sausage-rolls.webp]]"
 ---
+
 Golden pastry stuffed with tangy **cheddar cheese**, tender **breadcrumbs** and **spring onions** – these tried and tested **Vegetarian Sausage Rolls** are a **simple pastry treat** for vegetarians and meat-eaters alike. Easy to prep ahead and perfect party food.
 
 - [ ] 1 × 320 g (1 × 11.25 oz) pack of ready-rolled puff pastry

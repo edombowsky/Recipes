@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 meal_type:
   - Dressing
@@ -14,14 +14,14 @@ servings: 3/4 cup
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/russian-dressing-recipe-23207871
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-created: 2024.05.31 19:38:48.634 -0700
-updated: 2025.03.17 15:05:23.332 -0700
+created: 2024.05.31 19:38:48.634-07:00
+updated: 2026.08.01 19:59:01.836-07:00
 banner: "[[russian-dressing.webp]]"
 ---
 

@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - French
@@ -10,10 +10,10 @@ course: []
 servings: 6 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.eatingwell.com/julia-child-sauce-vinaigrette-8417430
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:24:56.396 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:22:41.900-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

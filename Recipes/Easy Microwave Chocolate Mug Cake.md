@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - American
@@ -14,8 +14,8 @@ total_time: 1 min 50 sec
 prep_time: 15 sec
 cooking_time: 1 min 45 sec
 source: https://www.allrecipes.com/recipe/241038/microwave-chocolate-mug-cake/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.10.20 19:01:56.839 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:54:29.060-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner

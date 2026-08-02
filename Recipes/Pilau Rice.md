@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 cuisine:
   - Indian
@@ -15,8 +15,8 @@ total_time: 35 mins
 prep_time: 5 mins
 cooking_time: 30 mins
 source: https://www.kitchensanctuary.com/pilau-rice-recipe/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.04.01 12:21:21.836 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:04:25.237-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

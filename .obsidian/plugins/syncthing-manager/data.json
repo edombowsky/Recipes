@@ -4,10 +4,27 @@
   "showRibbonIcon": true,
   "language": "en",
   "modalConflict": true,
+  "showTabIcon": true,
+  "showExplorerIcon": true,
+  "ignoredPaths": "",
+  "syncthingFolderId": "",
+  "syncthingFolderLabel": "",
+  "enabledContextMenuItems": [
+    "view_file_versions",
+    "sync_file",
+    "ignore_file",
+    "file_status"
+  ],
+  "groupContextMenuItems": false,
+  "hasMigratedIgnoreContextMenu": true,
+  "debugMode": false,
+  "debugModules": [
+    "Main",
+    "API",
+    "FileStateManager"
+  ],
   "syncthingHost": "device-specific",
   "syncthingPort": "device-specific",
   "useHttps": false,
-  "syncthingApiKey": "device-specific",
-  "syncthingFolderId": "device-specific",
-  "syncthingFolderLabel": "device-specific"
+  "syncthingApiKey": "device-specific"
 }

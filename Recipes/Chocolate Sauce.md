@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dessert
   - Side
@@ -17,13 +17,13 @@ course:
 servings: 7 servings (14 oz)
 total_time: 15 mins
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://barefeetinthekitchen.com/simple-homemade-chocolate-sauce/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.01.08 10:49:16.000 -0800
-updated: 2025.03.17 15:49:40.991 -0700
+created: 2025.01.08 10:49:16.000-08:00
+updated: 2026.08.01 19:48:24.375-07:00
 banner: "[[chocolate-sauce.jpg]]"
 ---
 

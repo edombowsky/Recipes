@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 40 mins
 prep_time: 5 mins
 cooking_time: 35 mins
 source: https://www.recipetineats.com/homemade-granola-muesli/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.09.02 10:40:55.069 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:57:22.665-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

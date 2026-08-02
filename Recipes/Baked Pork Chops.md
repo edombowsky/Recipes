@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 meal_type:
   - Dinner
@@ -20,7 +20,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2024.09.23 16:58:50.974-07:00
-updated: 2026.03.14 14:15:41.814-07:00
+updated: 2026.08.01 20:21:31.401-07:00
 banner: "[[oven-baked-pork-chops.webp]]"
 ---
 

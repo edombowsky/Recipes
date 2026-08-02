@@ -1,0 +1,23 @@
+{
+  "classFilesPath": "90 - Organize/Classes/",
+  "fileClassAlias": "class",
+  "globalFileClass": "",
+  "basesFolder": "",
+  "fileClassIcon": "file-spreadsheet",
+  "defaultDateFormat": "",
+  "defaultDateTimeFormat": "",
+  "defaultTimeFormat": "",
+  "enableCanvasEngine": true,
+  "enableValidationColumns": true,
+  "enableContextMenu": true,
+  "insertFieldsOnBind": true,
+  "enablePropertyEditButtons": true,
+  "enablePropertyActionButtons": true,
+  "enableTabHeaderIndicator": true,
+  "enableFileExplorerIndicator": true,
+  "enableBookmarksIndicator": true,
+  "enableInlineLinkIndicator": true,
+  "enableBacklinkIndicator": true,
+  "enableBasesIndicator": true,
+  "customColors": []
+}

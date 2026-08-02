@@ -4,22 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "a11b0cc13775ddce",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "fcefe6a601c65283",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Recipe Collection.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "90 - Organize/Bases/Recipe Index.base",
+                "viewName": "Recipes"
               },
-              "icon": "lucide-file",
-              "title": "Recipe Collection"
+              "icon": "lucide-table",
+              "title": "Recipe Index"
             }
           }
         ]
@@ -42,7 +40,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 245.8046875
   },
   "right": {
     "id": "833ca1a1e244f442",
@@ -107,10 +106,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recipe Collection.md"
+                "file": "90 - Organize/Bases/Recipe Index.base"
               },
               "icon": "lucide-info",
-              "title": "File properties for Recipe Collection"
+              "title": "File properties"
             }
           },
           {
@@ -141,17 +140,30 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "a3ea6ee884c7a24a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Recipe Collection.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Recipe Collection"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "syncthing-manager:Open Syncthing manager": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": false,
@@ -169,57 +181,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "notebook-navigator:Notebook Navigator": false,
       "obsidian-trim-whitespace:Trim whitespace": false,
-      "recipe-grabber:Recipe Grabber": false,
-      "syncthing-manager:Open syncthing manager": false
+      "recipe-grabber:Recipe Grabber": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "44e4b8c57475acc4",
   "lastOpenFiles": [
-    "Recipe Collection.md",
-    "30 - Sources/Clippings/10 SQLModel vs SQLAlchemy Choices with Real Benchmarks  by Syntal.md",
-    "30 - Sources/Clippings/How Much Is A Serving Size Of Jasmine Rice.md",
-    "30 - Sources/Clippings/How Much is a Serving of Brown Basmati Rice Explained.md",
-    "Recipes/Easy Baked Onion Rings.md",
+    "20 - Sources/Clippings/Add a Logo or Avatar to your Vault.md",
+    "90 - Organize/Bases/Recipe Index.base",
+    "Recipes/Homemade Fries.md",
+    "Recipes/Good Sources of Online Recipes and Tools.md",
+    "Recipes/Yogurt Bark with Berries.md",
+    "Recipes/Bauernhopf With Minced Meat and Potatoes.md",
+    "Recipes/Baked Corn and Potato Salad.md",
     "Recipes/Another Chicken Biryani.md",
-    "Recipes/Serving Sizes.md",
+    "Recipes/Easy Orzo Salad.md",
+    "Recipes/Grilled Chicken Caesar Salad.md",
+    "90 - Organize/Bases",
+    "Recipes/Baked Pork Tenderloin.md",
+    "Recipes/World's Best Lasagna.md",
+    "Recipes/Clam Chowder.md",
+    "Recipes/Julia Child’s Timeless Vinaigrette.md",
+    "Recipes/Green Bean Salad (Easy Italian Recipe – Served Cold or Hot).md",
+    "Recipes/Easy Green Bean Salad.md",
+    "Recipes/Baked Pork Chops.md",
+    "Recipes/Diane's No-Cook Red Hamburger Relish.md",
+    "Recipes/Tuna Spaghetti in Tomato Sauce.md",
+    "Recipes/Mum's Spaghetti Sauce.md",
+    "Recipes/Pickled Red Onions.md",
+    "Recipes/Pickled Onions with Peppers.md",
+    "Recipes/Guacamole.md",
+    "Recipes/Corned Beef Hash.md",
+    "Recipes/Braised Red Cabbage.md",
+    "Recipes/Baked Cod Recipe with Lemon and Garlic.md",
+    "Recipes/Pork Souvlaki.md",
+    "zAttachments/Healthy-Homemade-Granola-Nutrition.webp",
+    "zAttachments/Prosciutto-Wrapped Halibut.webp",
     "zAttachments/serving_fruit_vegetable_portion.pdf",
     "zAttachments/Unconfirmed 516026.crdownload",
     "zAttachments/How-much-is-a-serving-of-brown-basmati-rice.webp",
     "zAttachments/Unconfirmed 600320.crdownload",
     "zAttachments/how-much-is-a-serving-size-of-jasmine-rice.png",
     "zAttachments/Unconfirmed 173640.crdownload",
-    "Untitled.md",
-    "Recipes/Oven Baked Onion Rings.md",
-    "Recipes/Good Sources of Online Recipes and Tools.md",
-    "Recipes/Chicken Biryani.md",
-    "Recipes/Salmon Burgers.md",
-    "Recipes/Uzbek Beef Plov (Beef Rice Pilaf).md",
-    "90 - Organize/Lookups/Lookup - Recipe Cuisine.md",
     "zAttachments/Beef-Plov-Beef-Rice-Pilaf.jpg",
     "zAttachments/Unconfirmed 899132.crdownload",
-    "Recipes/Mechado (Filipino Beef Stew).md",
     "zAttachments/mechado-filipino-beef-stew.webp",
     "zAttachments/Unconfirmed 327961.crdownload",
-    "90 - Organize/Lookups/Lookup - Recipe Course.md",
-    "Recipes/3 Ingredient Easiest Bread You'll EVER Make.md",
-    "30 - Sources/Clippings/How to mount USB drive in Linux.md",
-    "Recipes/Vegan English Muffins.md",
-    "Recipes/Amazing Pastry Dough.md",
-    "Recipes/20-Minute Pizza Dough.md",
-    "Recipes/Baking Powder Biscuits.md",
-    "Recipes/Doritos Flavoured Popcorn.md",
-    "Recipes/2-Hour Crusty No Knead Rolls.md",
-    "Recipes/2 Ingredient No Yeast Artisan Bread.md",
-    "Recipes/Chili Cheese Popcorn.md",
     "zAttachments/chilli-cheese-popcorn.jpeg",
     "zAttachments/Unconfirmed 437478.crdownload",
     "zAttachments/3-Ingredient Easiest Bread.png",
     "zAttachments/Mini-Spaghetti-and-Meatball-Appetizers.jpg",
     "zAttachments/Unconfirmed 66547.crdownload",
-    "zAttachments/5-Minute-Caprese-Salad-Bites.jpg",
-    "zAttachments/Unconfirmed 635767.crdownload",
-    "zAttachments/Ultimate-Cheesy-Pizzette.jpg",
-    "zAttachments/Unconfirmed 724739.crdownload",
-    "zAttachments/charcuterie.avif"
+    "zAttachments/5-Minute-Caprese-Salad-Bites.jpg"
   ]
 }

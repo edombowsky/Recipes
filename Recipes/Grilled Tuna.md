@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
-favourite: 
+rating: 7
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type: Dinner
 cuisine:
   - Canadian
@@ -20,8 +20,8 @@ source: https://www.allrecipes.com/recipe/12730/grilled-tuna/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.07.11 22:32:14.032 -0700
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.01 20:15:02.316-07:00
 banner: "[[grilled-tuna.jpg]]"
 ---
 

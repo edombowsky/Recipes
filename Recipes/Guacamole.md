@@ -1,7 +1,7 @@
 ---
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -11,10 +11,10 @@ course:
 servings: 6 servings
 total_time: 1 hr 20 mins
 prep_time: 20 mins
-cooking_time: 
+cooking_time:
 source: https://www.foodnetwork.com/recipes/alton-brown/guacamole-recipe-1940609
-created: 2023.11.14 22:00:00.000 -0800
-updated: 2025.01.15 09:43:24.450 -0800
+created: 2023.11.14 22:00:00.000-08:00
+updated: 2026.08.01 20:19:21.486-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

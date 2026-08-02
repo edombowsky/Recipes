@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite:
 tried: true
 vegan:
@@ -22,9 +22,10 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2025.12.14 00:45:18.194-08:00
+updated: 2026.08.01 20:02:47.794-07:00
 banner: "[[Rosemary-Crusted-Goat-Chops.jpg]]"
 ---
+
 Smaller than lamb but big on flavour, my favourite recipe for goat chops is easy: seared golden brown with an irresistible crust of rosemary and sea salt. It's a minimalist recipe that will work with loin chops or rib chops cut from the rack. Read on, and I'll share my secret to making them.
 
 ## Ingredients

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 5
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -15,17 +15,18 @@ course:
   - Appetizer
 servings: 14 servings (4.5 cups)
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source:
   - https://www.cookingclassy.com/fresh-homemade-salsa/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.06.04 18:41:34.000 -0700
-updated: 2025.06.29 22:01:03.880 -0700
+created: 2025.06.04 18:41:34.000-07:00
+updated: 2026.08.01 19:53:37.630-07:00
 banner: "[[fresh-homemade-salsa.jpg]]"
 ---
+
 The Best Homemade Salsa Recipe! This homemade restaurant-style Salsa is one of my most frequently made recipes! It's perfect served with tortilla chips or as a topping over your favourite Mexican food, like tacos, burritos, taquitos and so forth. Homemade salsa is the best party dish around, the perfect Super Bowl party food and a healthy after school snack!
 
 ## Ingredients

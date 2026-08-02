@@ -2,11 +2,14 @@
   "readableLineLength": false,
   "focusNewTab": false,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
   "spellcheck": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "settingsPopoutWindow": false,
+  "livePreview": false
 }

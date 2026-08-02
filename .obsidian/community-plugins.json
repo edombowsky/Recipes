@@ -28,8 +28,8 @@
   "obsidian-trim-whitespace",
   "obsidian-text-format",
   "recipe-grabber",
-  "metadata-menu",
   "syncthing-manager",
   "harper",
-  "tag-wrangler"
+  "tag-wrangler",
+  "fileclass"
 ]

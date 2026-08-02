@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 25 mins
 prep_time: 5 mins
 cooking_time: 20 mins
 source: https://www.canadianliving.com/food/recipe/braised-red-cabbage-2
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.09.28 13:44:41.709 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:18:38.461-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

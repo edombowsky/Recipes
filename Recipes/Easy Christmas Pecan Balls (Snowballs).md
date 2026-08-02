@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
-vegan: 
+vegan:
 meal_type:
   - Dessert
 cuisine:
@@ -20,10 +20,11 @@ source: https://www.jennycancook.com/recipes/easy-christmas-pecan-balls/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.11.20 10:42:45.000 -0800
-updated: 2024.12.29 12:56:50.413 -0800
+created: 2024.11.20 10:42:45.000-08:00
+updated: 2026.08.01 20:15:52.478-07:00
 banner: "[[easy-christmas-pecan-balls.jpg]]"
 ---
+
 These snowball cookies are surprisingly easy to make. Pecans can be finely chopped or coarsely ground in a food processor, and *toasting* them first makes all the difference. I could not find a way to make these with less butter, I tried! (RECIPE CAN BE DOUBLED)
 
 ## Ingredients

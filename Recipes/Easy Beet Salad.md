@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 6
 favourite: true
 tried: true
 meal_type:
@@ -15,13 +15,13 @@ course:
   - Appetizer
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://cuisinewithme.com/easy-beet-salad/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.09.23 11:30:11.010 -0700
-updated: 2024.09.24 18:20:27.454 -0700
+created: 2024.09.23 11:30:11.010-07:00
+updated: 2026.08.01 19:52:55.570-07:00
 banner: "[[Easy-Beet-Salad.webp]]"
 ---
 

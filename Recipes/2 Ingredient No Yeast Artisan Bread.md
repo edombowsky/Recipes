@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating:
-favourite:
+rating: 7
+favourite: true
 tried:
 cuisine:
   - American

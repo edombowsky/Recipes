@@ -2,26 +2,26 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 7
+favourite: true
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Condiment
 cuisine:
   - Canadian
-course: 
+course:
 servings: 20 servings (2 1/2 cups)
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.allrecipes.com/recipe/263625/dianes-no-cook-red-hamburger-relish/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.01.11 18:03:33.000 -0800
-updated: 2025.03.17 15:47:18.148 -0700
+created: 2025.01.11 18:03:33.000-08:00
+updated: 2026.08.01 20:21:11.383-07:00
 banner: "[[dianes-no-cook-red-hamburger-relish.webp]]"
 ---
 

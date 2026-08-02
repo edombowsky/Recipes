@@ -1,80 +1,80 @@
 ---
-limit: 100
+fields:
+  - name: rating
+    id: 3lEkAg
+    type: Number
+    options:
+      min: 1
+      max: 7
+    path: ""
+  - name: cuisine
+    id: ooK6zd
+    type: Multi
+    options:
+      sourceType: ValuesListNotePath
+      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Cuisine.md
+    path: ""
+  - name: vegan
+    id: 67Sike
+    type: Boolean
+    options: []
+    path: ""
+  - name: vegetarian
+    id: HsmIMC
+    type: Boolean
+    options: []
+    path: ""
+  - name: favourite
+    id: PXSOmd
+    type: Boolean
+    options: []
+    path: ""
+  - name: meal_type
+    id: 0gYvrn
+    type: Select
+    options:
+      sourceType: ValuesListNotePath
+      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Meal Type.md
+    path: ""
+  - name: course
+    id: cryVZv
+    type: Multi
+    options:
+      sourceType: ValuesListNotePath
+      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Course.md
+    path: ""
+  - name: type
+    id: ZvWacu
+    type: Select
+    options:
+      sourceType: ValuesListNotePath
+      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Type.md
+    path: ""
+  - name: tried
+    id: nBWkgV
+    type: Boolean
+    options: []
+    path: ""
+icon: fork-knife-crossed
+extends:
+baseFile:
+baseView:
 mapWithTag: false
-icon: utensils-crossed
 tagNames:
 filesPaths:
 bookmarksGroups:
 excludes:
-extends:
+limit: 20
 savedViews: []
 favoriteView:
 fieldsOrder:
-  - 8Z87oV
-  - 3eViUm
-  - r0xPYZ
-  - r5rcrN
-  - 4ESLMe
-  - oKAmsj
-  - YUgM9i
-  - ufzarK
-version: "2.14"
-fields:
-  - name: course
-    type: Multi
-    options:
-      sourceType: ValuesListNotePath
-      valuesList: {}
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Course.md
-    path: ""
-    id: ufzarK
-  - name: rating
-    type: Select
-    options:
-      sourceType: ValuesListNotePath
-      valuesList: {}
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Rating.md
-    path: ""
-    id: YUgM9i
-  - name: cuisine
-    type: Multi
-    options:
-      sourceType: ValuesListNotePath
-      valuesList: {}
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Cuisine.md
-    path: ""
-    id: oKAmsj
-  - name: meal_type
-    type: Select
-    options:
-      sourceType: ValuesListNotePath
-      valuesList: {}
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Meal Type.md
-    path: ""
-    id: 4ESLMe
-  - name: vegan
-    type: Boolean
-    options: {}
-    path: ""
-    id: r5rcrN
-  - name: vegetarian
-    type: Boolean
-    options: {}
-    path: ""
-    id: r0xPYZ
-  - name: favourite
-    type: Boolean
-    options: {}
-    path: ""
-    id: 3eViUm
-  - name: type
-    type: Select
-    options:
-      sourceType: ValuesListNotePath
-      valuesList: {}
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Type.md
-    path: ""
-    id: 8Z87oV
-created: 2025.07.05 15:18:22.000 -0700
-updated: 2025.12.03 21:02:44.786 -0800
+  - ZvWacu
+  - cryVZv
+  - 0gYvrn
+  - PXSOmd
+  - HsmIMC
+  - 67Sike
+  - ooK6zd
+  - 3lEkAg
+version: "2.1"
 ---

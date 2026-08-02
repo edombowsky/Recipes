@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - American
@@ -11,10 +11,10 @@ course:
 servings: 8 servings
 total_time: 15 mins
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://www.acouplecooks.com/bean-salad/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.07.29 07:46:50.848 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:08:27.729-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

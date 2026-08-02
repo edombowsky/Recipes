@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 cuisine:
   - Indian
@@ -18,8 +18,8 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-updated: 2024.05.25 23:05:56.411 -0700
-created: 2023.09.19 21:58:44.000 -0700
+updated: 2026.08.01 19:48:38.759-07:00
+created: 2023.09.19 21:58:44.000-07:00
 meal_type:
   - Lunch
   - Dinner

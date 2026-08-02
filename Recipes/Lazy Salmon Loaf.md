@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -13,9 +13,9 @@ course:
 total_time: 50 mins
 prep_time: 20 mins
 cooking_time: 30 mins
-source: 
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.11.17 17:59:00.523 -0800
+source:
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:03:58.433-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

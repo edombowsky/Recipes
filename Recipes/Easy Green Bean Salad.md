@@ -1,10 +1,10 @@
 ---
 class: Recipe
 type: recipe
-rating: ⭐⭐⭐
+rating: 4
 favourite: false
 tried: true
-vegan: 
+vegan:
 vegetarian: "true"
 meal_type:
   - Side
@@ -21,8 +21,8 @@ source: https://www.allrecipes.com/recipe/283559/easy-cold-green-bean-salad/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.08.12 14:38:54.885 -0700
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.01 20:21:57.903-07:00
 banner: "[[easy-green-bean-salad.jpg]]"
 ---
 

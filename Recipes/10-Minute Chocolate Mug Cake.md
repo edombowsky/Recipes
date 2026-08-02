@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 15 mins
 prep_time: 13 mins
 cooking_time: 2 mins
 source: https://www.allrecipes.com/recipe/241040/10-minute-chocolate-mug-cake/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.09.28 11:38:18.065 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:17:04.076-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner

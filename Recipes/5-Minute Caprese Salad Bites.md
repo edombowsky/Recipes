@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 vegan: false
@@ -22,7 +22,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.03.22 23:34:47.864-07:00
+updated: 2026.08.01 19:51:14.752-07:00
 banner: "[[5-Minute-Caprese-Salad-Bites.jpg]]"
 ---
 

@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 meal_type:
   - Dinner
@@ -13,7 +13,7 @@ cuisine:
   - Canadian
   - American
 servings: 4 servings
-course: 
+course:
 total_time: 25 mins
 prep_time: 10 mins
 cooking_time: 15 mins
@@ -22,8 +22,8 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-created: 2024.08.12 21:35:58.897 -0700
-updated: 2025.07.15 17:01:37.592 -0700
+created: 2024.08.12 21:35:58.897-07:00
+updated: 2026.08.01 19:55:12.385-07:00
 banner: "[[Zucchini-Pasta.webp]]"
 ---
 

@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 5
+favourite:
 tried: true
 meal_type:
   - Side
@@ -21,8 +21,8 @@ source: https://www.spendwithpennies.com/hamburger-soup/#wprm-recipe-container-1
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.10 11:16:03.000 -0700
-updated: 2025.03.16 21:57:00.727 -0700
+created: 2024.10.10 11:16:03.000-07:00
+updated: 2026.08.01 19:52:13.894-07:00
 banner: "[[Easy-Hamburger-Soup.jpg]]"
 ---
 

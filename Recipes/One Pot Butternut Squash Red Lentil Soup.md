@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 meal_type:
   - Dinner
@@ -20,8 +20,8 @@ source: https://www.facebook.com/reel/830757522465848
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.27 11:25:48.000 -0700
-updated: 2024.10.29 09:08:09.991 -0700
+created: 2024.10.27 11:25:48.000-07:00
+updated: 2026.08.01 19:58:12.196-07:00
 banner: "[[one-pot-butternut-squash-red-lentil-soup.png]]"
 ---
 

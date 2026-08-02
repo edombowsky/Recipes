@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 35 mins
 prep_time: 10 mins
 cooking_time: 25 mins
 source: https://recipe30.com/simple-thai-basil-chicken.html/
-created: 2023-09-19T21:58
-updated: 2024-05-18T17:46
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:55:32.735-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

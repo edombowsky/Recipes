@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 5
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dinner
   - Lunch
@@ -23,8 +23,8 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.24 10:11:35.000 -0700
-updated: 2025.04.30 13:05:38.958 -0700
+created: 2025.03.24 10:11:35.000-07:00
+updated: 2026.08.01 20:20:43.783-07:00
 banner: "[[tuna-tomato-spaghetti.jpg]]"
 ---
 

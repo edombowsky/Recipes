@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 6
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -21,8 +21,8 @@ source: https://www.spendwithpennies.com/best-coleslaw-recipe/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.12.10 08:56:13.000 -0800
-updated: 2024.12.10 09:05:57.102 -0800
+created: 2024.12.10 08:56:13.000-08:00
+updated: 2026.08.01 20:17:24.167-07:00
 banner: "[[coleslaw-recipe.jpg]]"
 ---
 

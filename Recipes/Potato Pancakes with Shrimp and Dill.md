@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 55 mins
 prep_time: 15 mins
 cooking_time: 40 mins
 source: https://ifood.tv/pancake/66043-potato-pancakes-with-shrimp-and-dill
-created: 2023-09-19T21:58
-updated: 2024-05-18T17:46
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:07:10.829-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
@@ -56,7 +56,7 @@ banner: "[[Potato-Pancakes-with-Shrimp-and-Dill.jpg]]"
 ## Notes
 
 - Pancakes can be covered and refrigerated for up to 1 day. To reheat, bake in a single layer on a baking sheet in a 400° F (200° C) oven for 4 to 5 minutes, or until heated.
-- Originally found in the “Cooking for Company” Canadian Living Cooking Collection by Elizabeth Baird. [The Canadian living cooking collection : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/canadianlivingco00madi/mode/2up)
+- Originally found in the “Cooking for Company” Canadian Living Cooking Collection by Elizabeth Baird. [The Canadian living cooking collection : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/canadianlivingco00madi/mode/2up)  
 ![[Cooking-for-Company-The-Candian-Living-Collection.jpg]]!
 
 ![[Potato-Pancakes-with-Shrimop-and-Dill-Scan.jpg]]

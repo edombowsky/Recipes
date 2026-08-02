@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 meal_type:
   - Dinner
@@ -19,8 +19,8 @@ source: https://www.lecremedelacrumb.com/best-baked-pork-tenderloin/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.09.04 21:27:07.522 -0700
-updated: 2024.09.28 11:43:52.624 -0700
+created: 2024.09.04 21:27:07.522-07:00
+updated: 2026.08.01 20:24:06.056-07:00
 banner: "[[baked-pork-tenderloin.jpg]]"
 ---
 

@@ -1,14 +1,14 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Mexican
 servings: 6 servings
 total_time: 1 hr
-prep_time: 
+prep_time:
 cooking_time: 30 mins
 source: https://www.washingtonpost.com/recipes/arroz-rojo-mexican-red-rice/
 created: 2023.09.19 21:00:00.000 -0700
@@ -20,7 +20,7 @@ course:
 cssclasses:
   - obsidian-banner
 meal_type:
-  - ""
+  - Side
 banner: "[[mexican-red-rice.jpg]]"
 ---
 

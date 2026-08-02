@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite:
 tried: true
 vegan:
@@ -20,8 +20,8 @@ source: https://www.allrecipes.com/recipe/235589/chef-johns-creamy-mushroom-soup
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.10.09 00:56:34.448 -0700
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.01 20:11:49.873-07:00
 banner: "[[chef-johns-creamy-mushroom-soup.jpg]]"
 ---
 

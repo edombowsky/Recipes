@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 cuisine:
   - American
@@ -12,8 +12,8 @@ total_time: 10 mins
 prep_time: 5 mins
 cooking_time: 5 mins
 source: https://www.loveandlemons.com/pickled-red-onions/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.05.08 10:36:53.557 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:54:49.196-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

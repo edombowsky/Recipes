@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 6
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 50 mins
 prep_time: 15 mins
 cooking_time: 35 mins
 source: https://www.allrecipes.com/recipe/238739/spicy-tequila-lime-tomato-soup/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:48:03.964 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:57:45.936-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

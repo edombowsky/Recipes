@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -12,10 +12,10 @@ course:
   - Main
 total_time: 15 mins
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/chickpea-salad-recipe-23560784
-created: 2023-09-19T21:58
-updated: 2024-05-18T17:46
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:05:09.267-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -3,13 +3,14 @@ title: "Add a Logo or Avatar to your Vault"
 source: "https://tfthacker.com/experiment-vault-logo"
 author:
 published:
-created: 2025.07.05 00:00:00.000 -0700
+created: 2025.07.05 00:00:00.000-07:00
 description: "Dashboard++ — a simple organization and navigation method for Obsidian Vaults - Toolbox for Thought"
 tags: ["clipping"]
 obsidianUIMode: "preview"
 modified: Saturday, July 5th 2025, 4:41:16 pm
-updated: 2025.11.16 00:06:20.019 -0800
+updated: 2026.08.01 20:47:08.111-07:00
 ---
+
 In the summer of 2024, I released one of my new tools, [JournalCraft for Obsidian](https://tfthacker.com/jco). This vault teaches good journaling and includes several templates. As I developed it, I wanted to give it a unique appearance that would help it stand out visually. One of the things I did was put a logo in the upper left-hand corner.
 
 ![vault-logo-jcc.png](https://publish-01.obsidian.md/access/5482717c61d4cd4a5e39468efa73a612/_pub/Experiments/media/add-vault-logo/vault-logo-jcc.png)

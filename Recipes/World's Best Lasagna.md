@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
-favourite: 
+rating: 7
+favourite:
 tried: true
 meal_type:
   - Lunch
@@ -20,8 +20,8 @@ source: https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.09.17 07:32:49.033 -0700
-updated: 2024.09.17 07:53:06.348 -0700
+created: 2024.09.17 07:32:49.033-07:00
+updated: 2026.08.01 20:23:38.961-07:00
 banner: "[[worlds-best-lasagna.webp]]"
 ---
 

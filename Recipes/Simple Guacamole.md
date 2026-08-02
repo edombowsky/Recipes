@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 5
+favourite:
 tried: true
 cuisine:
   - Mexican
@@ -10,10 +10,10 @@ course: []
 servings: 6 servings
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
-source: 
-created: 2023.11.14 22:00:00.000 -0800
-updated: 2025.03.17 15:34:20.444 -0700
+cooking_time:
+source:
+created: 2023.11.14 22:00:00.000-08:00
+updated: 2026.08.01 19:54:00.319-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:
@@ -21,6 +21,8 @@ cssclasses:
 meal_type:
   - Side
 banner: "[[simple-guacamole.jpg]]"
+vegan: ""
+vegetarian: ""
 ---
 
 ## Ingredients

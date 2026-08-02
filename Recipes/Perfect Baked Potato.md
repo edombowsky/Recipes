@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 vegan: true
@@ -21,7 +21,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.01.11 16:00:38.575-08:00
+updated: 2026.08.01 20:02:21.275-07:00
 banner: "[[baked-potato.jpg]]"
 ---
 

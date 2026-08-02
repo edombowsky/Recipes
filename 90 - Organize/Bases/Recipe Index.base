@@ -1,0 +1,26 @@
+filters:
+  and:
+    - class == "Recipe"
+views:
+  - type: table
+    name: Recipes
+    filters:
+      and:
+        - '!type.contains("tip")'
+    order:
+      - file.name
+      - cuisine
+      - meal_type
+      - course
+  - type: table
+    name: Tips
+    filters:
+      and:
+        - type.contains("tip")
+    order:
+      - file.name
+      - cuisine
+      - meal_type
+      - course
+    columnSize:
+      file.name: 549

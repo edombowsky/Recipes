@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 cuisine:
   - Middle-Eastern
@@ -10,10 +10,10 @@ course: []
 servings: 8 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.loveandlemons.com/hummus-recipe/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.10.08 11:14:02.114 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:55:57.014-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

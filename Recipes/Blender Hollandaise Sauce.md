@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -13,8 +13,8 @@ total_time: 5 mins
 prep_time: 2 mins
 cooking_time: 3 mins
 source: https://toriavey.com/julia-childs-easy-blender-hollandaise-sauce/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:17:09.170 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:06:17.440-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

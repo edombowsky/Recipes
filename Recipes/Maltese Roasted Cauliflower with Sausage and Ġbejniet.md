@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: ⭐️⭐️⭐️
-favourite: 
+rating: 4
+favourite:
 tried: true
 cuisine:
   - Maltese
@@ -13,8 +13,8 @@ total_time: 1 hr 25 mins
 prep_time: 20 mins
 cooking_time: 1 hr 5 mins
 source: https://digital.eatyourbooks.com/content/Malta-Preview/index.html#page=20
-created: 2023-11-08T15:59
-updated: 2024-05-18T16:41
+created: 2023.11.08 15:00:00.000-08:00
+updated: 2026.08.01 19:56:40.680-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

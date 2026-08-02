@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -18,11 +18,13 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-updated: 2024.10.02 16:48:09.645 -0700
-created: 2024.05.22 16:42:52.724 -0700
+updated: 2026.08.01 20:00:17.193-07:00
+created: 2024.05.22 16:42:52.724-07:00
 meal_type:
   - Snack
 banner: "[[snickerdoodle-mug-cake.jpg]]"
+vegan: ""
+vegetarian: ""
 ---
 
 ## Ingredients

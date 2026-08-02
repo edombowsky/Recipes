@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -15,8 +15,8 @@ total_time: 25 mins
 prep_time: 10 mins
 cooking_time: 15 mins
 source: https://www.entertainingdiva.com/recipes/old-fashioned-turkey-stuffing/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.01.01 16:14:52.579 -0800
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:56:18.029-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

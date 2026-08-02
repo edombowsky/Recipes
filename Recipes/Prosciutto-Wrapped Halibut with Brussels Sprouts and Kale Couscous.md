@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 5
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
@@ -14,16 +14,16 @@ cuisine:
 course:
   - Main
 servings: 4 servings
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 total_time: 45 mins
 source:
   - https://www.foodnetwork.com/recipes/katie-lee/prosciutto-wrapped-halibut-with-brussels-sprouts-and-kale-couscous-2615841
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.06.04 17:10:47.000 -0700
-updated: 2025.06.16 21:28:56.636 -0700
+created: 2025.06.04 17:10:47.000-07:00
+updated: 2026.08.01 19:51:33.967-07:00
 banner: "[[Prosciutto-Wrapped Halibut.webp]]"
 ---
 

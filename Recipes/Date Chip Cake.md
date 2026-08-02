@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -21,8 +21,8 @@ source: https://vintagekitchennotes.com/chocolate-chip-date-cake/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.12.31 14:54:03.000 -0800
-updated: 2025.01.01 12:31:59.630 -0800
+created: 2024.12.31 14:54:03.000-08:00
+updated: 2026.08.01 20:05:34.235-07:00
 banner: "[[chocolate-date-cake.jpeg]]"
 ---
 

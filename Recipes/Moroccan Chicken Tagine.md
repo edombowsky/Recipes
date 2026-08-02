@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 5
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dinner
   - Lunch
@@ -22,10 +22,11 @@ source: https://www.onceuponachef.com/recipes/moroccan-chicken-tagine.html
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.01.31 19:52:19.000 -0800
-updated: 2025.01.31 20:01:56.484 -0800
+created: 2025.01.31 19:52:19.000-08:00
+updated: 2026.08.01 19:48:05.599-07:00
 banner: "[[Moroccan-Chicken-Tagine.jpg]]"
 ---
+
 Chicken tagine is a traditional Moroccan dish of chicken braised with spices, garlic, onion, olives, and preserved lemons. It’s a company-worthy dish yet easy enough to throw together on a not-too-busy weeknight. The word tagine refers to the shallow clay vessel with a cone-shaped lid in which the dish is traditionally cooked, but you don’t need one to make it. I use a large cast-iron braiser; a wide Dutch oven or heavy covered frying-pan will work, too.
 
 This recipe, tweaked a bit from [Cook’s Illustrated](https://www.cooksillustrated.com/recipes/2965-moroccan-chicken-with-olives-and-lemon-chicken-tagine?incode=MCSCD00L0&ref=new_search_experience_1), does not call for preserved lemons, a speciality ingredient that can be difficult to find. Instead, lemon zest and fresh lemon juice add tart brightness to the dish. Serve the chicken on a platter or individual plates over a bed of couscous.

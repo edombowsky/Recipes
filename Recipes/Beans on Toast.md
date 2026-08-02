@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
+rating: 6
 favourite: true
 tried: true
 meal_type:
@@ -10,18 +10,18 @@ meal_type:
   - Dinner
 cuisine:
   - British
-servings: 
+servings:
 course:
   - Main
 total_time: 5 mins
-prep_time: 
+prep_time:
 cooking_time: 5 mins
 source: https://www.dailyrecord.co.uk/lifestyle/heinz-claims-youre-making-your-33919840
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.21 21:57:01.000 -0700
-updated: 2025.03.19 17:32:53.158 -0700
+created: 2024.10.21 21:57:01.000-07:00
+updated: 2026.08.01 20:01:59.131-07:00
 banner: "[[beans-on-toast.webp]]"
 ---
 

@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 1 hr 15 mins
 prep_time: 15 mins
 cooking_time: 1 hr
 source: https://www.ricardocuisine.com/en/recipes/1027-classic-chili
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.11.16 00:04:19.963 -0800
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:10:13.724-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

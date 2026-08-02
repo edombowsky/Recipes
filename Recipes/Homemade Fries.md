@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite:
 tried: true
 vegan:
@@ -22,7 +22,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.01.11 16:21:31.346-08:00
+updated: 2026.08.01 20:45:09.797-07:00
 banner: "[[Best-Homemade-Fries-Recipe.jpg]]"
 aliases: [french fries, chips]
 ---

@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 vegan: true
@@ -21,9 +21,10 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2025.12.04 15:01:38.669-08:00
+updated: 2026.08.01 19:47:32.469-07:00
 banner: "[[Red-Sauce-For-Pizza.jpg]]"
 ---
+
 Meet your new favourite red **Pizza Sauce**! This is how the pros make red sauce for pizza using just 5 simple ingredients, and it’s ridiculously easy with no cooking required.
 
 It has a beautiful tomato flavour similar to what you’d enjoy in a fancy Italian pizzeria! Make it now and store it so it’s ready when you want authentic homemade pizza.

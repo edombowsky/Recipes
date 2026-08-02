@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
 meal_type:
   - Dinner
@@ -16,8 +16,8 @@ total_time: 1 hr
 prep_time: 30 mins
 cooking_time: 30 mins
 source: https://ilonaspassion.com/baked-fish-basa-paprika-basil/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.12.01 23:23:33.520 -0800
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:11:05.583-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐
-favourite: 
+rating: 4
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dinner
   - Lunch
@@ -22,10 +22,11 @@ source: https://www.kitchensanctuary.com/easy-chicken-curry/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.29 16:25:23.000 -0700
-updated: 2025.04.06 12:44:04.023 -0700
+created: 2025.03.29 16:25:23.000-07:00
+updated: 2026.08.01 20:09:55.060-07:00
 banner: "[[easy-chicken-curry.webp]]"
 ---
+
 A quick and simple **mild chicken curry** recipe with bags of flavour. Ready in **30 minutes**, it makes a great go-to mid-week meal for the whole family. **Freezer-friendly,** so you can make a big batch and save some for later.
 
 ## Ingredients

@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -14,8 +14,8 @@ total_time: 1 hr
 prep_time: 15 mins
 cooking_time: 45 mins
 source: https://www.willcookforfriends.com/2012/06/grilled-chicken-caesar-salad-with-homemade-dressing-hail-caesar.html
-created: 2023-09-19T21:58
-updated: 2024-05-18T17:46
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:25:32.148-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

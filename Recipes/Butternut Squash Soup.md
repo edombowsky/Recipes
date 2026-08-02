@@ -2,7 +2,7 @@
 sticker:
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -15,7 +15,7 @@ prep_time: 15 mins
 cooking_time: 1 hr
 source: https://www.allrecipes.com/recipe/12974/butternut-squash-soup/
 created: 2023.11.16 18:00:00.000-08:00
-updated: 2026.01.10 18:28:37.843-08:00
+updated: 2026.08.01 19:51:52.771-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

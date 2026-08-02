@@ -2,13 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating: 4
+favourite:
+tried:
 meal_type:
   - Snack
-cuisine: 
-servings: 
+cuisine:
+  - International
+servings:
 course:
   - Dessert
 total_time: 3 hrs 10 mins
@@ -18,8 +19,8 @@ source: https://food-guide.canada.ca/en/recipes/yogurt-bark-berries/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.09.26 18:37:17.000 -0700
-updated: 2024.09.26 18:48:25.636 -0700
+created: 2024.09.26 18:37:17.000-07:00
+updated: 2026.08.01 20:33:26.789-07:00
 banner: "[[yogurt-bark-with-berries.jpg]]"
 ---
 

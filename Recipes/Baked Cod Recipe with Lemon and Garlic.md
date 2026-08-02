@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 6
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
@@ -21,8 +21,8 @@ source: https://www.themediterraneandish.com/baked-cod-recipe-lemon-garlic/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.12.13 16:34:26.000 -0800
-updated: 2025.03.09 17:43:26.998 -0700
+created: 2024.12.13 16:34:26.000-08:00
+updated: 2026.08.01 20:18:11.449-07:00
 banner: "[[mediterranean-baked-cod.jpg]]"
 banner-y: 0.493
 ---

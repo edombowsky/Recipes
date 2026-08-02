@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -13,8 +13,8 @@ total_time: 30 mins
 prep_time: 10 mins
 cooking_time: 1 min
 source: https://www.foodnetwork.com/recipes/food-network-kitchen/pickled-red-onions-5459524
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:31:44.028 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:19:51.818-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

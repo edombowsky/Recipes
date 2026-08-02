@@ -7,9 +7,11 @@ favourite:
 tried:
 vegan:
 vegetarian:
-meal_type:
+meal_type: Dinner
 cuisine:
+  - Indian
 course:
+  - Main
 servings: 4 servings
 prep_time:
 cooking_time:
@@ -19,7 +21,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.04.18 18:56:13.800-07:00
+updated: 2026.08.01 20:30:14.656-07:00
 banner: "[[chicken-biryani.webp]]"
 ---
 

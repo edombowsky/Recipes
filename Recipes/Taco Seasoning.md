@@ -1,7 +1,7 @@
 ---
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 cuisine:
@@ -10,10 +10,10 @@ course: []
 servings: 10 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.allrecipes.com/recipe/46653/taco-seasoning-i/
-created: 2023.11.06 22:00:00.000 -0800
-updated: 2025.03.17 15:35:41.934 -0700
+created: 2023.11.06 22:00:00.000-08:00
+updated: 2026.08.01 19:49:10.664-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

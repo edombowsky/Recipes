@@ -12,8 +12,8 @@ total_time: 6 mins + cooling time
 prep_time: 5 mins
 cooking_time: 1 min
 source: https://www.youtube.com/watch?v=IHWAEMyTajI
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:59:17.810 -0700
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:19:27.805-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

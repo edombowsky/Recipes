@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - Italian
@@ -11,11 +11,11 @@ course:
   - Main
 servings: 4-6 servings
 total_time: 30 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://cooking.nytimes.com/recipes/1019981-seared-scallop-pasta-with-burst-tomatoes-and-herbs
-created: 2023-09-19T21:58
-updated: 2024-05-18T16:41
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:07:38.479-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner

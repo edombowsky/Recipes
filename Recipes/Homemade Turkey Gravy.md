@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️
-favourite: 
+rating: 4
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -20,8 +20,8 @@ source: https://whatsgabycooking.com/homemade-turkey-gravy/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.12.29 13:30:15.000 -0800
-updated: 2025.11.16 08:16:42.280 -0800
+created: 2024.12.29 13:30:15.000-08:00
+updated: 2026.08.01 19:37:12.856-07:00
 banner: "[[thanksgiving-gravy.jpg]]"
 ---
 

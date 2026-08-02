@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
 meal_type:
   - Lunch
@@ -18,14 +18,14 @@ course:
   - Appetizer
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.inspiredtaste.net/46546/easy-bean-salad/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-created: 2024.06.01 14:04:59.897 -0700
-updated: 2024.06.01 14:16:50.311 -0700
+created: 2024.06.01 14:04:59.897-07:00
+updated: 2026.08.01 20:04:48.012-07:00
 banner: "[[Bean-Salad-Recipe.jpg]]"
 ---
 

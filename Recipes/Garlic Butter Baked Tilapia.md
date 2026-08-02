@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️
-favourite: 
+rating: 6
+favourite:
 tried: true
 cuisine:
   - American
@@ -14,8 +14,8 @@ total_time: 20 mins
 prep_time: 5 mins
 cooking_time: 12 mins
 source: https://diethood.com/garlic-butter-oven-baked-tilapia/
-created: 2023-09-19T21:58
-updated: 2024-05-18T16:40
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 19:49:25.849-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner

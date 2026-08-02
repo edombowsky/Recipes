@@ -2,27 +2,28 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
   - Lunch
-cuisine: 
+cuisine:
+  - British
 course:
   - Main
 servings: 4 servings
 prep_time: 20 mins
 cooking_time: 30 mins
 total_time: 50 mins
-source: 
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.07 22:59:09.000 -0800
-updated: 2025.03.07 23:15:12.789 -0800
+created: 2025.03.07 22:59:09.000-08:00
+updated: 2026.08.01 20:32:17.351-07:00
 banner: "[[bauerntopf.jpg]]"
 ---
 

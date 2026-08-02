@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
-favourite: 
+rating: 6
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -23,8 +23,8 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.10 07:46:04.000 -0700
-updated: 2025.06.26 09:46:11.443 -0700
+created: 2025.03.10 07:46:04.000-07:00
+updated: 2026.08.01 20:17:49.189-07:00
 banner: "[[pork-souvlaki.jpg]]"
 ---
 

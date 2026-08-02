@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating: 7
+favourite: true
+tried: true
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
@@ -24,10 +24,11 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.05.29 16:56:24.000 -0700
-updated: 2025.05.29 17:04:40.575 -0700
+created: 2025.05.29 16:56:24.000-07:00
+updated: 2026.08.01 19:12:03.788-07:00
 banner: "[[Valentines_LemongrassScallops.jpg]]"
 ---
+
 A cosy date night at home calls for warming bowls of our pink and spiny scallops in a creamy coconut lemongrass broth. Serve with fresh crusty bread or rice and you're in for an incredible feast!
 
 ## Ingredients

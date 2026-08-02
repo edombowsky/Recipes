@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐
+rating: 6
 favourite:
 tried: true
 vegan:
@@ -20,8 +20,8 @@ source: https://www.christinascucina.com/green-bean-salad-easy-italian-recipe-se
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.08.20 20:54:54.936 -0700
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.01 20:22:18.582-07:00
 banner: "[[green-bean-salad-hot-or-cold.jpg]]"
 ---
 

@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: ⭐⭐⭐⭐⭐
+rating: 6
 favourite: true
 tried: true
 vegan:
@@ -23,9 +23,10 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025.07.04 22:27:32.000-07:00
-updated: 2025.12.11 18:54:46.790-08:00
+updated: 2026.08.01 19:50:48.301-07:00
 banner: "[[Eagle_Brand_Fudge.png]]"
 ---
+
 This Eagle Brand Fudge recipe is a great way to soothe that sweet tooth with minimal effort. It's so dense, chewy, and chocolatey, and comes together faster than you can finish this sentence. The hardest part is waiting for it to chill.
 
 The secret ingredient to this fudge is Eagle Brand sweetened condensed milk. It delivers such a creamy, milky flavour that pairs perfectly with chocolate. So, let's calm that sweet tooth with this easy Eagle Brand fudge recipe.

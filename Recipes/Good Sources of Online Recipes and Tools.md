@@ -13,7 +13,7 @@ prep_time:
 cooking_time:
 source:
 created: 2023.09.19 21:00:00.000-07:00
-updated: 2026.04.18 19:00:32.402-07:00
+updated: 2026.08.01 20:35:38.070-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
@@ -21,7 +21,6 @@ cssclasses:
   - two-column-list
 banner: "[[open-cookbook.jpg]]"
 meal_type:
-  - ""
 ---
 
 ## General Collections

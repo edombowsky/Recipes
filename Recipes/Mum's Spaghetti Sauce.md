@@ -1,20 +1,20 @@
 ---
 type:
   - recipe
-rating: ⭐️⭐️⭐️⭐️⭐️
+rating: 7
 favourite: true
 tried: true
 cuisine:
   - Italian
 course:
   - Main
-servings: 
+servings:
 total_time: 1 hr
-prep_time: 
+prep_time:
 cooking_time: 1 hr
-source: 
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.11.29 13:16:09.798 -0800
+source:
+created: 2023.09.19 21:00:00.000-07:00
+updated: 2026.08.01 20:20:22.225-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

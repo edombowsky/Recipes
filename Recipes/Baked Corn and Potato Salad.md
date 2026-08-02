@@ -2,13 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
-cuisine: 
-servings: 
+cuisine:
+  - African
+servings:
 course:
   - Main
 total_time: 35-45 mins
@@ -18,8 +19,8 @@ source: https://www.youtube.com/watch?v=D9ls_VobIkI
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.09.16 21:54:55.424 -0700
-updated: 2024.09.16 22:10:00.629 -0700
+created: 2024.09.16 21:54:55.424-07:00
+updated: 2026.08.01 20:31:14.048-07:00
 banner: "[[Baked-Corn-and-Potato-Salad.png]]"
 ---
 
