@@ -4,23 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "a11b0cc13775ddce",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "fcefe6a601c65283",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "90 - Organize/Bases/Recipe Index.base",
-                "viewName": "Recipes"
+                "file": "Recipe Collection.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "Recipe Index"
+              "icon": "lucide-file",
+              "title": "Recipe Collection"
+            }
+          },
+          {
+            "id": "7a605945b280e91d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/Best Tomato Tart with Puff Pastry.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Best Tomato Tart with Puff Pastry"
+            }
+          },
+          {
+            "id": "3ebc6228d25c8a6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/2 Ingredient No Yeast Artisan Bread.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2 Ingredient No Yeast Artisan Bread"
+            }
+          },
+          {
+            "id": "23df70ddef28c7a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/Sun-Dried Tomato Hummus.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Sun-Dried Tomato Hummus"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Organize/Bases/Recipe Index.base"
+                "file": "Recipes/Sun-Dried Tomato Hummus.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -184,10 +232,19 @@
       "recipe-grabber:Recipe Grabber": false
     }
   },
-  "active": "44e4b8c57475acc4",
+  "active": "23df70ddef28c7a7",
   "lastOpenFiles": [
-    "20 - Sources/Clippings/Add a Logo or Avatar to your Vault.md",
+    "zAttachments/Unconfirmed 334346.crdownload",
+    "zAttachments/Sun-dried-tomato-hummus.jpg",
+    "zAttachments/Unconfirmed 928353.crdownload",
+    "Sun-Dried Tomato Hummus Butrition.webp",
+    "Recipes/2 Ingredient No Yeast Artisan Bread.md",
+    "Recipes/Sun-Dried Tomato Hummus.md",
+    "Recipes/Best Tomato Tart with Puff Pastry.md",
+    "Recipe Collection.md",
+    "zAttachments/herbed-tomato-puff-pastry-cheese-tart.jpg",
     "90 - Organize/Bases/Recipe Index.base",
+    "20 - Sources/Clippings/Add a Logo or Avatar to your Vault.md",
     "Recipes/Homemade Fries.md",
     "Recipes/Good Sources of Online Recipes and Tools.md",
     "Recipes/Yogurt Bark with Berries.md",
@@ -209,11 +266,6 @@
     "Recipes/Mum's Spaghetti Sauce.md",
     "Recipes/Pickled Red Onions.md",
     "Recipes/Pickled Onions with Peppers.md",
-    "Recipes/Guacamole.md",
-    "Recipes/Corned Beef Hash.md",
-    "Recipes/Braised Red Cabbage.md",
-    "Recipes/Baked Cod Recipe with Lemon and Garlic.md",
-    "Recipes/Pork Souvlaki.md",
     "zAttachments/Healthy-Homemade-Granola-Nutrition.webp",
     "zAttachments/Prosciutto-Wrapped Halibut.webp",
     "zAttachments/serving_fruit_vegetable_portion.pdf",
@@ -227,10 +279,6 @@
     "zAttachments/mechado-filipino-beef-stew.webp",
     "zAttachments/Unconfirmed 327961.crdownload",
     "zAttachments/chilli-cheese-popcorn.jpeg",
-    "zAttachments/Unconfirmed 437478.crdownload",
-    "zAttachments/3-Ingredient Easiest Bread.png",
-    "zAttachments/Mini-Spaghetti-and-Meatball-Appetizers.jpg",
-    "zAttachments/Unconfirmed 66547.crdownload",
-    "zAttachments/5-Minute-Caprese-Salad-Bites.jpg"
+    "zAttachments/Unconfirmed 437478.crdownload"
   ]
 }

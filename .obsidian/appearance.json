@@ -26,8 +26,8 @@
     "obsidian_emacs_bullet_list",
     "heading-indicators",
     "hide-properies-in-readonly-mode-by-default",
-    "hide-properties-show-on-hover",
-    "properties-background"
+    "properties-background",
+    "hide-properties-show-on-hover"
   ],
   "interfaceFontFamily": "Inter",
   "textFontFamily": "JetBrainsMono Nerd Font",
