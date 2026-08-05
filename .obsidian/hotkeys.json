@@ -51,5 +51,14 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

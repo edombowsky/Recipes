@@ -7414,7 +7414,7 @@
     "Recipes/Sun-Dried Tomato Hummus.md": {
       "path": "Recipes/Sun-Dried Tomato Hummus.md",
       "status": "pending",
-      "lastLocalEdit": 1785788556021
+      "lastLocalEdit": 1785904519248
     },
     "Sun-Dried Tomato Hummus-1785788225791.webp": {
       "path": "Sun-Dried Tomato Hummus-1785788225791.webp",
@@ -7435,9 +7435,19 @@
       "path": "zAttachments/Unconfirmed 334346.crdownload",
       "status": "pending",
       "lastLocalEdit": 1785788370226
+    },
+    "Recipes/Easy Tomato Soup with Canned Tomatoes.md": {
+      "path": "Recipes/Easy Tomato Soup with Canned Tomatoes.md",
+      "status": "pending",
+      "lastLocalEdit": 1785803038119
+    },
+    "zAttachments/Easy Tomato Soup with Canned Tomatoes.webp": {
+      "path": "zAttachments/Easy Tomato Soup with Canned Tomatoes.webp",
+      "status": "pending",
+      "lastLocalEdit": 1785803009159
     }
   },
   "lastStatus": "configurando",
   "lastSyncTime": "--:--",
-  "connectedDevices": 1
+  "connectedDevices": 0
 }

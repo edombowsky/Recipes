@@ -20,10 +20,11 @@ source: https://www.easycheesyvegetarian.com/sun-dried-tomato-hummus/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000 -0700
-updated: 2025.07.11 17:50:56.798 -0700
+created: 2025.07.04 22:27:32.000-07:00
+updated: 2026.08.04 21:35:19.186-07:00
 banner: "[[Sun-dried-tomato-hummus.jpg]]"
 ---
+
 This sun-dried tomato hummus takes just minutes to make, with only a few ingredients, and it tastes so much better than shop-bought hummus!
 
 ## Ingredients
@@ -45,7 +46,6 @@ This sun-dried tomato hummus takes just minutes to make, with only a few ingredi
 1. Add all the hummus ingredients to a food processor, apart from the water and pine nuts. Blitz well, until almost entirely smooth. Add a splash of water, and blitz again. Continue adding water until the hummus reaches your desired consistency – I used about 125ml in total.
 2. Add the pine nuts to a dry frying pan over a medium-high heat. Cook for a few minutes, stirring very regularly, until golden brown. Be careful, as once they start to brown, they can burn very quickly.
 3. Serve the hummus topped with the toasted pine nuts, and a glug of extra virgin olive oil (or use the oil from the jar of sun-dried tomatoes!).
-
 
 ## Notes
 
@@ -69,4 +69,4 @@ Scatter them across your sun-dried tomato hummus, and you’ve got an incredible
 
 ## Nutrition
 
-![[Sun-Dried Tomato Hummus Butrition.webp]]
+![[Sun-Dried Tomato Hummus Nutrition.webp]]
