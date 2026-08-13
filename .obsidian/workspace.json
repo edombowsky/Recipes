@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recipes/Sun-Dried Tomato Hummus.md",
-                "mode": "source",
+                "file": "Recipe Collection.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sun-Dried Tomato Hummus"
+              "title": "Recipe Collection"
             }
           }
         ]
@@ -108,7 +108,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recipes/Sun-Dried Tomato Hummus.md"
+                "file": "Recipe Collection.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -165,31 +165,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "syncthing-manager:Open Syncthing manager": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "pexels-banner:🚩 Pixel Banner Menu": true,
-      "omnisearch:Omnisearch": true,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "omnisearch:Omnisearch": false,
       "print:Print note": false,
-      "darlal-switcher-plus:Open in Headings Mode": true,
+      "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "recipe-view:Toggle recipe view": false,
-      "templater-obsidian:Templater": true,
+      "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian42-brat:BRAT": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
       "notebook-navigator:Notebook Navigator": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-trim-whitespace:Trim whitespace": false,
-      "recipe-grabber:Recipe Grabber": false
+      "recipe-grabber:Recipe Grabber": false,
+      "syncthing-manager:Open Syncthing manager": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitled.md",
     "Recipes/Sun-Dried Tomato Hummus.md",
+    "Untitled.md",
     "Recipe Collection.md",
     "Recipes/Easy Tomato Soup with Canned Tomatoes.md",
     "zAttachments/Easy Tomato Soup with Canned Tomatoes.webp",
