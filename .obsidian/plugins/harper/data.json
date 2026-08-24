@@ -11,6 +11,7 @@
     "ASomeTime": null,
     "AWaysToGo": null,
     "AWhile": null,
+    "AccuseOf": null,
     "AdNauseam": null,
     "Addicting": null,
     "AdjectiveDoubleDegree": null,
@@ -359,6 +360,7 @@
     "IfWouldve": null,
     "IfYouKnowYouKnow": null,
     "ImitateFrom": null,
+    "ImplementIn": null,
     "Impressed": null,
     "InADifferentDirection": null,
     "InAHurry": null,
@@ -691,6 +693,7 @@
     "SufficeItToSay": null,
     "SupposedTo": null,
     "TakeALookTo": null,
+    "TakeCareOf": null,
     "TakeItPersonally": null,
     "TakeMedicine": null,
     "TalkToYouLater": null,
@@ -780,6 +783,7 @@
     "VerseAsVerb": null,
     "VeryKnown": null,
     "VeryLess": null,
+    "VeryMuchSo": null,
     "VeryUnique": null,
     "ViceVersa": null,
     "ViciousCircle": null,
@@ -818,6 +822,7 @@
     "WouldNeverHave": null,
     "WreakHavoc": null,
     "WrongApostrophe": null,
+    "WrongNegative": null,
     "WroteToRote": null,
     "WroughtIron": null,
     "YeaToYeah": null,
@@ -827,7 +832,9 @@
     "Yourself": null
   },
   "userDictionary": [
-    "Sauté"
+    "Sauté",
+    "jalapeño",
+    "jalapeños"
   ],
   "dialect": 1,
   "delay": -1,

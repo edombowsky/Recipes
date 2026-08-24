@@ -17,7 +17,7 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
   - obsidian-banner
-updated: 2026.08.03 13:13:28.247-07:00
+updated: 2026.08.15 16:01:00.958-07:00
 created: 2024.05.22 16:18:42.000-07:00
 meal_type:
   - Brunch

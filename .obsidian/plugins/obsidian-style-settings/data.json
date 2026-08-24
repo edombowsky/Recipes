@@ -4,5 +4,6 @@
   "obsidian-velocity@@vl-layout-padding": "6px",
   "obsidian-velocity@@line-height-normal": "1.5",
   "obsidian-velocity-config@@active-line-highlight": true,
-  "obsidian-velocity-config@@enable-dim-img": true
+  "obsidian-velocity-config@@enable-dim-img": true,
+  "steam@@disable-crt-effect": true
 }

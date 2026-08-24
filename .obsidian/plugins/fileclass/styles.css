@@ -231,6 +231,149 @@
 	height: 15px;
 }
 
+/*
+ * A class note's `fieldsOrder` row: shown, not edited. Obsidian draws a string list as pills with a
+ * remove button each, and this declaration is not one you edit by hand — a stray click there drops a
+ * field back to its default position without saying so. The pills and the type warning give way to
+ * one line that opens the schema editor, where the order is actually made.
+ */
+.metadata-property.fileclass-order-row > .metadata-property-value > .multi-select-container,
+.metadata-property.fileclass-order-row > .metadata-property-warning-icon {
+	display: none;
+}
+.fileclass-order-summary {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--size-2-2);
+	padding: var(--size-2-1) 0;
+	cursor: pointer;
+	color: var(--text-muted);
+}
+.fileclass-order-summary:hover {
+	color: var(--text-normal);
+}
+.fileclass-order-icon {
+	display: inline-flex;
+	align-items: center;
+}
+.fileclass-order-icon svg {
+	width: 15px;
+	height: 15px;
+}
+
+/* The warning under the view picker: shown only when the view does not read the field backwards. */
+.fileclass-related-warning {
+	display: none;
+	margin: var(--size-2-2) 0;
+	color: var(--text-warning);
+}
+.fileclass-related-warning.is-visible {
+	display: block;
+}
+
+/* A class note's `newNotes` row: the destinations, one line each, not their JSON. */
+.metadata-property-value-item.fileclass-destinations-row {
+	color: var(--text-normal);
+	white-space: normal;
+}
+.fileclass-destinations {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-2-1);
+}
+.fileclass-destination {
+	display: inline-flex;
+	align-items: baseline;
+	gap: var(--size-2-2);
+	width: fit-content;
+	cursor: pointer;
+	color: var(--text-muted);
+}
+.fileclass-destination:hover {
+	color: var(--text-normal);
+}
+.fileclass-destination-icon {
+	display: inline-flex;
+	align-items: center;
+	align-self: center;
+}
+.fileclass-destination-icon svg {
+	width: 15px;
+	height: 15px;
+}
+.fileclass-destination-name {
+	color: var(--text-normal);
+}
+.fileclass-destination-paths {
+	font-size: var(--font-ui-smaller);
+	opacity: 0.85;
+}
+
+/*
+ * A class note's `relatedViews` row: the relations, not their JSON. Same treatment as `fields`
+ * above — the marker drops Obsidian's warning colour, and each line is a control.
+ */
+.metadata-property-value-item.fileclass-related-row {
+	color: var(--text-normal);
+	white-space: normal;
+}
+.fileclass-related-views {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-2-1);
+}
+.fileclass-related-view {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--size-2-2);
+	cursor: pointer;
+	color: var(--text-muted);
+	width: fit-content;
+}
+.fileclass-related-view:hover {
+	color: var(--text-normal);
+}
+.fileclass-related-icon {
+	display: inline-flex;
+	align-items: center;
+}
+.fileclass-related-icon svg {
+	width: 15px;
+	height: 15px;
+}
+.fileclass-related-field {
+	color: var(--text-normal);
+}
+.fileclass-related-arrow {
+	opacity: 0.6;
+}
+/* Declared, but the base is not in the vault: nothing to open, and it should look like it. */
+.fileclass-related-view.is-fc-missing {
+	cursor: default;
+	color: var(--text-faint);
+	text-decoration: line-through;
+}
+.fileclass-related-view.is-fc-missing:hover {
+	color: var(--text-faint);
+}
+.fileclass-related-view.is-fc-missing .fileclass-related-field {
+	color: var(--text-faint);
+}
+
+/*
+ * "from Media" on an inherited row of the schema editor. Quiet: it qualifies the field's name
+ * rather than competing with it, and it is the only thing that tells the two kinds of row apart.
+ */
+.fileclass-field-from {
+	margin-left: var(--size-4-2);
+	padding: 1px 5px;
+	border-radius: var(--radius-s);
+	background: var(--background-modifier-hover);
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-normal);
+}
+
 /* A value a picker shows but will not add: greyed, with the reason on its second line. */
 .fileclass-toggle-row.fileclass-row-disabled .setting-item-name {
 	color: var(--text-faint);
@@ -517,6 +660,18 @@ tr.fc-row-filtered {
 	text-align: left;
 	vertical-align: top;
 	white-space: nowrap; /* no line breaks in cells */
+}
+/* A group heading, when the view's `groupBy` is set. The inner spans carry the native
+   `bases-group-*` classes, so a theme sizes and colours them as it does the native table's. */
+.fileclass-table tr.fileclass-table-group > td {
+	background: var(--bases-table-group-background, var(--background-primary-alt));
+	padding: var(--size-4-2) 8px var(--size-2-2);
+	white-space: normal;
+}
+.fileclass-table tr.fileclass-table-group .bases-group-heading {
+	display: flex;
+	align-items: baseline;
+	gap: var(--size-4-1);
 }
 .fileclass-table th {
 	background: var(--background-secondary);
@@ -1023,6 +1178,134 @@ input.fileclass-color-circle.is-custom::-webkit-color-swatch-wrapper {
 }
 /* Sticky "current group" bar overlaid on the top of the suggester results (#47).
    pointer-events:none so the row beneath it stays clickable. */
+/*
+ * The media picker as a gallery: four per row, the picture given the width, the name under it.
+ *
+ * A row layout gave a 20px thumbnail to the picture and the rest of the line to `Kind of Blue.png`,
+ * which is the one thing a cover is not chosen by. Obsidian's own keyboard navigation is unaffected:
+ * it moves by item, and the items are the cards.
+ */
+.prompt-results.fileclass-suggest-gallery {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: var(--size-4-2);
+	padding: var(--size-4-2);
+}
+.fileclass-suggest-gallery .suggestion-item {
+	padding: var(--size-2-2);
+	border-radius: var(--radius-s);
+}
+.fileclass-suggestion-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--size-2-2);
+}
+.fileclass-suggestion-card > img.fileclass-thumb {
+	width: 100%;
+	height: 140px;
+	max-width: none;
+	max-height: none;
+	object-fit: contain;
+	border-radius: var(--radius-s);
+}
+.fileclass-card-name {
+	width: 100%;
+	text-align: center;
+	font-size: var(--font-ui-smaller);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* A group header keeps its card: it names the group the first card of the run belongs to. */
+.fileclass-suggest-gallery .fileclass-group-header {
+	width: 100%;
+	text-align: center;
+}
+
+/*
+ * The MultiMedia picker as a gallery, matching the single one. No switches: on a grid of pictures
+ * they are a column of small targets beside the thing you are looking at, and the card has been the
+ * click target since the row layout. A chosen card says so by looking chosen.
+ */
+.fileclass-multiselect-gallery {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: var(--size-4-2);
+	padding: var(--size-2-2) 0;
+}
+.fileclass-multiselect-gallery > .fileclass-group-header,
+.fileclass-multiselect-gallery > .fileclass-filter-empty {
+	grid-column: 1 / -1;
+}
+.fileclass-multiselect-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--size-2-2);
+	padding: var(--size-2-2);
+	border: 2px solid transparent;
+	border-radius: var(--radius-s);
+	cursor: pointer;
+}
+/* Declared after the generic `display: none` of the filter, and at the same specificity, so it
+   would win it: a filtered-out card stayed on screen while the code thought it was hidden. */
+.fileclass-multiselect-card.fileclass-filter-hidden,
+.fileclass-suggestion-card.fileclass-filter-hidden {
+	display: none;
+}
+.fileclass-multiselect-card:hover {
+	background: var(--background-modifier-hover);
+}
+.fileclass-multiselect-card > img.fileclass-thumb {
+	width: 100%;
+	height: 140px;
+	max-width: none;
+	max-height: none;
+	object-fit: contain;
+	border-radius: var(--radius-s);
+}
+.fileclass-multiselect-card.is-selected {
+	border-color: var(--interactive-accent);
+	background: var(--background-modifier-hover);
+}
+/* The tick is the only thing saying a card is on, so it is drawn on the picture, not beside it. */
+.fileclass-card-check {
+	position: absolute;
+	top: var(--size-2-2);
+	right: var(--size-2-2);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+.fileclass-multiselect-card.is-selected .fileclass-card-check {
+	display: flex;
+}
+.fileclass-card-check svg {
+	width: 13px;
+	height: 13px;
+}
+.fileclass-multiselect-card.fileclass-row-disabled {
+	cursor: default;
+	opacity: 0.45;
+}
+.fileclass-multiselect-card.fileclass-row-disabled:hover {
+	background: transparent;
+}
+
+.fileclass-suggest-count {
+	padding: var(--size-2-2) var(--size-4-3);
+	border-top: 1px solid var(--background-modifier-border);
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	text-align: center;
+}
 .fileclass-suggest-groupbar {
 	position: absolute;
 	left: 0;
