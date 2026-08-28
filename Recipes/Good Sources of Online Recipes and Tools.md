@@ -12,8 +12,8 @@ total_time:
 prep_time:
 cooking_time:
 source:
-created: 2023.09.19 21:00:00.000-07:00
-updated: 2026.08.01 20:35:38.070-07:00
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-08-28 16:15:33.352-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
@@ -55,6 +55,7 @@ meal_type:
 - [Recipes — Love and Lemons](https://www.loveandlemons.com/recipes/)
 - [the kitch](https://www.thekitchn.com/​)
 - [Kitchen Passport](https://www.kitchenpassport.club/recipes)
+- [Brian Lagerstrom](https://brianlagerstrom.com/)
 
 ### Baking
 

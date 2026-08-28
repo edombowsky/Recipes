@@ -26,7 +26,11 @@
     "obsidian_emacs_bullet_list",
     "heading-indicators",
     "properties-background",
-    "hide-properies-in-readonly-mode-by-default"
+    "hide-properies-in-readonly-mode-by-default",
+    "custom-callouts",
+    "qna-callout",
+    "callout-tweaks",
+    "hide-backlinks-pane"
   ],
   "interfaceFontFamily": "Inter",
   "textFontFamily": "JetBrainsMono Nerd Font",

@@ -37,7 +37,7 @@
         "balanceHueLuminance": true,
         "separateThemeColors": true,
         "shortcuts": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -45,7 +45,7 @@
           "transitionStyle": "rgb"
         },
         "recent": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -175,7 +175,7 @@
   "showRecentNotes": true,
   "hideRecentNotes": "none",
   "pinRecentNotesWithShortcuts": false,
-  "recentNotesCount": 5,
+  "recentNotesCount": 10,
   "showFolderIcons": true,
   "showRootFolder": true,
   "inheritFolderColors": false,

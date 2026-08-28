@@ -28,9 +28,9 @@
   "obsidian-trim-whitespace",
   "obsidian-text-format",
   "recipe-grabber",
-  "syncthing-manager",
   "harper",
   "tag-wrangler",
   "fileclass",
-  "kaper"
+  "kaper",
+  "syncthing-integration"
 ]

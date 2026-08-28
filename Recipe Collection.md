@@ -3,11 +3,11 @@ banner: '"[[recipe-card-box.webp]]"'
 banner_x: 50
 banner_y: 50
 tags: [map]
-created: 2025.07.04 17:29:34.000-07:00
+created: 2025-07-04 17:29:34.000-07:00
 modified: Sunday, July 6th 2025, 2:12:26 pm
 cssclasses:
   - dashboard
-updated: 2026.08.13 12:48:31.384-07:00
+updated: 2026-08-27 22:36:17.614-07:00
 ---
 
 ```meta-bind-button

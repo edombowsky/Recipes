@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------------------------------------------*/
+
+/* Change icon for hint, tip, and important callout to a lightbulb */
+.callout[data-callout^="tip"] {
+    /*--callout-color: 102, 175, 100;  Green*/
+    --callout-color: var(--callout-tip);
+    --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout^="hint"] {
+    --callout-color: var(--callout-tip);
+    --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout^="important"] {
+    --callout-color: var(--callout-tip);
+    --callout-icon: lucide-lightbulb;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+/*
+   Hides the icon in certain Obsidian callouts.
+
+   Breaking it down
+   - callout
+      - Selects any Obsidian callout.
+   - :is([data-callout-metadata^="noicon"])
+      - Filters to callouts whose data-callout-metadata attribute starts with "noicon".
+      - The ^= operator means "starts with."
+   - .callout-icon
+      -Targets the icon inside that callout.
+   - display: none;
+      - Completely removes the icon from the layout.
+
+   Usage:
+   > [!note|noicon]
+   > This note has no icon.
+*/
+
+.callout[data-callout-metadata*="noicon"] .callout-icon {
+  display: none;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
