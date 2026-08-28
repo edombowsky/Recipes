@@ -165,6 +165,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "kaper:Create recipe": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": false,

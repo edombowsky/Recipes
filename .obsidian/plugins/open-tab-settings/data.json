@@ -1,7 +1,11 @@
 {
   "openInNewTab": false,
+  "previewTabs": false,
   "deduplicateTabs": true,
+  "deduplicateAcrossTabGroups": true,
+  "newTabPlacement": "afterActive",
+  "newTabTabGroupPlacement": "same",
+  "modClickBehavior": "tab",
   "openInSameTabOnModClick": false,
-  "newTabPlacement": "after-active",
   "openNewTabsInOtherTabGroup": false
 }
