@@ -24,8 +24,8 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.05.29 16:56:24.000-07:00
-updated: 2026.08.01 19:12:03.788-07:00
+created: 2025-05-29 16:56:24.000-07:00
+updated: 2026-08-29 14:01:17.126-07:00
 banner: "[[Valentines_LemongrassScallops.jpg]]"
 ---
 

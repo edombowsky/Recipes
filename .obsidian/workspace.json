@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "bb300e0490861254",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "dd5d6558f41a5680",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,8 +187,9 @@
       "syncthing-integration:Open Syncthing conflict manager modal": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "dd5d6558f41a5680",
   "lastOpenFiles": [
+    "Recipes/Pink & Spiny Scallops In Coconut Lemongrass Broth.md",
     "Recipe Collection.md",
     "Recipes/Weeknight Steak Fajitas.md",
     "zAttachments/Weeknight Steak Fajitas.jpg",
