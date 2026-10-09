@@ -110,7 +110,7 @@ function isLink(text) {
   return !!text.trim().match(/^https?:\/\/\S+$/);
 }
 function normalizeUrl(url) {
-  return url.replace(/^https?:\/\/(www\.)?/, "https://");
+  return url.trim().replace(/^https?:\/\/(www\.)?/, "https://");
 }
 function isPositionProtected(allLines, lineNum, ch) {
   const line = allLines[lineNum];
@@ -246,7 +246,7 @@ function getUrlFinalSegment(url) {
 function loadElectronWindow(window2, url) {
   return __async(this, null, function* () {
     return new Promise((resolve, reject) => {
-      const timer = window2.setTimeout(() => {
+      const timer = setTimeout(() => {
         console.warn(`Smart Link Formatter: Timeout loading ${url} in Electron window.`);
         try {
           if (window2 && !window2.isDestroyed()) {
@@ -257,13 +257,13 @@ function loadElectronWindow(window2, url) {
         reject(new Error(`Timeout loading URL: ${url}`));
       }, 3e4);
       const didFinishLoad = () => {
-        window2.clearTimeout(timer);
+        clearTimeout(timer);
         window2.webContents.removeListener("did-finish-load", didFinishLoad);
         window2.webContents.removeListener("did-fail-load", didFailLoad);
         resolve();
       };
       const didFailLoad = (event, errorCode, errorDescription, validatedURL, isMainFrame) => {
-        window2.clearTimeout(timer);
+        clearTimeout(timer);
         if (isMainFrame === false) {
           console.debug(`Smart Link Formatter: Non-main frame load failed for ${validatedURL}: ${errorDescription}. Continuing for main frame.`);
           return;
@@ -510,7 +510,7 @@ var YouTubeClient = class extends Client {
       const html = response.text;
       const match = html.match(/var ytInitialPlayerResponse = ({.*?});/);
       const dataMatch = html.match(/var ytInitialData = ({.*?});/);
-      let playerResponseJson = null;
+      let playerResponseJson;
       if (match && match[1]) {
         playerResponseJson = JSON.parse(match[1]);
       } else if (dataMatch && dataMatch[1]) {
@@ -656,7 +656,7 @@ var TwitterClient = class extends Client {
   }
   loadTwitterAPIConfig() {
     return __async(this, null, function* () {
-      var _a;
+      var _a, _b;
       try {
         const graphqlResponse = yield (0, import_obsidian2.requestUrl)({
           url: "https://raw.githubusercontent.com/fa0311/TwitterInternalAPIDocument/master/docs/json/GraphQL.json",
@@ -667,8 +667,8 @@ var TwitterClient = class extends Client {
           var _a2;
           return ((_a2 = item.exports) == null ? void 0 : _a2.operationName) === "TweetResultByRestId";
         });
-        if (endpoint) {
-          this.queryId = endpoint.exports.queryId;
+        if (endpoint == null ? void 0 : endpoint.exports) {
+          this.queryId = (_a = endpoint.exports.queryId) != null ? _a : null;
           const metadata = endpoint.exports.metadata;
           if (metadata) {
             if (metadata.featureSwitch) {
@@ -691,7 +691,7 @@ var TwitterClient = class extends Client {
           method: "GET"
         });
         const apiData = JSON.parse(apiResponse.text);
-        this.bearerToken = (_a = apiData.header) == null ? void 0 : _a.authorization;
+        this.bearerToken = (_b = apiData.header) == null ? void 0 : _b.authorization;
       } catch (error) {
         console.error("Failed to load Twitter API config from GitHub:", error);
         this.queryId = "jGOLj4UQ6l5z9uUKfhqEHA";
@@ -775,35 +775,83 @@ var RedditClient = class extends Client {
     this.displayName = "Reddit";
     this.defaultFormat = "[{title}] - r/{subreddit}";
     this.matches = (url) => {
-      return /^https:\/\/reddit\.com\/r\/[\w-]+\/comments\//.test(url);
+      return /^https:\/\/reddit\.com\/r\/[\w-]+\/(comments|s)\/\w+/.test(url);
     };
   }
   getAvailableVariables() {
-    return ["title", "subreddit", "author", "upvotes", "comments", "created_at", "url"];
+    return ["title", "subreddit", "author", "upvotes", "created_at", "url"];
   }
   fetchMetadata(url) {
     return __async(this, null, function* () {
-      var _a, _b, _c, _d;
-      const jsonUrl = url.replace(/\/$/, "") + ".json";
-      const response = yield (0, import_obsidian2.requestUrl)({
-        url: jsonUrl,
-        method: "GET",
-        headers: {
-          "User-Agent": "Obsidian Smart Link Formatter"
+      var _a, _b, _c, _d, _e, _f, _g;
+      const parts = url.match(/reddit\.com\/r\/([\w-]+)\/(?:comments\/(\w+)|s\/\w+)/);
+      if (!parts) {
+        throw new Error("Unrecognized Reddit URL");
+      }
+      const subreddit = parts[1];
+      let postId = parts[2];
+      if (!postId) {
+        const shareResponse = yield (0, import_obsidian2.requestUrl)({ url, method: "GET" });
+        postId = (_a = shareResponse.text.match(/comments\/(\w+)/)) == null ? void 0 : _a[1];
+        if (!postId) {
+          throw new Error("Could not resolve Reddit share link");
         }
+      }
+      const response = yield (0, import_obsidian2.requestUrl)({
+        url: `https://embed.reddit.com/r/${subreddit}/comments/${postId}/`,
+        method: "GET"
       });
-      const data = JSON.parse(response.text);
-      const postData = (_d = (_c = (_b = (_a = data[0]) == null ? void 0 : _a.data) == null ? void 0 : _b.children) == null ? void 0 : _c[0]) == null ? void 0 : _d.data;
-      if (!postData) {
+      const html = response.text;
+      const title = (_d = (_b = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)) == null ? void 0 : _b[1]) != null ? _d : (_c = html.match(/<shreddit-embed-title>([\s\S]*?)<\/shreddit-embed-title>/)) == null ? void 0 : _c[1];
+      if (!title) {
         throw new Error("Could not find post data");
       }
+      const author = (_e = html.match(/reddit\.com\/user\/([^/"?]+)/)) == null ? void 0 : _e[1];
+      const upvotes = (_f = html.match(/<faceplate-number number="(\d+)"[^>]*><\/faceplate-number>\s*upvotes/)) == null ? void 0 : _f[1];
+      const createdAt = (_g = html.match(/<faceplate-timeago[^>]*ts="([^"]+)"/)) == null ? void 0 : _g[1];
       return {
-        title: postData.title ? escapeMarkdownChars(postData.title) : void 0,
-        subreddit: postData.subreddit ? escapeMarkdownChars(postData.subreddit) : void 0,
-        author: postData.author ? escapeMarkdownChars(postData.author) : void 0,
-        upvotes: postData.ups ? postData.ups.toLocaleString() : void 0,
-        comments: postData.num_comments ? postData.num_comments.toLocaleString() : void 0,
-        created_at: postData.created_utc ? new Date(postData.created_utc * 1e3).toISOString() : void 0
+        title: escapeMarkdownChars(title.trim()),
+        subreddit: escapeMarkdownChars(subreddit),
+        author: author ? escapeMarkdownChars(author) : void 0,
+        upvotes: upvotes ? Number(upvotes).toLocaleString() : void 0,
+        created_at: createdAt ? new Date(createdAt).toISOString() : void 0
+      };
+    });
+  }
+};
+var GitHubIssueClient = class extends Client {
+  constructor() {
+    super(...arguments);
+    this.name = "github-issue";
+    this.displayName = "GitHub Issue/PR";
+    this.defaultFormat = "[{owner}/{repo}#{number}]: {title}";
+    this.matches = (url) => {
+      return /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/(issues|pull)\/\d+/.test(url);
+    };
+  }
+  getAvailableVariables() {
+    return ["owner", "repo", "number", "type", "title", "url"];
+  }
+  fetchMetadata(url) {
+    return __async(this, null, function* () {
+      const pathMatch = url.match(/github\.com\/([\w.-]+)\/([\w.-]+)\/(issues|pull)\/(\d+)/);
+      if (!pathMatch)
+        throw new Error("Could not parse GitHub issue/PR URL");
+      const [, owner, repo, kind, number] = pathMatch;
+      const type = kind === "pull" ? "Pull Request" : "Issue";
+      const response = yield (0, import_obsidian2.requestUrl)({ url, method: "GET" });
+      const html = response.text;
+      const ogMatch = html.match(/<meta property="og:title" content="([^"]+)"/);
+      let title = ogMatch == null ? void 0 : ogMatch[1];
+      if (title) {
+        title = title.replace(/ · GitHub$/, "").replace(/ · [\w.-]+\/[\w.-]+$/, "").replace(/ · (Pull Request|Issue) #\d+$/, "").replace(/ by [\w.-]+$/, "");
+      }
+      return {
+        owner: escapeMarkdownChars(owner),
+        repo: escapeMarkdownChars(repo),
+        number,
+        type,
+        title: title ? escapeMarkdownChars(title) : void 0
       };
     });
   }
@@ -815,7 +863,7 @@ var GitHubClient = class extends Client {
     this.displayName = "GitHub";
     this.defaultFormat = "[{owner}/{repo}]: {description}";
     this.matches = (url) => {
-      return /^https:\/\/github\.com\/[\w-]+\/[\w-]+(\/)?$/.test(url);
+      return /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+(\/)?$/.test(url);
     };
   }
   getAvailableVariables() {
@@ -867,6 +915,7 @@ var CLIENTS = [
   new ImageClient(),
   new TwitterClient(),
   new RedditClient(),
+  new GitHubIssueClient(),
   new GitHubClient(),
   new DefaultClient()
 ];
@@ -1065,7 +1114,7 @@ var SmartLinkFormatterPlugin = class extends import_obsidian5.Plugin {
       this.registerEvent(this.app.workspace.on("editor-paste", (evt, editor) => {
         if (evt.defaultPrevented)
           return;
-        void this.handlePaste(evt, editor);
+        this.handlePaste(evt, editor);
       }));
       this.registerEvent(this.app.workspace.on("file-open", (file) => {
         if (file) {
@@ -1127,36 +1176,34 @@ var SmartLinkFormatterPlugin = class extends import_obsidian5.Plugin {
     });
   }
   handlePaste(evt, editor) {
-    return __async(this, null, function* () {
-      if (!this.settings.autoLink)
+    if (!this.settings.autoLink)
+      return;
+    if (!evt.clipboardData)
+      return;
+    const clipboardText = evt.clipboardData.getData("text/plain");
+    const activeFile = this.app.workspace.getActiveFile();
+    if (!activeFile)
+      return;
+    if (this.shouldOverride(editor))
+      return;
+    if (this.shouldReplace(editor, clipboardText)) {
+      if (this.isBlacklisted(clipboardText))
         return;
-      if (!evt.clipboardData)
+      evt.preventDefault();
+      void this.handleFormat(clipboardText, editor);
+      return;
+    }
+    if (/https?:\/\//.test(clipboardText)) {
+      const cursor = editor.getCursor();
+      const allLines = editor.getValue().split("\n");
+      if (isPositionProtected(allLines, cursor.line, cursor.ch))
         return;
-      const clipboardText = evt.clipboardData.getData("text/plain");
-      const activeFile = this.app.workspace.getActiveFile();
-      if (!activeFile)
-        return;
-      if (this.shouldOverride(editor))
-        return;
-      if (this.shouldReplace(editor, clipboardText)) {
-        if (this.isBlacklisted(clipboardText))
-          return;
-        evt.preventDefault();
-        void this.handleFormat(clipboardText, editor);
-        return;
-      }
-      if (/https?:\/\//.test(clipboardText)) {
-        const cursor = editor.getCursor();
-        const allLines = editor.getValue().split("\n");
-        if (isPositionProtected(allLines, cursor.line, cursor.ch))
-          return;
-        evt.preventDefault();
-        const startLine = cursor.line;
-        editor.replaceSelection(clipboardText);
-        const endLine = editor.getCursor().line;
-        this.formatLinksInRange(editor, startLine, endLine);
-      }
-    });
+      evt.preventDefault();
+      const startLine = cursor.line;
+      editor.replaceSelection(clipboardText);
+      const endLine = editor.getCursor().line;
+      this.formatLinksInRange(editor, startLine, endLine);
+    }
   }
   handleFormat(clipboardText, editor) {
     return __async(this, null, function* () {
@@ -1294,3 +1341,5 @@ var SmartLinkFormatterPlugin = class extends import_obsidian5.Plugin {
     });
   }
 };
+
+/* nosourcemap */

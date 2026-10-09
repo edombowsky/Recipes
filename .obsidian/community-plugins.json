@@ -32,5 +32,6 @@
   "tag-wrangler",
   "fileclass",
   "kaper",
-  "syncthing-integration"
+  "syncthing-integration",
+  "substitutions"
 ]

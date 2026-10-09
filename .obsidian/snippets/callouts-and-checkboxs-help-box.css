@@ -1,8 +1,12 @@
-/* Callouts & Checkboxes Reminder - Hover your mouse over the ? icon in the bottom-left, 
-   next to the settings cog icon, to show an image displaying the different callouts and 
-   checkboxes. Made by https://www.reddit.com/user/Content_Trouble_/. 
-   Detailed instructions here: https://www.reddit.com/r/ObsidianMD/comments/1fxiirm/kept_forgetting_my_callouts_and_checkboxes_so_i/ 
-   GitHub: https://github.com/SublimePeace/ObsidianHelpbox */
+/*
+  Callouts & Checkboxes Reminder - Hover your mouse over the ? icon in the bottom-left,
+  next to the settings cog icon, to show an image displaying the different callouts and
+  checkboxes.
+
+  Made by https://www.reddit.com/user/Content_Trouble_/.
+  Detailed instructions here: https://www.reddit.com/r/ObsidianMD/comments/1fxiirm/kept_forgetting_my_callouts_and_checkboxes_so_i/
+  GitHub: https://github.com/SublimePeace/ObsidianHelpbox
+*/
 
 .workspace-drawer-vault-actions .clickable-icon {
     position: relative; /* Establishes a positioning context */

@@ -113,7 +113,7 @@
   "ProperNoun": "",
   "OrderedListOtherSeparator": "",
   "Wikilink2mdRelativePath": "relative-obsidian",
-  "calloutType": "NOTE",
+  "calloutType": "note",
   "debugMode": false,
   "headingLevelMin": 0,
   "calloutTypeDecider": "previous-content",

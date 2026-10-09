@@ -86,7 +86,8 @@
         font-weight: 600;
     }
 
-    .obsidian-print-base-group-row th {
+    .obsidian-print-base-group-row th,
+    .obsidian-print-base-summary-row td {
         background: var(--background-primary-alt, #f8f8f8);
         color: var(--text-muted, #4b5563);
         font-weight: 600;
@@ -112,7 +113,6 @@
     .callout,
     .mermaid,
     .obsidian-print-frontmatter,
-    .obsidian-print-frontmatter-properties,
     .obsidian-print-frontmatter-property,
     .obsidian-print-frontmatter-object,
     .obsidian-print-frontmatter-object-row,
@@ -144,11 +144,6 @@
     .callout-content > :last-child,
     .callout-title > :last-child {
         margin-bottom: 0;
-    }
-
-    .mermaid {
-        break-inside: avoid;
-        page-break-inside: avoid;
     }
 
     .mermaid svg {
