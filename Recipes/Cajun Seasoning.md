@@ -12,8 +12,8 @@ total_time: 5 mins
 prep_time: 5 mins
 cooking_time: 
 source: https://www.delish.com/cooking/recipe-ideas/a26258870/cajun-seasoning-spice-recipe/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:17:32.939 -0700
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-10-08 16:10:06.671-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

@@ -14,8 +14,8 @@ total_time: 1 hr
 prep_time: 30 mins
 cooking_time: 30 mins
 source: https://www.southernliving.com/recipes/best-jambalaya
-created: 2023-09-19T21:58
-updated: 2024.05.31 22:07:58.188 -0700
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-10-08 16:08:51.607-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner
