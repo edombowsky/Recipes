@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "7254738d270d3ec6",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "251e8b7c0e8be390",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recipes/Jambalaya.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Jambalaya"
+              "title": "New tab"
             }
           }
         ]
@@ -108,7 +103,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recipes/Jambalaya.md"
+                "file": "zAttachments/Cheeseburger Casserole.webp"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -187,10 +182,12 @@
       "syncthing-integration:Open Syncthing conflict manager modal": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "44e4b8c57475acc4",
   "lastOpenFiles": [
-    "Recipes/Cajun Seasoning.md",
+    "Recipes/Cheeseburger Casserole.md",
+    "Recipe Collection.md",
     "Recipes/Jambalaya.md",
+    "Recipes/Cajun Seasoning.md",
     "Recipes/Stuffing Balls.md",
     "zAttachments/budget_roast_turkey.jpg",
     "zAttachments/Unconfirmed 337029.crdownload",
@@ -198,7 +195,6 @@
     "Recipes/How to make buttermilk.md",
     "zAttachments/ulster-fry.jpg",
     "zAttachments/Unconfirmed 165662.crdownload",
-    "Recipe Collection.md",
     "Recipes/Pink & Spiny Scallops In Coconut Lemongrass Broth.md",
     "Recipes/Weeknight Steak Fajitas.md",
     "zAttachments/Weeknight Steak Fajitas.jpg",
@@ -212,7 +208,6 @@
     "zAttachments/Unconfirmed 293585.crdownload",
     "Recipes/Potato Puree.md",
     "Recipes/Mum’s 30 Minute Spaghetti Sauce.md",
-    "Recipes/Cheeseburger Casserole.md",
     "Recipes/Japanese Curry.md",
     "Recipes/Faster, Better, Spaghetti & Meat Sauce.md",
     "Recipes/Indian Curry.md",
@@ -222,7 +217,7 @@
     "zAttachments/Unconfirmed 364670.crdownload",
     "zAttachments/Faster-Better-Spaghettiand-and-Meat-Sauce.jpeg",
     "zAttachments/Unconfirmed 728960.crdownload",
-    "Cheeseburger Casserole.webp",
+    "zAttachments/Cheeseburger Casserole.webp",
     "zAttachments/mums-30-minute-spaghetti-sauce.webp",
     "zAttachments/Unconfirmed 422428.crdownload",
     "zAttachments/Unconfirmed 480617.crdownload",
