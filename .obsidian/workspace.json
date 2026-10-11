@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7254738d270d3ec6",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "251e8b7c0e8be390",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Recipe Collection.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Recipe Collection"
             }
           }
         ]
@@ -103,7 +108,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "zAttachments/Cheeseburger Casserole.webp"
+                "file": "Recipe Collection.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -182,10 +187,13 @@
       "syncthing-integration:Open Syncthing conflict manager modal": false
     }
   },
-  "active": "44e4b8c57475acc4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Recipes/Cheeseburger Casserole.md",
     "Recipe Collection.md",
+    "Recipes/Pâté Chinois.md",
+    "zAttachments/Pâté-Chinois.avif",
+    "zAttachments/Unconfirmed 841569.crdownload",
+    "Recipes/Cheeseburger Casserole.md",
     "Recipes/Jambalaya.md",
     "Recipes/Cajun Seasoning.md",
     "Recipes/Stuffing Balls.md",
@@ -218,17 +226,13 @@
     "zAttachments/Faster-Better-Spaghettiand-and-Meat-Sauce.jpeg",
     "zAttachments/Unconfirmed 728960.crdownload",
     "zAttachments/Cheeseburger Casserole.webp",
-    "zAttachments/mums-30-minute-spaghetti-sauce.webp",
     "zAttachments/Unconfirmed 422428.crdownload",
-    "zAttachments/Unconfirmed 480617.crdownload",
     "Recipes/New York Bagels.md",
     "Recipes/Mary Berg's Salisbury Steak with Mushroom Gravy.md",
     "Recipes/Cornish Pasty.md",
     "Recipes/Candied Jalapenos.md",
     "Recipes/2 Ingredient No Yeast Artisan Bread.md",
     "Recipes/Sun-Dried Tomato Hummus.md",
-    "Untitled.md",
-    "Recipes/Easy Tomato Soup with Canned Tomatoes.md",
-    "Recipes/Best Tomato Tart with Puff Pastry.md"
+    "Untitled.md"
   ]
 }
