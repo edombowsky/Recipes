@@ -65,6 +65,32 @@ class ViewModeByFrontmatterPlugin extends obsidian.Plugin {
                     return;
                 }
                 let state = leaf.getViewState();
+                // only touch the view state when it actually changes; every call to
+                // setViewState rebuilds the view, which undoes what other plugins did
+                // to the tab (e.g. its title or icon)
+                const setViewStateIfChanged = (mode, source) => __awaiter(this, void 0, void 0, function* () {
+                    if (state.state.mode === mode && state.state.source === source) {
+                        return;
+                    }
+                    state.state.mode = mode;
+                    state.state.source = source;
+                    yield leaf.setViewState(state);
+                });
+                // ... get frontmatter data and search for a key indicating the desired view mode
+                // and when the given key is present ... set it to the declared mode
+                const fileCache = this.app.metadataCache.getFileCache(view.file);
+                const fileDeclaredUIMode = fileCache !== null && fileCache.frontmatter
+                    ? fileCache.frontmatter[this.OBSIDIAN_UI_MODE_KEY]
+                    : null;
+                const fileDeclaredEditingMode = fileCache !== null && fileCache.frontmatter
+                    ? fileCache.frontmatter[this.OBSIDIAN_EDITING_MODE_KEY]
+                    : null;
+                const defaultEditingModeIsLivePreview = this.app.vault.config.livePreview === undefined ? true : this.app.vault.config.livePreview;
+                // editing mode to use when only the view mode is forced: the one declared
+                // in frontmatter, otherwise the Obsidian default
+                const editingModeIsSource = ["source", "live"].includes(fileDeclaredEditingMode)
+                    ? fileDeclaredEditingMode == "source"
+                    : !defaultEditingModeIsLivePreview;
                 // check if in a declared folder or file
                 let folderOrFileModeState = null;
                 const setFolderOrFileModeState = (viewMode) => {
@@ -90,7 +116,7 @@ class ViewModeByFrontmatterPlugin extends obsidian.Plugin {
                             break;
                         }
                         case this.OBSIDIAN_UI_MODE_KEY:
-                            folderOrFileModeState.source = false;
+                            folderOrFileModeState.source = editingModeIsSource;
                             break;
                     }
                 };
@@ -124,37 +150,22 @@ class ViewModeByFrontmatterPlugin extends obsidian.Plugin {
                     setFolderOrFileModeState(viewMode);
                 }
                 if (folderOrFileModeState) {
-                    if (state.state.mode !== folderOrFileModeState.mode ||
-                        state.state.source !== folderOrFileModeState.source) {
-                        state.state.mode = folderOrFileModeState.mode;
-                        state.state.source = folderOrFileModeState.source;
-                        yield leaf.setViewState(state);
-                    }
+                    yield setViewStateIfChanged(folderOrFileModeState.mode, folderOrFileModeState.source);
                     return;
                 }
-                // ... get frontmatter data and search for a key indicating the desired view mode
-                // and when the given key is present ... set it to the declared mode
-                const fileCache = this.app.metadataCache.getFileCache(view.file);
-                const fileDeclaredUIMode = fileCache !== null && fileCache.frontmatter
-                    ? fileCache.frontmatter[this.OBSIDIAN_UI_MODE_KEY]
-                    : null;
-                const fileDeclaredEditingMode = fileCache !== null && fileCache.frontmatter
-                    ? fileCache.frontmatter[this.OBSIDIAN_EDITING_MODE_KEY]
-                    : null;
-                if (fileDeclaredUIMode) {
-                    if (["source", "preview", "live"].includes(fileDeclaredUIMode) &&
-                        view.getMode() !== fileDeclaredUIMode) {
-                        state.state.mode = fileDeclaredUIMode;
-                    }
-                }
-                if (fileDeclaredEditingMode) {
-                    const shouldBeSourceMode = fileDeclaredEditingMode == 'source';
-                    if (["source", "live"].includes(fileDeclaredEditingMode)) {
-                        state.state.source = shouldBeSourceMode;
-                    }
-                }
                 if (fileDeclaredUIMode || fileDeclaredEditingMode) {
-                    yield leaf.setViewState(state);
+                    const fileDeclaredUIModeIsValid = ["source", "preview", "live"].includes(fileDeclaredUIMode);
+                    const mode = fileDeclaredUIModeIsValid
+                        ? fileDeclaredUIMode
+                        : state.state.mode;
+                    // when the view mode is forced, fall back to the Obsidian default
+                    // editing mode instead of whatever the leaf happened to be in
+                    const source = fileDeclaredUIModeIsValid
+                        ? editingModeIsSource
+                        : ["source", "live"].includes(fileDeclaredEditingMode)
+                            ? fileDeclaredEditingMode == "source"
+                            : state.state.source;
+                    yield setViewStateIfChanged(mode, source);
                     if (true == this.settings.ignoreOpenFiles) {
                         this.openedFiles = resetOpenedNotes(this.app);
                     }
@@ -163,14 +174,8 @@ class ViewModeByFrontmatterPlugin extends obsidian.Plugin {
                 const defaultViewMode = this.app.vault.config.defaultViewMode
                     ? this.app.vault.config.defaultViewMode
                     : "source";
-                const defaultEditingModeIsLivePreview = this.app.vault.config.livePreview === undefined ? true : this.app.vault.config.livePreview;
                 if (!this.settings.ignoreForceViewAll) {
-                    let state = leaf.getViewState();
-                    if (view.getMode() !== defaultViewMode) {
-                        state.state.mode = defaultViewMode;
-                    }
-                    state.state.source = defaultEditingModeIsLivePreview ? false : true;
-                    yield leaf.setViewState(state);
+                    yield setViewStateIfChanged(defaultViewMode, !defaultEditingModeIsLivePreview);
                     this.openedFiles = resetOpenedNotes(this.app);
                 }
                 return;
@@ -193,9 +198,7 @@ class ViewModeByFrontmatterPlugin extends obsidian.Plugin {
         });
     }
     onunload() {
-        return __awaiter(this, void 0, void 0, function* () {
-            this.openedFiles = [];
-        });
+        this.openedFiles = [];
     }
 }
 function alreadyOpen(currFile, openedFiles) {
@@ -222,21 +225,120 @@ function resetOpenedNotes(app) {
     });
     return openedFiles;
 }
+// the key is the stored value, the label what is shown in the dropdown
+const VIEW_MODES = {
+    "default": "default",
+    "obsidianUIMode: preview": "obsidianUIMode: preview (reading view)",
+    "obsidianUIMode: source": "obsidianUIMode: source (editing view)",
+    "obsidianEditingMode: live": "obsidianEditingMode: live (live preview)",
+    "obsidianEditingMode: source": "obsidianEditingMode: source (source mode)",
+};
+const IGNORE_OPEN_FILES = {
+    name: "Ignore opened files",
+    desc: "Never change the view mode on a note which was already open.",
+};
+const IGNORE_FORCE_VIEW_ALL = {
+    name: "Ignore force view when not in frontmatter",
+    desc: "Never change the view mode on a note that was opened from another one in a certain view mode",
+};
+const DEBOUNCE_TIMEOUT = {
+    name: "Debounce timeout in milliseconds",
+    desc: `Debounce timeout is the time in milliseconds after which the view mode is set. Set "0" to disable debouncing (default value is "300"). If you experience issues with the plugin, try increasing this value.`,
+};
+function keysDescription() {
+    return createFragment((desc) => {
+        desc.append("Changing the view mode can be done through the key ", desc.createEl("code", { text: "obsidianUIMode" }), ", which can have the value ", desc.createEl("code", { text: "source" }), " (editing view) or ", desc.createEl("code", { text: "preview" }), " (reading view).", desc.createEl("br"), "Changing the editing mode happens by declaring the key ", desc.createEl("code", { text: "obsidianEditingMode" }), "; it takes ", desc.createEl("code", { text: "live" }), " (live preview) or ", desc.createEl("code", { text: "source" }), " (source mode) as value.");
+    });
+}
+function foldersDescription() {
+    return createFragment((desc) => {
+        desc.append("Specify a view mode for notes in a given folder.", desc.createEl("br"), "Note that this will force the view mode on all the notes in the folder, even if they have a different view mode set in their frontmatter.", desc.createEl("br"), "Precedence is from bottom (highest) to top (lowest), so if you have child folders specified, make sure to put them below their parent folder.");
+    });
+}
+function filesDescription() {
+    return createFragment((desc) => {
+        desc.append("Specify a view mode for notes with specific patterns (regular expression; example \" - All$\" for all notes ending with \" - All\" or \"1900-01\" for all daily notes starting with \"1900-01\"", desc.createEl("br"), "Note that this will force the view mode, even if it have a different view mode set in its frontmatter.", desc.createEl("br"), "Precedence is from bottom (highest) to top (lowest).", desc.createEl("br"), "Notice that configuring a file pattern will override the folder configuration for the same file.");
+    });
+}
 class ViewModeByFrontmatterSettingTab extends obsidian.PluginSettingTab {
     constructor(app, plugin) {
         super(app, plugin);
         this.plugin = plugin;
     }
+    // Obsidian 1.13 and later build the tab from these definitions, which also
+    // puts the settings in the settings search; older versions call display()
+    getSettingDefinitions() {
+        const { folders, files } = this.plugin.settings;
+        return [
+            { name: "Front matter keys", desc: keysDescription() },
+            Object.assign(Object.assign({}, IGNORE_OPEN_FILES), { control: { type: "toggle", key: "ignoreOpenFiles" } }),
+            Object.assign(Object.assign({}, IGNORE_FORCE_VIEW_ALL), { control: { type: "toggle", key: "ignoreForceViewAll" } }),
+            Object.assign(Object.assign({}, DEBOUNCE_TIMEOUT), { control: {
+                    type: "number",
+                    key: "debounceTimeout",
+                    min: 0,
+                    defaultValue: DEFAULT_SETTINGS.debounceTimeout,
+                } }),
+            {
+                type: "list",
+                heading: "Folders",
+                items: folders.map((folderMode, index) => ({
+                    name: folderMode.folder,
+                    searchable: false,
+                    render: (setting) => {
+                        this.addFolderControls(setting, index);
+                        setting.infoEl.remove();
+                        setting.settingEl.addClass("force-view-mode-rule");
+                    },
+                })),
+                addItem: {
+                    name: "Add folder",
+                    action: () => void this.addRule(folders, { folder: "", viewMode: "" }),
+                },
+                onDelete: (index) => void this.deleteRule(folders, index),
+                onReorder: (from, to) => void this.moveRule(folders, from, to),
+            },
+            // a list header holds only its heading and add button, so the
+            // explanation goes below the rules
+            {
+                type: "group",
+                items: [{ name: "Folder rules", desc: foldersDescription() }],
+            },
+            {
+                type: "list",
+                heading: "Files",
+                items: files.map((file, index) => ({
+                    name: file.filePattern,
+                    searchable: false,
+                    render: (setting) => {
+                        this.addFileControls(setting, index);
+                        setting.infoEl.remove();
+                        setting.settingEl.addClass("force-view-mode-rule");
+                    },
+                })),
+                addItem: {
+                    name: "Add file",
+                    action: () => void this.addRule(files, { filePattern: "", viewMode: "" }),
+                },
+                onDelete: (index) => void this.deleteRule(files, index),
+                onReorder: (from, to) => void this.moveRule(files, from, to),
+            },
+            // a list header holds only its heading and add button, so the
+            // explanation goes below the rules
+            {
+                type: "group",
+                items: [{ name: "File rules", desc: filesDescription() }],
+            },
+        ];
+    }
     display() {
-        let { containerEl } = this;
+        const { containerEl } = this;
+        const { folders, files } = this.plugin.settings;
         containerEl.empty();
-        const createHeader = (text) => containerEl.createEl("h2", { text });
-        const desc = document.createDocumentFragment();
-        desc.append("Changing the view mode can be done through the key ", desc.createEl("code", { text: "obsidianUIMode" }), ", which can have the value ", desc.createEl("code", { text: "source" }), " or ", desc.createEl("code", { text: "preview" }), ".", desc.createEl("br"), "Changing the editing mode happens by declaring the key ", desc.createEl("code", { text: "obsidianEditingMode" }), "; it takes ", desc.createEl("code", { text: "live" }), " or ", desc.createEl("code", { text: "source" }), " as value.");
-        new obsidian.Setting(this.containerEl).setDesc(desc);
+        new obsidian.Setting(containerEl).setDesc(keysDescription());
         new obsidian.Setting(containerEl)
-            .setName("Ignore opened files")
-            .setDesc("Never change the view mode on a note which was already open.")
+            .setName(IGNORE_OPEN_FILES.name)
+            .setDesc(IGNORE_OPEN_FILES.desc)
             .addToggle((checkbox) => checkbox
             .setValue(this.plugin.settings.ignoreOpenFiles)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -244,8 +346,8 @@ class ViewModeByFrontmatterSettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Ignore force view when not in frontmatter")
-            .setDesc("Never change the view mode on a note that was opened from another one in a certain view mode")
+            .setName(IGNORE_FORCE_VIEW_ALL.name)
+            .setDesc(IGNORE_FORCE_VIEW_ALL.desc)
             .addToggle((checkbox) => {
             checkbox
                 .setValue(this.plugin.settings.ignoreForceViewAll)
@@ -255,144 +357,135 @@ class ViewModeByFrontmatterSettingTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName("Debounce timeout in milliseconds")
-            .setDesc(`Debounce timeout is the time in milliseconds after which the view mode is set. Set "0" to disable debouncing (default value is "300"). If you experience issues with the plugin, try increasing this value.`)
+            .setName(DEBOUNCE_TIMEOUT.name)
+            .setDesc(DEBOUNCE_TIMEOUT.desc)
             .addText((cb) => {
             cb.setValue(String(this.plugin.settings.debounceTimeout)).onChange((value) => __awaiter(this, void 0, void 0, function* () {
                 this.plugin.settings.debounceTimeout = Number(value);
                 yield this.plugin.saveSettings();
             }));
         });
-        const modes = [
-            "default",
-            "obsidianUIMode: preview",
-            "obsidianUIMode: source",
-            "obsidianEditingMode: live",
-            "obsidianEditingMode: source",
-        ];
-        createHeader("Folders");
-        const folderDesc = document.createDocumentFragment();
-        folderDesc.append("Specify a view mode for notes in a given folder.", folderDesc.createEl("br"), "Note that this will force the view mode on all the notes in the folder, even if they have a different view mode set in their frontmatter.", folderDesc.createEl("br"), "Precedence is from bottom (highest) to top (lowest), so if you have child folders specified, make sure to put them below their parent folder.");
-        new obsidian.Setting(this.containerEl).setDesc(folderDesc);
-        new obsidian.Setting(this.containerEl)
+        new obsidian.Setting(containerEl).setName("Folders").setHeading();
+        new obsidian.Setting(containerEl).setDesc(foldersDescription());
+        new obsidian.Setting(containerEl)
             .setDesc("Add new folder")
             .addButton((button) => {
             button
                 .setTooltip("Add another folder to the list")
                 .setButtonText("+")
                 .setCta()
-                .onClick(() => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.folders.push({
-                    folder: "",
-                    viewMode: "",
-                });
-                yield this.plugin.saveSettings();
-                this.display();
-            }));
+                .onClick(() => this.addRule(folders, { folder: "", viewMode: "" }));
         });
-        this.plugin.settings.folders.forEach((folderMode, index) => {
-            const div = containerEl.createEl("div");
-            div.addClass("force-view-mode-div");
-            div.addClass("force-view-mode-folder");
-            const s = new obsidian.Setting(this.containerEl)
-                .addSearch((cb) => {
-                cb.setPlaceholder("Example: folder1/templates")
-                    .setValue(folderMode.folder)
-                    .onChange((newFolder) => __awaiter(this, void 0, void 0, function* () {
-                    if (newFolder &&
-                        this.plugin.settings.folders.some((e) => e.folder == newFolder)) {
-                        console.error("ForceViewMode: This folder already has a template associated with", newFolder);
-                        return;
-                    }
-                    this.plugin.settings.folders[index].folder = newFolder;
-                    yield this.plugin.saveSettings();
-                }));
-            })
-                .addDropdown(cb => {
-                modes.forEach(mode => {
-                    cb.addOption(mode, mode);
-                });
-                cb.setValue(folderMode.viewMode || "default")
-                    .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                    this.plugin.settings.folders[index].viewMode = value;
-                    yield this.plugin.saveSettings();
-                }));
-            })
-                .addExtraButton((cb) => {
+        folders.forEach((_, index) => {
+            const s = new obsidian.Setting(containerEl.createDiv({ cls: ["force-view-mode-div", "force-view-mode-folder"] }));
+            this.addFolderControls(s, index);
+            s.addExtraButton((cb) => {
                 cb.setIcon("cross")
                     .setTooltip("Delete")
-                    .onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    this.plugin.settings.folders.splice(index, 1);
-                    yield this.plugin.saveSettings();
-                    this.display();
-                }));
+                    .onClick(() => this.deleteRule(folders, index));
             });
             s.infoEl.remove();
-            div.appendChild(containerEl.lastChild);
         });
-        createHeader("Files");
-        const filesDesc = document.createDocumentFragment();
-        filesDesc.append("Specify a view mode for notes with specific patterns (regular expression; example \" - All$\" for all notes ending with \" - All\" or \"1900-01\" for all daily notes starting with \"1900-01\"", filesDesc.createEl("br"), "Note that this will force the view mode, even if it have a different view mode set in its frontmatter.", filesDesc.createEl("br"), "Precedence is from bottom (highest) to top (lowest).", filesDesc.createEl("br"), "Notice that configuring a file pattern will override the folder configuration for the same file.");
-        new obsidian.Setting(this.containerEl).setDesc(filesDesc);
-        new obsidian.Setting(this.containerEl)
+        new obsidian.Setting(containerEl).setName("Files").setHeading();
+        new obsidian.Setting(containerEl).setDesc(filesDescription());
+        new obsidian.Setting(containerEl)
             .setDesc("Add new file")
             .addButton((button) => {
             button
                 .setTooltip("Add another file to the list")
                 .setButtonText("+")
                 .setCta()
-                .onClick(() => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.files.push({
-                    filePattern: "",
-                    viewMode: "",
-                });
-                yield this.plugin.saveSettings();
-                this.display();
-            }));
+                .onClick(() => this.addRule(files, { filePattern: "", viewMode: "" }));
         });
-        this.plugin.settings.files.forEach((file, index) => {
-            const div = containerEl.createEl("div");
-            div.addClass("force-view-mode-div");
-            div.addClass("force-view-mode-folder");
-            const s = new obsidian.Setting(this.containerEl)
-                .addSearch((cb) => {
-                cb.setPlaceholder(`Example: " - All$" or "1900-01")`)
-                    .setValue(file.filePattern)
-                    .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                    if (value &&
-                        this.plugin.settings.files.some((e) => e.filePattern == value)) {
-                        console.error("ForceViewMode: Pattern already exists", value);
-                        return;
-                    }
-                    this.plugin.settings.files[index].filePattern = value;
-                    yield this.plugin.saveSettings();
-                }));
-            })
-                .addDropdown((cb) => {
-                modes.forEach((mode) => {
-                    cb.addOption(mode, mode);
-                });
-                cb.setValue(file.viewMode || "default").onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                    this.plugin.settings.files[index].viewMode = value;
-                    yield this.plugin.saveSettings();
-                }));
-            })
-                .addExtraButton((cb) => {
+        files.forEach((_, index) => {
+            const s = new obsidian.Setting(containerEl.createDiv({ cls: ["force-view-mode-div", "force-view-mode-folder"] }));
+            this.addFileControls(s, index);
+            s.addExtraButton((cb) => {
                 cb.setIcon("cross")
                     .setTooltip("Delete")
-                    .onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    this.plugin.settings.files.splice(index, 1);
-                    yield this.plugin.saveSettings();
-                    this.display();
-                }));
+                    .onClick(() => this.deleteRule(files, index));
             });
             s.infoEl.remove();
-            div.appendChild(containerEl.lastChild);
         });
+    }
+    addFolderControls(setting, index) {
+        const { folders } = this.plugin.settings;
+        setting
+            .addSearch((cb) => {
+            cb.setPlaceholder("Example: folder1/templates")
+                .setValue(folders[index].folder)
+                .onChange((newFolder) => __awaiter(this, void 0, void 0, function* () {
+                if (newFolder && folders.some((e) => e.folder == newFolder)) {
+                    console.error("ForceViewMode: This folder already has a template associated with", newFolder);
+                    return;
+                }
+                folders[index].folder = newFolder;
+                yield this.plugin.saveSettings();
+            }));
+        })
+            .addDropdown((cb) => {
+            cb.addOptions(VIEW_MODES);
+            cb.setValue(folders[index].viewMode || "default").onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                folders[index].viewMode = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+    }
+    addFileControls(setting, index) {
+        const { files } = this.plugin.settings;
+        setting
+            .addSearch((cb) => {
+            cb.setPlaceholder(`Example: " - All$" or "1900-01")`)
+                .setValue(files[index].filePattern)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                if (value && files.some((e) => e.filePattern == value)) {
+                    console.error("ForceViewMode: Pattern already exists", value);
+                    return;
+                }
+                files[index].filePattern = value;
+                yield this.plugin.saveSettings();
+            }));
+        })
+            .addDropdown((cb) => {
+            cb.addOptions(VIEW_MODES);
+            cb.setValue(files[index].viewMode || "default").onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                files[index].viewMode = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+    }
+    addRule(rules, rule) {
+        return __awaiter(this, void 0, void 0, function* () {
+            rules.push(rule);
+            yield this.plugin.saveSettings();
+            this.refresh();
+        });
+    }
+    deleteRule(rules, index) {
+        return __awaiter(this, void 0, void 0, function* () {
+            rules.splice(index, 1);
+            yield this.plugin.saveSettings();
+            this.refresh();
+        });
+    }
+    moveRule(rules, from, to) {
+        return __awaiter(this, void 0, void 0, function* () {
+            rules.splice(to, 0, ...rules.splice(from, 1));
+            yield this.plugin.saveSettings();
+            this.refresh();
+        });
+    }
+    // re-render after rules were added, removed or moved; Obsidian 1.13 and
+    // later no longer call display() once getSettingDefinitions() is implemented
+    refresh() {
+        if (obsidian.requireApiVersion("1.13.0")) {
+            this.update();
+        }
+        else {
+            this.display();
+        }
     }
 }
 
 module.exports = ViewModeByFrontmatterPlugin;
-
-
-/* nosourcemap */
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXMiOlsibm9kZV9tb2R1bGVzL3RzbGliL3RzbGliLmVzNi5qcyIsIm1haW4udHMiXSwic291cmNlc0NvbnRlbnQiOm51bGwsIm5hbWVzIjpbIlBsdWdpbiIsIk1hcmtkb3duVmlldyIsIlRGb2xkZXIiLCJkZWJvdW5jZSIsIlBsdWdpblNldHRpbmdUYWIiLCJTZXR0aW5nIiwicmVxdWlyZUFwaVZlcnNpb24iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFvR0E7QUFDTyxTQUFTLFNBQVMsQ0FBQyxPQUFPLEVBQUUsVUFBVSxFQUFFLENBQUMsRUFBRSxTQUFTLEVBQUU7QUFDN0QsSUFBSSxTQUFTLEtBQUssQ0FBQyxLQUFLLEVBQUUsRUFBRSxPQUFPLEtBQUssWUFBWSxDQUFDLEdBQUcsS0FBSyxHQUFHLElBQUksQ0FBQyxDQUFDLFVBQVUsT0FBTyxFQUFFLEVBQUUsT0FBTyxDQUFDLEtBQUssQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDLEVBQUU7QUFDaEgsSUFBSSxPQUFPLEtBQUssQ0FBQyxLQUFLLENBQUMsR0FBRyxPQUFPLENBQUMsRUFBRSxVQUFVLE9BQU8sRUFBRSxNQUFNLEVBQUU7QUFDL0QsUUFBUSxTQUFTLFNBQVMsQ0FBQyxLQUFLLEVBQUUsRUFBRSxJQUFJLEVBQUUsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxFQUFFLENBQUMsT0FBTyxDQUFDLEVBQUUsRUFBRSxNQUFNLENBQUMsQ0FBQyxDQUFDLENBQUMsRUFBRSxFQUFFO0FBQ25HLFFBQVEsU0FBUyxRQUFRLENBQUMsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsT0FBTyxDQUFDLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxFQUFFLENBQUMsT0FBTyxDQUFDLEVB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

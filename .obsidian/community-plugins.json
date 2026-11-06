@@ -14,8 +14,6 @@
   "recipe-view",
   "templater-obsidian",
   "open-tab-settings",
-  "find-orphaned-images",
-  "homepage",
   "better-export-pdf",
   "image-converter",
   "paste-image-rename-convert",
@@ -33,5 +31,6 @@
   "fileclass",
   "kaper",
   "syncthing-integration",
-  "substitutions"
+  "substitutions",
+  "recipe-box"
 ]
