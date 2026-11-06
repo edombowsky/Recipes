@@ -2,14 +2,14 @@
   "version": 5,
   "homepages": {
     "Main Homepage": {
-      "value": "Recipe Collection.md",
+      "value": "Home.md",
       "kind": "Nothing",
-      "openOnStartup": false,
+      "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
-      "view": "Reading view",
+      "view": "Default view",
       "revertView": true,
-      "openWhenEmpty": true,
+      "openWhenEmpty": false,
       "openOnNewTab": false,
       "refreshDataview": false,
       "autoCreate": false,
@@ -18,6 +18,10 @@
       "commands": [
         {
           "id": "recipe-box:open-dashboard",
+          "period": "Both"
+        },
+        {
+          "id": "recipe-box:open-recipe-gallery",
           "period": "Both"
         }
       ],

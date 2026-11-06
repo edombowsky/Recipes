@@ -21,16 +21,19 @@
   "obsidian42-brat",
   "notebook-navigator",
   "outliner-md",
-  "smart-link-formatter",
   "table-editor-obsidian",
   "obsidian-trim-whitespace",
   "obsidian-text-format",
   "recipe-grabber",
   "harper",
-  "tag-wrangler",
   "fileclass",
   "kaper",
   "syncthing-integration",
   "substitutions",
-  "recipe-box"
+  "recipe-box",
+  "homepage",
+  "better-paste",
+  "sfb-better-search-and-replace",
+  "obsidian-git",
+  "pretty-properties"
 ]

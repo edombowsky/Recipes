@@ -9,7 +9,6 @@
   "ingredientsHeading": "Ingredients",
   "instructionsHeading": "Instructions",
   "notesHeading": "Notes",
-  "enableDashboard": true,
   "groupingMode": "category",
   "categorySource": "dictionary",
   "autoSortCategories": true,
@@ -54,9 +53,9 @@
   "desktopTwoColumnSplitRatio": 0.5,
   "cookHistoryEnabled": true,
   "cookHistoryHeading": "Cook History",
-  "cookHistoryFrontmatterProperty": "cookHistory",
-  "lastMadeProperty": "lastMade",
-  "cookedCountProperty": "cookedCount",
+  "cookHistoryFrontmatterProperty": "cook_hIstory",
+  "lastMadeProperty": "last_made",
+  "cookedCountProperty": "cooked_count",
   "favoriteProperty": "favourite",
   "allergensProperty": "allergens",
   "dietProperty": "diet",
@@ -76,12 +75,10 @@
     {
       "id": "builtin-rediscover",
       "name": "Rediscover favorite recipes",
-      "isBuiltin": true,
-      "isDefault": false,
       "filters": [],
       "rules": [
         {
-          "field": "lastMade",
+          "field": "last_made",
           "direction": "favor-low"
         },
         {
@@ -89,16 +86,16 @@
           "direction": "favor-high"
         },
         {
-          "field": "cookedCount",
+          "field": "cooked_count",
           "direction": "favor-low"
         }
-      ]
+      ],
+      "isBuiltin": true,
+      "isDefault": false
     },
     {
       "id": "builtin-go-to",
       "name": "My Go-to recipes",
-      "isBuiltin": true,
-      "isDefault": false,
       "filters": [],
       "rules": [
         {
@@ -106,20 +103,20 @@
           "direction": "favor-high"
         },
         {
-          "field": "cookedCount",
+          "field": "cooked_count",
           "direction": "favor-high"
         }
-      ]
+      ],
+      "isBuiltin": true,
+      "isDefault": false
     },
     {
       "id": "builtin-find-new",
       "name": "Find new recipes",
-      "isBuiltin": true,
-      "isDefault": true,
       "filters": [],
       "rules": [
         {
-          "field": "lastMade",
+          "field": "last_made",
           "direction": "favor-none"
         },
         {
@@ -127,13 +124,15 @@
           "direction": "favor-low"
         },
         {
-          "field": "cookedCount",
+          "field": "cooked_count",
           "direction": "favor-none"
         }
-      ]
+      ],
+      "isBuiltin": true,
+      "isDefault": true
     }
   ],
-  "showHighGIWarnings": true,
+  "showHighGIWarnings": false,
   "giDictionary": "# High-glycemic foods (GI >= 70)\n# One regex pattern per line. Lines starting with # are comments.\n\n# Refined grains and rices\nwhite rice\njasmine rice\nshort.grain rice\ninstant rice\nrice flour\n\n# White bread products\nwhite bread\nbagel\nbaguette\nciabatta\nenglish muffin\nwhite roll\nwhite bun\nwhite pita\n\n# Crackers\nrice cake\nrice cracker\nwater cracker\ncracker\npretzel\n\n# Cereals\ncornflakes\ncorn flakes\nrice krispies\npuffed rice\ninstant oat\n\n# Sugars\n\\bsugar\\b\nbrown sugar\npowdered sugar\nconfectioner.s sugar\ncorn syrup\nhigh.fructose corn syrup\n\\bhfcs\\b\n\\bglucose\\b\n\\bdextrose\\b\n\\bmaltose\\b\ngolden syrup\nrice syrup\n\n# Other high-GI foods\ndonut\ndoughnut\n\\bsoda\\b\nwatermelon\n\\bdates\\b\nfrench fries\nmashed potato\nbaked potato",
   "ingredientUnitSynonyms": "",
   "ingredientFillerWord": "of",
@@ -199,7 +198,7 @@
     },
     {
       "type": "badge",
-      "property": "lastMade",
+      "property": "last_made",
       "label": "Last made",
       "icon": "calendar-check",
       "color": "default",
@@ -230,11 +229,12 @@
     "fieldFilters": []
   },
   "galleryRememberFilters": false,
+  "enableDashboard": true,
   "dashboardActivityRangeWeeks": 8,
   "shareServerUrl": "https://share.arcanerecipes.com",
   "shareDataProperty": "recipe-share",
-  "userGuid": "",
-  "userShortId": "",
+  "userGuid": "11d5d031-8f59-4702-9b0d-a2ea2933a95c",
+  "userShortId": "eigaua",
   "state": {
     "mealPlan": [],
     "groceryItems": [],

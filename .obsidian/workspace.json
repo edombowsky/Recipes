@@ -4,25 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "099ac6a64a208767",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "4397aa4d12986cb7",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "recipe-box-dashboard-view",
+              "state": {},
+              "icon": "chef-hat",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "cc5a63618202985a",
+            "type": "leaf",
+            "state": {
+              "type": "recipe-box-recipe-view",
               "state": {
-                "file": "Recipe Collection.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "Recipes/10-Minute Chocolate Mug Cake.md"
               },
               "icon": "lucide-file",
-              "title": "Recipe Collection"
+              "title": "10-Minute Chocolate Mug Cake"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recipe Collection.md"
+                "file": "Recipes/10-Minute Chocolate Mug Cake.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -136,28 +144,25 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "lastmade"
               },
               "icon": "lucide-archive",
               "title": "All properties"
             }
           },
           {
-            "id": "4faa47548e6f24d9",
+            "id": "71d312ff613054e5",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Recipe Collection.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
@@ -187,16 +193,20 @@
       "recipe-box:Recipe box dashboard": false,
       "recipe-box:Open grocery list": false,
       "recipe-box:Open meal plan": false,
-      "recipe-box:Browse recipes": false
+      "recipe-box:Browse recipes": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4397aa4d12986cb7",
+  "active": "cc5a63618202985a",
   "lastOpenFiles": [
+    "Recipes/Baking Powder Biscuits.md",
+    "Recipes/Chocolate Fudge.md",
+    "Recipes/5-Minute Caprese Salad Bites.md",
+    "Recipes/10-Minute Chocolate Mug Cake.md",
     "Recipe Collection.md",
     "Recipes/Chilli Oil.md",
     "Recipes/20-Minute Chickpea Tikka Masala Recipe.md",
     "Recipes/3-Ingredient Green Tahini Sauce.md",
-    "Recipes/10-Minute Chocolate Mug Cake.md",
     "Recipes/How to make buttermilk.md",
     "zAttachments/How-To-Make-Butter-Milk.webp",
     "Recipes/Chicken Chow Mein.md",
@@ -228,9 +238,6 @@
     "zAttachments/cajun-gumbo-with-rice.webp",
     "zAttachments/Unconfirmed 293585.crdownload",
     "Recipes/Potato Puree.md",
-    "Recipes/Mum’s 30 Minute Spaghetti Sauce.md",
-    "Recipes/Japanese Curry.md",
-    "Recipes/Faster, Better, Spaghetti & Meat Sauce.md",
     "zAttachments/indian-curry.jpeg",
     "zAttachments/Unconfirmed 862423.crdownload",
     "zAttachments/japanese-curry.jpeg",

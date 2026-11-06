@@ -127,7 +127,7 @@
   "showInfoButtons": true,
   "homepage": {
     "source": "file",
-    "file": "Recipe Collection.md",
+    "file": null,
     "createMissingPeriodicNote": true
   },
   "narrowSidebarLayout": "singlePane",

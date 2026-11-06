@@ -19,10 +19,10 @@
       "force-yaml-escape-keys": []
     },
     "format-tags-in-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "format-yaml-array": {
-      "enabled": false,
+      "enabled": true,
       "alias-key": true,
       "tag-key": true,
       "default-array-keys": true,
@@ -63,11 +63,11 @@
       "enabled": true,
       "date-created": true,
       "date-created-key": "created",
-      "date-created-source-of-truth": "frontmatter",
       "date-modified": true,
       "date-modified-key": "updated",
-      "date-modified-source-of-truth": "file system",
       "format": "yyyy-MM-DD HH:mm:ss.SSSZ",
+      "date-created-source-of-truth": "file system",
+      "date-modified-source-of-truth": "file system",
       "convert-to-utc": false,
       "update-on-file-contents-updated": "never"
     },
@@ -651,7 +651,7 @@
       "enabled": false
     },
     "move-footnotes-to-the-bottom": {
-      "enabled": false,
+      "enabled": true,
       "include-blank-line-between-footnotes": false
     },
     "re-index-footnotes": {
@@ -660,23 +660,19 @@
     "auto-correct-common-misspellings": {
       "enabled": true,
       "ignore-words": [],
-      "skip-words-with-multiple-capitals": false,
-      "extra-auto-correct-files": []
+      "extra-auto-correct-files": [],
+      "skip-words-with-multiple-capitals": false
     },
     "blockquote-style": {
       "enabled": true,
-      "style": "no space"
+      "style": "space"
     },
     "convert-bullet-list-markers": {
-      "enabled": false
-    },
-    "default-language-for-code-fences": {
-      "enabled": true,
-      "default-language": "plaintext"
+      "enabled": true
     },
     "emphasis-style": {
       "enabled": true,
-      "style": "consistent"
+      "style": "asterisk"
     },
     "no-bare-urls": {
       "enabled": true,
@@ -685,7 +681,8 @@
     "ordered-list-style": {
       "enabled": true,
       "number-style": "ascending",
-      "list-end-style": "."
+      "list-end-style": ".",
+      "preserve-start": true
     },
     "proper-ellipsis": {
       "enabled": true
@@ -695,7 +692,7 @@
       "single-quote-enabled": true,
       "single-quote-style": "''",
       "double-quote-enabled": true,
-      "double-quote-style": "\"\""
+      "double-quote-style": "“”"
     },
     "remove-consecutive-list-markers": {
       "enabled": true
@@ -711,10 +708,10 @@
     },
     "strong-style": {
       "enabled": true,
-      "style": "consistent"
+      "style": "asterisk"
     },
     "two-spaces-between-lines-with-content": {
-      "enabled": true,
+      "enabled": false,
       "line-break-indicator": "  "
     },
     "unordered-list-style": {
@@ -792,7 +789,7 @@
       "two-space-line-break": true
     },
     "add-blockquote-indentation-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "prevent-double-checklist-indicator-on-paste": {
       "enabled": true
@@ -810,9 +807,34 @@
       "enabled": true
     },
     "remove-leftover-footnotes-from-quote-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "remove-multiple-blank-lines-on-paste": {
+      "enabled": true
+    },
+    "add-blank-line-after-yaml": {
+      "enabled": false
+    },
+    "default-language-for-code-fences": {
+      "enabled": true,
+      "default-language": "plaintext"
+    },
+    "dedupe-yaml-array-values": {
+      "enabled": true,
+      "dedupe-alias-key": true,
+      "dedupe-tag-key": true,
+      "dedupe-array-keys": true,
+      "ignore-keys": []
+    },
+    "sort-yaml-array-values": {
+      "enabled": false,
+      "sort-alias-key": true,
+      "sort-tag-key": true,
+      "sort-array-keys": true,
+      "ignore-keys": [],
+      "sort-order": "Ascending Alphabetical"
+    },
+    "empty-line-around-horizontal-rules": {
       "enabled": true
     },
     "move-inline-fields-to-yaml": {
@@ -823,18 +845,17 @@
       "inline-keys-to-ignore": null
     },
     "align-table-columns": {
-      "enabled": false
+      "enabled": true
     }
   },
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "suppressMessageWhenNoChange": false,
+  "suppressMessageWhenNoChange": true,
   "enableDiffPreviewView": true,
   "suppressLintAllFilesConfirmationModal": false,
   "suppressLintAllFilesInFolderConfirmationModal": false,
   "lintOnFileChange": true,
-  "ignoreFilesOutsideVault": false,
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "textAreaSettingsConvertedToListItemSettings": true,
@@ -843,17 +864,36 @@
   "foldersToIgnore": [
     "90 - Organize"
   ],
-  "filesToIgnore": [],
+  "filesToIgnore": [
+    {
+      "label": "Excalidraw",
+      "match": "*.excalidraw",
+      "flags": "i"
+    },
+    {
+      "label": "External files",
+      "match": "^file:",
+      "flags": "i"
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "^[\\t ]+\\n",
+      "find": "",
+      "replace": "",
+      "flags": "gm",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
-    "aliasArrayStyle": "single-line",
-    "tagArrayStyle": "single-line",
+    "aliasArrayStyle": "single string to multi-line",
+    "tagArrayStyle": "multi-line",
     "minimumNumberOfDollarSignsToBeAMathBlock": 2,
     "escapeCharacter": "\"",
     "removeUnnecessaryEscapeCharsForMultiLineArrays": false,
-    "defaultArrayStyle": "single-line"
+    "defaultArrayStyle": "multi-line"
   }
 }

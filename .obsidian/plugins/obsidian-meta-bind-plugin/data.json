@@ -2,11 +2,7 @@
   "devMode": false,
   "ignoreCodeBlockRestrictions": false,
   "preferredDateFormat": "YYYY-MM-DD",
-  "firstWeekday": {
-    "index": 1,
-    "name": "Monday",
-    "shortName": "Mo"
-  },
+  "firstWeekday": "Monday",
   "syncInterval": 200,
   "enableJs": false,
   "viewFieldDisplayNullAsEmpty": false,
@@ -14,7 +10,5 @@
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
   "buttonTemplates": [],
-  "excludedFolders": [
-    "templates"
-  ]
+  "excludedFolders": []
 }
