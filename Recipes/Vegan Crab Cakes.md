@@ -24,8 +24,8 @@ source: https://www.themediterraneandish.com/vegan-crab-cakes/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.03.09 09:36:45.000 -0700
-updated: 2025.04.16 22:45:26.045 -0700
+created: 2025-03-09 09:36:45.000-07:00
+updated: 2026-11-06 12:29:58.719-07:00
 banner: "[[vegan-mediterranean-artichoke-crab-cakes.jpg]]"
 ---
 
