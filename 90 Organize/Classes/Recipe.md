@@ -12,7 +12,7 @@ fields:
     type: Multi
     options:
       sourceType: ValuesListNotePath
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Cuisine.md
+      valuesListNotePath: 90 Organize/Lookups/Lookup - Recipe Cuisine.md
     path: ""
   - name: vegan
     id: 67Sike
@@ -34,21 +34,21 @@ fields:
     type: Select
     options:
       sourceType: ValuesListNotePath
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Meal Type.md
+      valuesListNotePath: 90 Organize/Lookups/Lookup - Recipe Meal Type.md
     path: ""
   - name: course
     id: cryVZv
     type: Multi
     options:
       sourceType: ValuesListNotePath
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Course.md
+      valuesListNotePath: 90 Organize/Lookups/Lookup - Recipe Course.md
     path: ""
   - name: type
     id: ZvWacu
     type: Select
     options:
       sourceType: ValuesListNotePath
-      valuesListNotePath: 90 - Organize/Lookups/Lookup - Recipe Type.md
+      valuesListNotePath: 90 Organize/Lookups/Lookup - Recipe Type.md
     path: ""
   - name: tried
     id: nBWkgV

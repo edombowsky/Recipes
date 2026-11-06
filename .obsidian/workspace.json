@@ -32,7 +32,7 @@
                   "minRating": 0,
                   "neverCooked": false,
                   "excludeAllergens": false,
-                  "search": "Turkey and Lentil Shepherd",
+                  "search": "",
                   "fieldFilters": []
                 },
                 "filterPanelOpen": false
@@ -127,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Recipes/Vegan Crab Cakes.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -209,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc5a63618202985a",
+  "active": "44e4b8c57475acc4",
   "lastOpenFiles": [
+    "Recipes/Vegan Crab Cakes.md",
     "90 Organize/Templates/Template - Recipe.md",
     "90 Organize/Lookups/Lookup - Recipe Type.md",
     "90 Organize/Lookups/Lookup - Recipe Rating.md",
@@ -243,7 +242,6 @@
     "30 Sources/Clippings/How to Brine a Turkey.md",
     "30 Sources/Clippings/How Much is a Serving of Brown Basmati Rice Explained.md",
     "30 Sources/Clippings/How Much Turkey Per Person Do You Need.md",
-    "30 Sources/Clippings/How Much Is A Serving Size Of Jasmine Rice.md",
     "30 Sources/Clippings",
     "30 Sources",
     "zAttachments/How-To-Make-Butter-Milk.webp",

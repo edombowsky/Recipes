@@ -5,7 +5,7 @@
       "name": "New Recipe",
       "type": "Template",
       "command": true,
-      "templatePath": "90 - Organize/Templates/Template - Recipe.md",
+      "templatePath": "90 Organize/Templates/Template - Recipe.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -47,7 +47,7 @@
   "templateFolderLauncherRow": "bottom",
   "devMode": false,
   "templateFolderPaths": [
-    "90 - Organize/Templates"
+    "90 Organize/Templates"
   ],
   "announceUpdates": "all",
   "version": "2.33.1",
