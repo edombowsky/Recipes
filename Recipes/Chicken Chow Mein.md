@@ -1,20 +1,20 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=vvm9na0x2_Q
-created: 2023-09-26T14:22
-updated: 2024-05-18T16:40
+created: 2023-09-26 14:00:00.000-07:00
+updated: 2026-11-05 17:23:24.799-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

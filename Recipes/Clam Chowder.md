@@ -14,8 +14,8 @@ total_time: 30 mins
 prep_time: 15 mins
 cooking_time: 15 mins
 source: https://natashaskitchen.com/creamy-clam-chowder-recipe/
-created: 2023.09.19 21:00:00.000-07:00
-updated: 2026.08.01 20:23:15.707-07:00
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-11-05 17:22:55.712-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -20,8 +20,8 @@ source: https://www.jennycancook.com/recipes/2-hour-fastest-no-knead-bread/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.11.20 10:34:00.000 -0800
-updated: 2025.02.15 23:20:14.995 -0800
+created: 2024-11-20 10:34:00.000-08:00
+updated: 2026-11-05 17:19:53.409-07:00
 banner: "[[fastest-no-knead-bread-ever.jpg]]"
 ---
 

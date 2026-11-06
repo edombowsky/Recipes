@@ -19,8 +19,8 @@ source: https://www.thekitchn.com/recipe-3-ingredient-green-tahini-sauce-245437
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2024.10.10 10:46:07.000 -0700
-updated: 2025.03.17 15:06:56.396 -0700
+created: 2024-10-10 10:46:07.000-07:00
+updated: 2026-11-05 17:45:05.038-07:00
 banner: "[[3-Ingredient-Green-Tahini-Sauce.webp]]"
 ---
 

@@ -13,8 +13,8 @@ total_time:
 prep_time: 
 cooking_time: 
 source: https://www.youtube.com/watch?v=m7AwKharXeQ
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.03.17 15:18:03.461 -0700
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-11-05 17:47:06.740-07:00
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner

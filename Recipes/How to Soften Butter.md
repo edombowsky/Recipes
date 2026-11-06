@@ -11,8 +11,8 @@ total_time: 20 sec - 45 mins
 prep_time: 
 cooking_time: 
 source: https://www.landolakes.com/expert-advice/how-to-soften-butter/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2025.01.26 21:47:08.799 -0800
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-11-05 17:24:45.313-07:00
 obsidianUIMode: preview
 class: Recipe
 cssclasses:

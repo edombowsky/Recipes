@@ -13,8 +13,8 @@ total_time: 20 mins
 prep_time: 5 mins
 cooking_time: 15 mins
 source: https://www.liveeatlearn.com/chickpea-tikka-masala/
-created: 2023.09.19 21:00:00.000 -0700
-updated: 2024.09.28 11:41:20.551 -0700
+created: 2023-09-19 21:00:00.000-07:00
+updated: 2026-11-05 17:45:39.345-07:00
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

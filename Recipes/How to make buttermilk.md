@@ -19,8 +19,8 @@ obsidianUIMode: preview
 cssclasses:
   - hide_properties
 created: 2025-07-04 22:27:32.000-07:00
-updated: 2026-10-08 13:02:50.652-07:00
-banner:
+updated: 2026-11-05 17:44:36.073-07:00
+banner: "[[How-To-Make-Butter-Milk.webp]]"
 ---
 
 Traditionally buttermilk is the liquid remaining after cream has been churned into butter. Buttermilk is primarily used in baking recipes which include bicarbonate of soda, like Irish Soda bread, pancakes, and scones. The acidity from the buttermilk reacts with the alkaline bicarbonate of soda to produce carbon dioxide.
