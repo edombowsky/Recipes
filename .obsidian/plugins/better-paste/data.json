@@ -1,0 +1,314 @@
+{
+  "autoClean": true,
+  "listNesting": true,
+  "quoteContinuation": true,
+  "showReleaseNotes": true,
+  "fileMode": "off",
+  "imageMode": "link",
+  "imageNameTemplate": "{{noteName}}",
+  "imageSizeOptions": "200, 400, 600",
+  "imageSizeChoice": "",
+  "imageClassOptions": "",
+  "imageClassChoice": "",
+  "imageLastSize": "",
+  "imageLastClass": "",
+  "noteProperty": "bp",
+  "imageSizeProperty": "image-width",
+  "linkEnabled": true,
+  "linkTitles": true,
+  "linkTitleFallback": "domain",
+  "linkRemovals": [],
+  "textTrim": false,
+  "textInvisible": true,
+  "textQuotes": true,
+  "textDashes": false,
+  "textSnippets": [
+    {
+      "id": "0iznpkm",
+      "name": "Remove emoji",
+      "rules": [
+        "# Remove emoji",
+        "",
+        "# At the start of a line, with the space after it",
+        "s/^[\\p{Extended_Pictographic}\\u{1F1E6}-\\u{1F1FF}\\u{1F3FB}-\\u{1F3FF}\\u{20E3}\\u{FE0F}\\u{200D}]+[ \\t]*//gmu",
+        "",
+        "# Everywhere else, with the space before it",
+        "s/[ \\t]*[\\p{Extended_Pictographic}\\u{1F1E6}-\\u{1F1FF}\\u{1F3FB}-\\u{1F3FF}\\u{20E3}\\u{FE0F}\\u{200D}]+//gu",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0ktaipq",
+      "name": "Remove anchor-only headings from web clips",
+      "rules": [
+        "# Remove anchor-only headings from web clips",
+        "",
+        "# Remove anchor-only headings from web clips",
+        "s/^#{2,} \\[\\]\\(.+#.+\\)$\\n+//gm",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0bzubt5",
+      "name": "Shorten link labels that are bare addresses",
+      "rules": [
+        "# Shorten link labels that are bare addresses",
+        "",
+        "# Shorten link labels that are bare addresses",
+        "s|\\[(https?://)?(www\\.)?(.+?)/?\\]\\(|[$3](|g",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1jai03q",
+      "name": "Convert br tags to line breaks",
+      "rules": [
+        "# Convert br tags to line breaks",
+        "",
+        "# Convert br tags to line breaks",
+        "s/<br\\s*\\/?>/\\n/gi",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0uwzr8c",
+      "name": "Remove empty links",
+      "rules": [
+        "# Remove empty links",
+        "",
+        "# Remove empty links",
+        "s/(?<!!)\\[\\]\\([^)]*\\)//g",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0abu41c",
+      "name": "Remove bold from headings",
+      "rules": [
+        "# Remove bold from headings",
+        "",
+        "# Remove bold from headings",
+        "s/^(#{1,6} .*?)(?<!\\\\)\\*\\*([^\\n]*?)(?<!\\\\)\\*\\*/$1$2/gm",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "01s3f82",
+      "name": "Bold the repo name in GitHub links",
+      "rules": [
+        "# Bold the repo name in GitHub links",
+        "",
+        "# Bold the repo name in GitHub links",
+        "s|\\[(GitHub - ){0,1}([A-Za-z-\\d)]+)\\/([A-Za-z\\d\\-_.]+)(: [^\\]]+){0,1}\\]\\(https:\\/\\/github.com\\/([A-Za-z-\\d)]+)\\/([A-Za-z\\d\\-_.]+)\\/?\\)|[$2/**$3**](https://github.com/$2/$3)$4|g",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0oqx5ig",
+      "name": "Decode HTML entities",
+      "rules": [
+        "# Decode HTML entities",
+        "",
+        "# Decode HTML entities",
+        "s/&nbsp;/ /g",
+        "s/&lt;/</g",
+        "s/&gt;/>/g",
+        "s/&quot;/\"/g",
+        "s/&#39;/'/g",
+        "s/&amp;/&/g",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0pg05jv",
+      "name": "Remove spaces at line ends",
+      "rules": [
+        "# Remove spaces at line ends",
+        "",
+        "# Remove spaces at line ends",
+        "s/[ \\t]+$//gm",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0cwxvtn",
+      "name": "Fix spacing after list markers",
+      "rules": [
+        "# Fix spacing after list markers",
+        "",
+        "# Fix spacing after list markers",
+        "s/^(\\s*([-*]|\\d\\.))\\s{2,}/$1 /gm",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1m2oaoh",
+      "name": "Use dashes for bullets",
+      "rules": [
+        "# Use dashes for bullets",
+        "",
+        "# Use dashes for bullets",
+        "s/^(\\s*)\\* /$1- /gm",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0xka75m",
+      "name": "Collapse double spaces between words",
+      "rules": [
+        "# Collapse double spaces between words",
+        "",
+        "# Collapse double spaces between words",
+        "s/(?<=\\S) {2,}(?=\\S)/ /g"
+      ],
+      "enabled": true
+    }
+  ],
+  "urlSnippets": [
+    {
+      "id": "1cxz7ap",
+      "name": "Remove site names from titles",
+      "rules": [
+        "# Remove site names from titles",
+        "",
+        "s#^\\[GitHub - ([^\\]]+) · GitHub\\](\\(https://github\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[([^\\]]+) · GitHub\\](\\(https://github\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) - YouTube\\](\\(https://(?:www\\.|m\\.)?(?:youtube\\.com|youtu\\.be)/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) : r/[^\\s\\]]+\\](\\(https://(?:www\\.|old\\.)?reddit\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) [-–—] [^\\]]+\\](\\(https://[a-z-]+\\.(?:m\\.)?wikipedia\\.org/\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0p5fvim",
+      "name": "Clean GitHub titles",
+      "rules": [
+        "# Clean GitHub titles",
+        "",
+        "# Repo pages: remove the GitHub prefix and suffix",
+        "s#^\\[GitHub - ([^\\]]+): ([^\\]]+) · GitHub\\](\\(https:\\/\\/github\\.com\\/\\S+\\))$#[$1]$3: $2#",
+        "",
+        "# Issues and pull requests: remove the suffix",
+        "s#^\\[([^\\]]+) · GitHub\\](\\(https://github\\.com/\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0zq4fe1",
+      "name": "Remove the YouTube suffix",
+      "rules": [
+        "# Remove the YouTube suffix",
+        "",
+        "# Remove the YouTube suffix",
+        "s#^\\[(.+) - YouTube\\](\\(https://(?:www\\.|m\\.)?(?:youtube\\.com|youtu\\.be)/\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1yo4a63",
+      "name": "Clean Reddit titles",
+      "rules": [
+        "# Clean Reddit titles",
+        "",
+        "# Clean Reddit titles",
+        "s#^\\[(.+) : r/[^\\s\\]]+\\](\\(https://(?:www\\.|old\\.)?reddit\\.com/\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "01yupxw",
+      "name": "Clean Stack Overflow titles",
+      "rules": [
+        "# Clean Stack Overflow titles",
+        "",
+        "# Remove the site suffix",
+        "s~^\\[(.+) - Stack Overflow\\](\\(https://stackoverflow\\.com/\\S+\\))$~[$1]$2~",
+        "",
+        "# Remove the leading tag",
+        "s~^\\[[a-z0-9.#+-]{1,35} - (.+)\\](\\(https://stackoverflow\\.com/questions/\\S+\\))$~[$1]$2~",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1jnomqn",
+      "name": "Remove the Wikipedia suffix",
+      "rules": [
+        "# Remove the Wikipedia suffix",
+        "",
+        "# Remove the Wikipedia suffix",
+        "s#^\\[(.+) [-–—] [^\\]]+\\](\\(https://[a-z-]+\\.(?:m\\.)?wikipedia\\.org/\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1th1lh8",
+      "name": "Clean Amazon titles",
+      "rules": [
+        "# Clean Amazon titles",
+        "",
+        "# Products: remove the prefix and category",
+        "s#^\\[Amazon\\.[a-z.]+: (.+?)(?: : [^:\\]]+)?\\](\\(https://www\\.amazon\\.\\S+\\))$#[$1]$2#",
+        "",
+        "# Books: keep only the title",
+        "s#^\\[(.+): [^:\\]]+: [\\dX]{10,13}: Amazon\\.[a-z.]+: Books\\](\\(https://www\\.amazon\\.\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0n8hmo8",
+      "name": "Strip site name suffixes",
+      "rules": [
+        "# Strip site name suffixes",
+        "",
+        "# Strip site name suffixes",
+        "s#\\[([^\\]]+?)\\s*(?:\\\\?\\||[–—])\\s*[^\\]]*\\]\\(([^)]+)\\)#[$1]($2)#g",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0sanvak",
+      "name": "Strip hyphen site suffixes",
+      "rules": [
+        "# Strip hyphen site suffixes",
+        "",
+        "# Strip hyphen site suffixes",
+        "s#^\\[(.{10,}) - (?:(?:The )?[A-Z][\\w.&'’]*(?: [A-Z][\\w.&'’]*){0,3})\\](\\(https?://\\S+\\))$#[$1]$2#",
+        ""
+      ],
+      "enabled": true
+    },
+    {
+      "id": "16qgyvw",
+      "name": "Truncate long titles",
+      "rules": [
+        "# Truncate long titles",
+        "",
+        "# Truncate long titles",
+        "s#^\\[(?=[^\\]]{96})(.{60,80})\\s[^\\]]{5,}\\](\\(https?://\\S+\\))$#[$1 …]$2#"
+      ],
+      "enabled": true
+    }
+  ],
+  "lastShownVersion": "1.0.17",
+  "pdfLastFurniture": true,
+  "pdfLastSingleParagraph": false
+}
