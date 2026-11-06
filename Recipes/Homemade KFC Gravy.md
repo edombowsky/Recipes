@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
   - American
 course: []
 servings: 1 1/4 cups (312 ml)
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=xLfFR0obTRw
 obsidianUIMode: preview
 cssclasses:

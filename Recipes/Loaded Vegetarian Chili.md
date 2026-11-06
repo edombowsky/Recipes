@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
   - Lunch
@@ -14,8 +14,8 @@ servings: 8 servings
 course:
   - Main
 total_time: 35 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://foodwithfeeling.com/loaded-vegan-chili/
 obsidianUIMode: preview
 cssclasses:

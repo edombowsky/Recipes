@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
 meal_type:
   - Side
@@ -14,9 +14,9 @@ course:
   - Main
   - Appetizer
 servings: 8 ounces
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://kellyscleankitchen.com/2020/04/08/vegan-sun-dried-tomato-and-basil-butter/
 obsidianUIMode: preview
 cssclasses:

@@ -1,15 +1,15 @@
 ---
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.thedailymeal.com/1481616/how-long-soak-potatoes-fries/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41
@@ -17,7 +17,7 @@ obsidianUIMode: preview
 class: Recipe
 cssclasses:
   - obsidian-banner
-meal_type: 
+meal_type:
 banner: "[[soak-potatoes.webp]]"
 ---
 

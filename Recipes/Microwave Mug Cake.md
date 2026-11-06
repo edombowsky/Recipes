@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Dessert
 servings: 4 servings
 total_time: 10 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.jamieoliver.com/recipes/cake-recipes/microwave-mug-cake/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.01.14 18:26:48.299 -0800

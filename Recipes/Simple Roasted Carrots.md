@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
-vegetarian: 
+vegetarian:
 meal_type:
   - Side
 cuisine:

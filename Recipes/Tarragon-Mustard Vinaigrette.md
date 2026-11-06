@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
+rating:
+favourite:
 tried: true
 cuisine:
   - French
@@ -12,7 +12,7 @@ course:
   - Main
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.simplyrecipes.com/recipes/the_vinaigrette_ratio/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:42

@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
 servings: 6 servings
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.thecookingguy.com/cookbook/tomato-beef-chow-mein?rq=ramen
 created: 2023-09-22T17:39
 updated: 2024-05-18T16:42

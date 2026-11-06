@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Breakfast
 cuisine:
@@ -14,7 +14,7 @@ course:
   - Main
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://cookieandkate.com/whole-wheat-pancake-mix/
 obsidianUIMode: preview
 cssclasses:

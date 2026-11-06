@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -17,10 +17,10 @@ course:
   - Main
   - Appetizer
 servings: 12-14 large lettuce leaves
-prep_time: 
-cooking_time: 
-total_time: 
-source: 
+prep_time:
+cooking_time:
+total_time:
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: true
 tried: true
 meal_type:

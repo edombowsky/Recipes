@@ -2,12 +2,12 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
-cuisine: 
+cuisine:
 servings: 6 servings
 course:
   - Main

@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Indian
 course:
   - Main
 servings: 6-7 servings (7 1/2 cups)
 total_time: 50 mins
-prep_time: 
+prep_time:
 cooking_time: 25 mins
 source: https://www.washingtonpost.com/recipes/chana-saag-spinach-tomato-and-chickpea-curry/
 created: 2023.09.19 21:00:00.000 -0700

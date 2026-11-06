@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Main
 servings: 6 servings
 total_time: 1 hr 30 mins
-prep_time: 
+prep_time:
 cooking_time: 25 mins
 source: https://www.heartfoundation.org.au/Recipes/Roast-Vegetarian-Loaf
 created: 2023-09-19T21:58

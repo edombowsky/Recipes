@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
   - Tex-Mex
-course: 
+course:
 servings: 12 servings
 total_time: 1 min
 prep_time: 1 min
-cooking_time: 
+cooking_time:
 source: https://hedgecombers.com/homemade-fajita-seasoning/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

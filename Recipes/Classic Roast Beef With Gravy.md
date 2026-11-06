@@ -2,13 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: true
 tried: true
 cuisine:
   - British
 servings: 8 servings
-course: 
+course:
 total_time: 2 hrs 5 mins
 prep_time: 20 mins
 cooking_time: 1 hr 45 mins

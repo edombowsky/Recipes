@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Brunch
   - ""
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 23 mins

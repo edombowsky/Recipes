@@ -2,21 +2,21 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Dinner
 cuisine:
   - Indian
-servings: 
+servings:
 course:
   - Main
-total_time: 
-prep_time: 
-cooking_time: 
-source: 
+total_time:
+prep_time:
+cooking_time:
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

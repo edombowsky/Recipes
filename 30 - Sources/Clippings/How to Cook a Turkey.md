@@ -1,13 +1,14 @@
 ---
-title: "How to Cook a Turkey"
-source: "https://www.allrecipes.com/article/how-to-cook-a-turkey/"
+title: How to Cook a Turkey
+source: https://www.allrecipes.com/article/how-to-cook-a-turkey/
 author:
-  - "Allrecipes Editorial Team"
-  - "Vanessa Greaves"
+  - Allrecipes Editorial Team
+  - Vanessa Greaves
 published: 2016-11-10
 created: 2025.12.15 00:00:00.000-08:00
-description: "Learn how to cook a turkey from scratch, from prepping and basting to roasting and carving. Get our best turkey roasting tips and tricks here."
-tags: ["clipping"]
+description: Learn how to cook a turkey from scratch, from prepping and basting to roasting and carving. Get our best turkey roasting tips and tricks here.
+tags:
+  - clipping
 updated: 2025.12.15 18:35:13.516-08:00
 ---
 So you've decided to be in charge of the turkey this year? You've come to the right place for advice. Firstly, if you haven't already purchased your bird, be sure to read all about [[How Much Turkey Per Person Do You Need|how to buy a turkey]] and [[3 Ways to Safely Thaw a Frozen Turkey|how to safely thaw a frozen turkey]]. Next, let's talk about how to cook that bird.

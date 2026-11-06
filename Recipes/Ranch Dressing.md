@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
-course: 
-servings: 
+course:
+servings:
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.heartfoundation.org.au/Recipes/Ranch-dressing
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:05:06.099 -0700

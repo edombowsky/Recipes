@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
+rating:
+favourite:
 tried: true
-vegan: 
+vegan:
 meal_type:
   - Side
   - Condiment

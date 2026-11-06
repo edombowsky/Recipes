@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -14,8 +14,8 @@ cuisine:
   - Mediterranean
   - Middle-Eastern
   - Turkish
-course: 
-servings: 
+course:
+servings:
 prep_time: 20 mins
 cooking_time: 20 mins
 total_time: 40 mins + 3hrs marinating time

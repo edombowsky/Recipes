@@ -22,9 +22,15 @@ source: https://insanelygoodrecipes.com/eagle-brand-fudge/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.08.01 19:50:48.301-07:00
+created: 2025-07-04 22:27:32.000-07:00
+updated: 2026-11-05 22:26:42.070-07:00
 banner: "[[Eagle_Brand_Fudge.png]]"
+cook_history:
+  - id: mw4b7gvp-zzn9
+    date: 2025-12-12
+    note: Sent to Andrew and Kathleen for Christmas
+last_made: 2025-12-12
+cooked_count: 1
 ---
 
 This Eagle Brand Fudge recipe is a great way to soothe that sweet tooth with minimal effort. It's so dense, chewy, and chocolatey, and comes together faster than you can finish this sentence. The hardest part is waiting for it to chill.
@@ -117,3 +123,8 @@ Here are a few quick suggestions on how to store homemade fudge. 
 >
 >>[!blank-container]+ Personal  
 >>![[Eagle_Brand_Fudge_1.png]]
+
+## Cook History
+
+<!-- This section managed by the Recipe Box plugin. Manual edits will be overwritten. -->
+- **2025-12-12:** Sent to Andrew and Kathleen for Christmas <!--rb-id:mw4b7gvp-zzn9-->

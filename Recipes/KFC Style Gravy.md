@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
@@ -12,7 +12,7 @@ cuisine:
 servings: 3 cups
 course: []
 total_time: 10-15 mins
-prep_time: 
+prep_time:
 cooking_time: 10-15 nins
 source: https://www.facebook.com/photo/?fbid=435661116205286&set=a.294029017035164
 obsidianUIMode: preview

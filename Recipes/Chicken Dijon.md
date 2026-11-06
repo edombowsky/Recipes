@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: true
 tried: true
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 25 mins
 prep_time: 10 mins
 cooking_time: 15 mins
-source: 
+source:
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2024.09.07 16:49:17.635 -0700
 obsidianUIMode: preview

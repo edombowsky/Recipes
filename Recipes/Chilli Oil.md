@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course: []
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=m7AwKharXeQ
 created: 2023-09-19 21:00:00.000-07:00
 updated: 2026-11-05 17:47:06.740-07:00

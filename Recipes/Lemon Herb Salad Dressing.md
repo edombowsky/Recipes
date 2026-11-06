@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course: []
 servings: 1 2/3 cups
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.heartfoundation.org.au/Recipes/Lemon-herb-salad-dressing
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:25:44.728 -0700

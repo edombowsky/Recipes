@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dessert
 cuisine:
@@ -15,7 +15,7 @@ course:
   - Dessert
 servings: 1.5 cups
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://addapinch.com/homemade-cake-goop-recipe-pan-release/
 obsidianUIMode: preview

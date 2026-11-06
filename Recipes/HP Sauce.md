@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Seasoning
   - Condiment
 cuisine:
   - British
-course: 
+course:
 servings: 1 bottle (1 1/2 cups)
 total_time: 4 hrs 20 mins
 prep_time: 4 hrs

@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
-course: 
+course:
 servings: 12 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source:
   - https://mattsfitchef.com/big-mac-sauce/
   - https://www.daringgourmet.com/big-mac-sauce/

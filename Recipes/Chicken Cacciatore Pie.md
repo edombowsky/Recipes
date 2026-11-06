@@ -1,9 +1,9 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - British
   - Italian
@@ -11,7 +11,7 @@ course:
   - Main
 servings: 2 servings
 total_time: 30 mins
-prep_time: 
+prep_time:
 cooking_time: 15 mins
 source: https://www.heartfoundation.org.au/Recipes/Chicken-Cacciatore-Pie-2
 created: 2023.09.19 21:00:00.000 -0700

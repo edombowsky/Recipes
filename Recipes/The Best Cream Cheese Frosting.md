@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dessert
 cuisine:
@@ -15,7 +15,7 @@ course:
   - Dessert
 servings: 2 1/2 cups
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 15 mins
 source: https://www.twosisterscrafting.com/the-best-cream-cheese-frosting/
 obsidianUIMode: preview

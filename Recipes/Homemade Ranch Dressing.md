@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course: []
-servings: 
+servings:
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.eitanbernath.com/2022/01/27/making-every-condiment-from-scratch/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:56:38.842 -0700

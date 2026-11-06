@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
@@ -12,7 +12,7 @@ course:
 servings: 4-6 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/cucumber-salad-recipe-23651421
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

@@ -1,9 +1,9 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
 cuisine:
   - American

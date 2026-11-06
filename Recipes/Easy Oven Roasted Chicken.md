@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
@@ -14,7 +14,7 @@ cuisine:
   - Mediterranean
 course:
   - Main
-servings: 
+servings:
 prep_time: 15 mins
 cooking_time: 1 hr 20 mins
 total_time: 1 hr 45 mins

@@ -4,10 +4,10 @@ type:
   - recipe
 rating:
   - ⭐⭐⭐⭐⭐
-favourite: 
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Condiment
   - Side

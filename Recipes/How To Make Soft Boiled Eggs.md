@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+vegan:
+meal_type:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.skinnytaste.com/how-to-make-soft-boiled-eggs/
 obsidianUIMode: preview
 cssclasses:

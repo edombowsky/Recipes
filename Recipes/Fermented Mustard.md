@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - French
 course:
   - Main
-servings: 
+servings:
 total_time: 1 week
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.youtube.com/watch?v=WZS07jU4U50
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

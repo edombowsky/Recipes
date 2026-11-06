@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Snack
   - Side
@@ -14,7 +14,7 @@ servings: 6 servings
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.thepioneerwoman.com/food-cooking/recipes/a83200/how-to-make-french-onion-dip/
 obsidianUIMode: preview
 cssclasses:

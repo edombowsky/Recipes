@@ -2,19 +2,19 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-prep_time: 
-cooking_time: 
-total_time: 
-source: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
+servings:
+prep_time:
+cooking_time:
+total_time:
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.thecookingguy.com/cookbook/2023/10/15/stir-fry-day
 created: 2023-10-19T21:31
 updated: 2024-05-18T16:40

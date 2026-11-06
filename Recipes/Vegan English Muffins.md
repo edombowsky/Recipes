@@ -6,9 +6,7 @@ rating:
 favourite:
 tried:
 vegan: true
-meal_type: Bread
-  - Brunch
-  - Breakfast
+meal_type: Bread - Brunch - Breakfast
 cuisine:
   - British
 course:

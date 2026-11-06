@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -13,7 +13,7 @@ servings: 1 1/4 cups
 course: []
 total_time: 1 min
 prep_time: 1 min
-cooking_time: 
+cooking_time:
 source: https://www.simplyrecipes.com/one-minute-salad-dressing-recipe-8666698
 obsidianUIMode: preview
 cssclasses:

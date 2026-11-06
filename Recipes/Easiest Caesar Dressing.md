@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 1 cup
 course: []
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.simplyrecipes.com/easy-caesar-dressing-recipe-8581994
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:20:13.962 -0700

@@ -7,7 +7,8 @@ cssclasses:
   - cards-1-1
   - cards-cover
 obsidianUIMode: preview
-tags: [map]
+tags:
+  - map
 ---
 
 `INPUT[slider(minValue(10), maxValue(200), defaultValue(100), stepSize(25), addLabels(true)):dvLimit]` *(`VIEW[{dvLimit}]`)*

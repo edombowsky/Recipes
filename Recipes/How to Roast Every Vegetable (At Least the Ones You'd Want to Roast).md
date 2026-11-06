@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - tip
-rating: 
+rating:
 favourite: true
 tried: true
 vegan: true
@@ -11,10 +11,10 @@ meal_type:
   - Dinner
   - Side
   - Lunch
-cuisine: 
+cuisine:
 course:
   - Main
-servings: 
+servings:
 total_time: 13-40 mins
 prep_time: 5 mins
 cooking_time: 8-35 mins

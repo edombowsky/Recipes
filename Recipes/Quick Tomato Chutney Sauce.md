@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Condiment
 cuisine:
   - American
   - Canadian
 servings: 5-6 burgers
-course: 
+course:
 total_time: 35 mins
 prep_time: 5 mins
 cooking_time: 30 mins

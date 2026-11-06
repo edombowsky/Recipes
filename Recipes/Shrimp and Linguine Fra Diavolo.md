@@ -2,13 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
 servings: 4 servings
-course: 
+course:
 total_time: 35 mins
 prep_time: 10 mins
 cooking_time: 25 mins

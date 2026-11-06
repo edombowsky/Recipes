@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
@@ -14,7 +14,7 @@ course:
   - Main
 total_time: 25 mins
 prep_time: 25 mins
-cooking_time: 
+cooking_time:
 source: https://kellyscleankitchen.com/2024/06/02/mayo-less-coleslaw/
 obsidianUIMode: preview
 cssclasses:

@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Lunch
   - Dinner
@@ -14,7 +14,7 @@ cuisine:
 course:
   - Main
   - Soup
-servings: 
+servings:
 total_time: 45 mins
 prep_time: 15 mins
 cooking_time: 30 mins

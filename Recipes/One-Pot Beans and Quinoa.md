@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 55 mins

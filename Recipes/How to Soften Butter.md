@@ -1,15 +1,15 @@
 ---
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-cuisine: 
-servings: 
-course: 
+rating:
+favourite:
+tried:
+cuisine:
+servings:
+course:
 total_time: 20 sec - 45 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.landolakes.com/expert-advice/how-to-soften-butter/
 created: 2023-09-19 21:00:00.000-07:00
 updated: 2026-11-05 17:24:45.313-07:00
@@ -17,7 +17,7 @@ obsidianUIMode: preview
 class: Recipe
 cssclasses:
   - obsidian-banner
-meal_type: 
+meal_type:
 banner: "[[butter-cream-frosting.webp]]"
 ---
 

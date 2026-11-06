@@ -3,9 +3,9 @@ class: Recipe
 type:
   - recipe
   - tip
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 8 servings

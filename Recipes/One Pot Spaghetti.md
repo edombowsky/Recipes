@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
 course:
@@ -13,7 +13,7 @@ servings: 6 servings
 total_time: 30 mins
 prep_time: 10 mins
 cooking_time: 30 mins
-source: 
+source:
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41
 obsidianUIMode: preview

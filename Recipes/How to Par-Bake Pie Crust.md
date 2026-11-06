@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
 servings: 1 pie crust
 prep_time: 2 hrs 45 mins
 cooking_time: 30 mins

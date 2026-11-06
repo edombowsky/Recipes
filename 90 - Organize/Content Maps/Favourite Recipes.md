@@ -4,7 +4,8 @@ cssclasses:
   - cards-1-1
   - cards-cover
 obsidianUIMode: preview
-tags: [map]
+tags:
+  - map
 dvLimit: 110
 created: 2025.07.04 17:53:22.000 -0700
 updated: 2025.07.11 17:31:57.464 -0700

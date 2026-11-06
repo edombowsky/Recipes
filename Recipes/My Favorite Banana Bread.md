@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: true
 tried: true
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
 servings: 1 loaf
 prep_time: 10 mins
 cooking_time: 1 hr 5 mins

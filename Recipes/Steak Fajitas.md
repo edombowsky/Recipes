@@ -1,8 +1,8 @@
 ---
 type: recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Tex-Mex
 course:

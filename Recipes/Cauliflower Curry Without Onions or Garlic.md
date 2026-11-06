@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Indian
 course:
   - Main
 servings: 6 servings
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=IItQolRyL1U
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

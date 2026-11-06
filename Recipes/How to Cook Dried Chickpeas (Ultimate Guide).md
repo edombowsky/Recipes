@@ -1,15 +1,15 @@
 ---
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.inspiredtaste.net/26952/how-to-cook-dried-chickpeas/
 cssclasses:
   - obsidian-banner
@@ -17,7 +17,7 @@ created: 2023-09-28T15:45
 updated: 2024-05-18T16:41
 obsidianUIMode: preview
 class: Recipe
-meal_type: 
+meal_type:
 banner: "[[how-to-cook-dried-chickpeas.jpg]]"
 ---
 

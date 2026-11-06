@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -13,7 +13,7 @@ servings: 1/2 cup
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/copycat-costco-poppy-seed-dressing-recipe-23563503
 obsidianUIMode: preview
 cssclasses:

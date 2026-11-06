@@ -2,19 +2,19 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
   - Side
 cuisine:
   - Middle-Eastern
 servings: 1/2 cup
-course: 
+course:
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/recipe-3-ingredient-green-tahini-sauce-245437
 obsidianUIMode: preview
 cssclasses:

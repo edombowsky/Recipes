@@ -2,15 +2,15 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Snack
 cuisine:
   - Italian
-servings: 
+servings:
 course:
   - Main
   - Appetizer

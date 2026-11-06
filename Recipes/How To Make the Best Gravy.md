@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Side
 cuisine:
@@ -13,10 +13,10 @@ cuisine:
   - British
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.simplyrecipes.com/how-to-make-the-best-gravy-according-to-chefs-8726495
 obsidianUIMode: preview
 cssclasses:

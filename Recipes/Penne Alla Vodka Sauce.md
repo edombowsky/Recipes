@@ -1,18 +1,18 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
 course:
   - Main
 servings: 4 servings
 total_time: 15 mins
-prep_time: 
+prep_time:
 cooking_time: 15 mins
-source: 
+source:
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41
 obsidianUIMode: preview

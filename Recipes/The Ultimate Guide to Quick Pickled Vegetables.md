@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 1 serving
 course: []
 total_time: 1 hr 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.liveeatlearn.com/quick-pickled-vegetables/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:37:26.995 -0700

@@ -1,12 +1,13 @@
 ---
-title: "How to Brine a Turkey"
-source: "https://www.allrecipes.com/article/how-to-brine-turkey/"
+title: How to Brine a Turkey
+source: https://www.allrecipes.com/article/how-to-brine-turkey/
 author:
-  - "Carl Hanson"
+  - Carl Hanson
 published: 2014-09-12
 created: 2025.12.15 00:00:00.000-08:00
-description: "Learn step-by-step how to brine a turkey the best way. Find out the proper salt-to-water ratio and how long to wet brine a turkey for Thanksgiving."
-tags: ["clipping"]
+description: Learn step-by-step how to brine a turkey the best way. Find out the proper salt-to-water ratio and how long to wet brine a turkey for Thanksgiving.
+tags:
+  - clipping
 updated: 2025.12.15 18:27:39.607-08:00
 ---
 

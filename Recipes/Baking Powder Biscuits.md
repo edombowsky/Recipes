@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating:
+rating: 4
 favourite: true
 tried: true
 vegan:
@@ -20,9 +20,15 @@ source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.04.09 00:37:14.318-07:00
+created: 2025-07-04 22:27:32.000-07:00
+updated: 2026-11-05 22:32:33.895-07:00
 banner: "[[baking-powder-biscuits.jpg]]"
+cook_hIstory:
+  - id: mw4j8td3-6ha9
+    date: 2025-10-05
+    note: ""
+last_made: 2025-10-05
+cooked_count: 1
 ---
 
 ## Ingredients
@@ -47,3 +53,8 @@ banner: "[[baking-powder-biscuits.jpg]]"
 *per biscuit*
 
 ![[Baking Powder Biscuits Nutrition.webp]]
+
+## Cook History
+
+<!-- This section managed by the Recipe Box plugin. Manual edits will be overwritten. -->
+- **2025-10-05:** <!--rb-id:mw4j8td3-6ha9-->

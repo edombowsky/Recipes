@@ -1,9 +1,9 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
@@ -11,7 +11,7 @@ course:
 servings: 1 serving
 total_time: 10 mins
 prep_time: 3 mins
-cooking_time: 
+cooking_time:
 source: https://www.heartfoundation.org.au/Recipes/salmon-rice-lunch-bowl
 created: 2023-09-19T21:58
 updated: 2024.06.20 12:03:40.567 -0700

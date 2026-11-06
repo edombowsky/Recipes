@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
   - Seasoning
@@ -16,7 +16,7 @@ course:
   - Soup
 total_time: 2 mins
 prep_time: 2 mins
-cooking_time: 
+cooking_time:
 source: https://www.spendwithpennies.com/homemade-onion-soup-mix/
 obsidianUIMode: preview
 cssclasses:

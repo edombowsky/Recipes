@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Dinner
 cuisine:
   - American
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://thelittleshine.com/roast-turkey-perfectly/
 obsidianUIMode: preview
 cssclasses:

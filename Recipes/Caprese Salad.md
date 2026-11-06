@@ -4,10 +4,10 @@ type:
   - recipe
 rating:
   - ⭐⭐⭐⭐⭐
-favourite: 
+favourite:
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -17,7 +17,7 @@ course:
   - Appetizer
 servings: 4 servings
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 total_time: 15 mins
 source:
   - https://www.tasteofhome.com/recipes/caprese-salad/

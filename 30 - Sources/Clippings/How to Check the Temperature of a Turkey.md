@@ -1,12 +1,13 @@
 ---
-title: "How to Check the Temperature of a Turkey"
-source: "https://www.allrecipes.com/article/how-to-check-internal-temperature-turkey/"
+title: How to Check the Temperature of a Turkey
+source: https://www.allrecipes.com/article/how-to-check-internal-temperature-turkey/
 author:
-  - "Melanie Fincher"
+  - Melanie Fincher
 published: 2020-09-23
 created: 2025.12.15 00:00:00.000-08:00
-description: "Learn how to take a turkey's temperature, including what temperature a turkey should be cooked to, where to check, and the type of thermometer to use."
-tags: ["clipping"]
+description: Learn how to take a turkey's temperature, including what temperature a turkey should be cooked to, where to check, and the type of thermometer to use.
+tags:
+  - clipping
 updated: 2025.12.15 17:42:43.160-08:00
 ---
 

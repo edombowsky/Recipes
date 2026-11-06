@@ -1,14 +1,14 @@
 ---
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-cuisine: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+cuisine:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.tasteofhome.com/article/what-is-al-dente/
 created: 2023-10-17T12:42
 updated: 2024.06.02 15:09:10.188 -0700
@@ -16,8 +16,8 @@ obsidianUIMode: preview
 class: Recipe
 cssclasses:
   - obsidian-banner
-meal_type: 
-course: 
+meal_type:
+course:
 banner: "[[cooked-farfalle-on-wooden-spoon-above-a-pot.jpg]]"
 ---
 

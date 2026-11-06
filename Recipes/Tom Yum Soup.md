@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Dinner
   - Lunch
@@ -13,10 +13,10 @@ cuisine:
   - Thai
 course:
   - Soup
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://recipesown.com/tom-yum-soup-recipe/
 obsidianUIMode: preview
 cssclasses:

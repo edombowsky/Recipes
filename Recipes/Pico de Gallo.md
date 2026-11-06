@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Mexican
 course: []
 servings: 4 servings (3 cups)
 total_time: 15 mins
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://www.acouplecooks.com/pico-de-gallo-recipe/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:29:34.788 -0700

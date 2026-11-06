@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
   - American
 course:
   - Main
-servings: 
+servings:
 total_time: 55 mins
 prep_time: 10 mins
 cooking_time: 45 mins

@@ -1,14 +1,14 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Appetizer
-servings: 
+servings:
 total_time: 4 hrs 5 mins
 prep_time: 5 mins
 cooking_time: 4 hrs

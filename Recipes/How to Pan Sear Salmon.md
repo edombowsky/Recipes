@@ -3,12 +3,12 @@ class: Recipe
 type:
   - recipe
   - tip
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
-cuisine: 
+cuisine:
 servings: 1 serving
 course:
   - Main

@@ -2,12 +2,12 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - French
-course: 
+course:
 servings: 1 hr
 total_time: 55 mins
 prep_time: 5 mins

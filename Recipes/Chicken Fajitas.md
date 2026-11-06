@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Tex-Mex
 course:
   - Main
 servings: 4 servings
 total_time: 20 mins
-prep_time: 
+prep_time:
 cooking_time: 20 mins
 source: https://www.heartfoundation.org.au/Recipes/chicken-fajitas
 created: 2023-09-19T21:58

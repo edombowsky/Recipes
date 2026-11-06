@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -14,7 +14,7 @@ course:
   - Appetizer
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/feta-vinaigrette-recipe-23670315
 obsidianUIMode: preview
 cssclasses:

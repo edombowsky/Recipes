@@ -2,19 +2,19 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
   - American
   - British
 servings: 1 cup
-course: 
+course:
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.delish.com/cooking/recipe-ideas/a43414312/homemade-tartar-sauce-recipe/
 obsidianUIMode: preview
 cssclasses:

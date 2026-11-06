@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - French
 servings: 1/2 cup
@@ -12,7 +12,7 @@ course:
   - Appetizer
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.simplyrecipes.com/recipes/the_vinaigrette_ratio/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41

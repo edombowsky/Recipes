@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Seasoning
 cuisine:
@@ -13,7 +13,7 @@ servings: 5 servings
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://kristineskitchenblog.com/pork-rub/
 obsidianUIMode: preview
 cssclasses:

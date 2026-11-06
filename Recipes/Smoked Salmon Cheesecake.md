@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Main
-servings: 
+servings:
 total_time: 3 hrs
 prep_time: 30 mins
 cooking_time: 2 hrs 40 mins

@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - British
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.reddit.com/r/food/comments/1c3tmbf/homemade_shepherds_pie/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41

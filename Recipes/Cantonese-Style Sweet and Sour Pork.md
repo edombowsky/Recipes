@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Chinese
 course:
   - Main
 servings: 2-4 servings
 total_time: 30 mins
-prep_time: 
+prep_time:
 cooking_time: 5 mins
 source: https://www.washingtonpost.com/recipes/cantonese-style-sweet-and-sour-pork/
 created: 2023-09-19T21:58

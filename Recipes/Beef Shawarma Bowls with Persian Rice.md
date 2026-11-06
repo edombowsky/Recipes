@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -15,9 +15,9 @@ cuisine:
 course:
   - Main
 servings: 6 servings
-prep_time: 
-cooking_time: 
-total_time: 
+prep_time:
+cooking_time:
+total_time:
 source: https://littlespicejar.com/beef-shawarma-bowls-with-vermicelli-rice/
 obsidianUIMode: preview
 cssclasses:

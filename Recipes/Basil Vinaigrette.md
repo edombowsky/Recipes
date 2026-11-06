@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -13,7 +13,7 @@ servings: 2/3 cup
 course: []
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/basil-vinaigrette-recipe-23553741
 obsidianUIMode: preview
 cssclasses:

@@ -1,23 +1,23 @@
 ---
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-cuisine: 
-servings: 
-course: 
-total_time: 
-prep_time: 
-cooking_time: 
-source: 
+rating:
+favourite:
+tried:
+cuisine:
+servings:
+course:
+total_time:
+prep_time:
+cooking_time:
+source:
 created: 2023.10.17 12:00:00.000 -0700
 updated: 2024.07.26 17:19:59.176 -0700
 obsidianUIMode: preview
 class: Recipe
 cssclasses:
   - obsidian-banner
-meal_type: 
+meal_type:
 banner: "[[farberware-professional-plastic-measuring-cups-set-5-piece-measuring-cup-set.jpg]]"
 ---
 

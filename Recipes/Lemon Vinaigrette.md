@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
   - French
 servings: 6-8 servings (1/2 cup)
-course: 
+course:
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.loveandlemons.com/lemon-vinaigrette/
 obsidianUIMode: preview
 cssclasses:

@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
   - ""
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 4-5 hrs
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=eVuXwv1yxo0
 obsidianUIMode: preview
 cssclasses:

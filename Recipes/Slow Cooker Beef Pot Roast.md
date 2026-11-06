@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
 cuisine:
   - British
   - American
   - Canadian
-servings: 
+servings:
 course:
   - Main
 total_time: 8 hrs 35 mins to 10 hrs 35 mins

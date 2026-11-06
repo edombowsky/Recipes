@@ -2,15 +2,15 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dinner
   - Lunch
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 1 hr 20 mins

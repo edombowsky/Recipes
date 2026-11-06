@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Mexican
 course:
   - Soup
 servings: 6 servings
 total_time: 45 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.washingtonpost.com/recipes/chickpea-chorizo-spinach-soup/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dessert
 cuisine:
@@ -15,7 +15,7 @@ course:
   - Dessert
 servings: 20 servings (2 1/2 cups)
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 total_time: 10 mins
 source: https://www.twosisterscrafting.com/buttercream-frosting/
 obsidianUIMode: preview

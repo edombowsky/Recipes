@@ -1,8 +1,8 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
+rating:
+favourite:
 tried: true
 cuisine:
   - Mexican
@@ -11,7 +11,7 @@ course:
 servings: 4 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.acouplecooks.com/black-bean-and-corn-salad/
 created: 2023-09-19T21:58
 updated: 2024.06.08 14:58:43.126 -0700

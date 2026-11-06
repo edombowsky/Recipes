@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -15,7 +15,7 @@ cuisine:
   - French
 course:
   - Soup
-servings: 
+servings:
 total_time: 1 hr 35 mins
 prep_time: 20 mins
 cooking_time: 1 hr 15 mins

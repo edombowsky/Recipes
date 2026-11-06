@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Brunch
@@ -16,7 +16,7 @@ course:
   - Appetizer
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://food-guide.canada.ca/en/recipes/terrific-tuna-tomato-salad/
 obsidianUIMode: preview
 cssclasses:

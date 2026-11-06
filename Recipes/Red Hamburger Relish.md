@@ -2,15 +2,15 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Condiment
 cuisine:
   - Canadian
 servings: 5 medium sized jars
-course: 
+course:
 total_time: 1 day 1 hr 5 mins
 prep_time: 1 day
 cooking_time: 50 mins + 15 mins

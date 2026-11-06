@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Mediterranean
   - Middle-Eastern
 course: []
 servings: 5 tablespoons (12 servings)
 total_time: 10 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.themediterraneandish.com/tahini-sauce-recipe-how-to-make-tahini/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:36:12.793 -0700

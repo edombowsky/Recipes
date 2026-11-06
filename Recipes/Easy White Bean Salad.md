@@ -1,9 +1,9 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
@@ -11,7 +11,7 @@ course:
 servings: 2 large or 4 side salads
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.acouplecooks.com/white-bean-salad/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:40

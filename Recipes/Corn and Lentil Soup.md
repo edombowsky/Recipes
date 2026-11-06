@@ -2,13 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Dinner
-cuisine: 
+cuisine:
 servings: 8 servings
 course:
   - Soup

@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 6 servings
 course:
   - Main
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://chefjeanpierre.com/salad-recipes/coleslaw-dressing-recipe/
 created: 2023-11-01T23:27
 updated: 2024.06.19 22:53:31.742 -0700

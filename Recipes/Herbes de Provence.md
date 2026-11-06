@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - French
 servings: 22 servings
 course: []
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.theendlessmeal.com/herbs-de-provence/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:13:42.434 -0700

@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
-servings: 
+servings:
 total_time: 55 mins
 prep_time: 5 mins
 cooking_time: 40-50 mins

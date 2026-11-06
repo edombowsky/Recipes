@@ -2,14 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: [Snack]
-cuisine: [American]
-course: [Main]
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+  - Snack
+cuisine:
+  - American
+course:
+  - Main
 servings: 10-12 muffins
 prep_time: 10 mins
 cooking_time: 20 mins

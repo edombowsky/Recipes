@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
-vegetarian: 
+vegetarian:
 meal_type:
   - Seasoning
 cuisine:
@@ -14,7 +14,7 @@ cuisine:
 course: []
 servings: enough to season 21 lb of meat
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://littlespicejar.com/shawarma-seasoning/
 obsidianUIMode: preview

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -14,8 +14,8 @@ cuisine:
 course:
   - Main
 servings: 6 servings
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 total_time: 45 mins
 source: https://www.themediterraneandish.com/greek-lemon-rice-recipe/
 obsidianUIMode: preview

@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Condiment
 cuisine:
   - Canadian
 servings: 75 servings
-course: 
-total_time: 
+course:
+total_time:
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.canadianliving.com/food/recipe/hamburger-relish
 obsidianUIMode: preview
 cssclasses:

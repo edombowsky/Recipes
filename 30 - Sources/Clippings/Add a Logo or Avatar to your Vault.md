@@ -1,12 +1,13 @@
 ---
-title: "Add a Logo or Avatar to your Vault"
-source: "https://tfthacker.com/experiment-vault-logo"
+title: Add a Logo or Avatar to your Vault
+source: https://tfthacker.com/experiment-vault-logo
 author:
 published:
 created: 2025.07.05 00:00:00.000-07:00
-description: "Dashboard++ — a simple organization and navigation method for Obsidian Vaults - Toolbox for Thought"
-tags: ["clipping"]
-obsidianUIMode: "preview"
+description: Dashboard++ — a simple organization and navigation method for Obsidian Vaults - Toolbox for Thought
+tags:
+  - clipping
+obsidianUIMode: preview
 modified: Saturday, July 5th 2025, 4:41:16 pm
 updated: 2026.08.01 20:47:08.111-07:00
 ---

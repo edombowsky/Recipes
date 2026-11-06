@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - French
 servings: 1 1/4 cup
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.simplyrecipes.com/recipes/how_to_make_mayonnaise_in_a_blender_or_food_processor/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:26:45.650 -0700

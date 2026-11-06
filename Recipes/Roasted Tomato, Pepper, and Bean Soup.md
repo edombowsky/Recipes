@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Dinner
-cuisine: 
-servings: 
+cuisine:
+servings:
 course:
   - Soup
 total_time: 1 hr 10 mins

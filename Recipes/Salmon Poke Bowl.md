@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
 servings: 4 servings
 total_time: 35-40 mins
-prep_time: 
+prep_time:
 cooking_time: 10-15 mins plus 30 mins marinating time
 source: https://www.heartfoundation.org.au/recipes/salmon-poke-bowl
 created: 2023-09-19T21:58

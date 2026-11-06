@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -13,7 +13,7 @@ servings: 1 cup
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://kellyscleankitchen.com/2022/08/09/italian-salad-dressing/
 obsidianUIMode: preview
 cssclasses:

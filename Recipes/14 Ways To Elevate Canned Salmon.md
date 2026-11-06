@@ -2,17 +2,17 @@
 type:
   - recipe
 banner: "[[canned-salmon-ideas.png]]"
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Main
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.tastingtable.com/1476734/ways-to-elevate-canned-salmon/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.08.11 14:43:58.310 -0700

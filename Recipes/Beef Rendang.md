@@ -1,13 +1,13 @@
 ---
 type: recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Malyasian
 course:
   - Main
-servings: 
+servings:
 total_time: 2 hrs 45 mins
 prep_time: 15 mins
 cooking_time: 2 hrs 30 mins

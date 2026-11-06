@@ -2,10 +2,10 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
+rating:
+favourite:
+tried:
+vegan:
 meal_type:
   - Side
 cuisine:
@@ -15,7 +15,7 @@ course:
 servings: 1/2 cup
 total_time: 2 mins
 prep_time: 2 mins
-cooking_time: 
+cooking_time:
 source: https://www.jennycancook.com/recipes/2-minute-chocolate-frosting/
 obsidianUIMode: preview
 cssclasses:

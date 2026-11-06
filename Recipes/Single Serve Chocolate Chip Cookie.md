@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course:
   - Dessert
 servings: "1"
 total_time: 30 mins
-prep_time: 
+prep_time:
 cooking_time: 16-20 mins
 source: https://www.washingtonpost.com/recipes/single-serving-chocolate-chip-cookie/
 created: 2023-09-19T21:58

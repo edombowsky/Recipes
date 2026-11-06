@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Lunch
   - Dinner
@@ -18,7 +18,7 @@ servings: 4 servings
 prep_time: 15 mins
 cooking_time: 10 mins
 total_time: 25 mins
-source: 
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

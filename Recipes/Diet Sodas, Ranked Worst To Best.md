@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-meal_type: 
-cuisine: 
-servings: 
-course: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+meal_type:
+cuisine:
+servings:
+course:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.chowhound.com/1629489/most-popular-diet-sodas-ranked/
 obsidianUIMode: preview
 cssclasses:

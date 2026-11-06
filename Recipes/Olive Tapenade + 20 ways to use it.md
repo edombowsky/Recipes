@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-cuisine: 
+rating:
+favourite:
+tried:
+cuisine:
 servings: 2 servings
 course:
   - Main
 total_time: 15 mins
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://veggiechick.com/olive-tapenade/
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:41

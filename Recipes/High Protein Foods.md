@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-meal_type: 
-cuisine: 
-servings: 
-course: 
-total_time: 
-prep_time: 
-cooking_time: 
-source: 
+rating:
+favourite:
+tried:
+meal_type:
+cuisine:
+servings:
+course:
+total_time:
+prep_time:
+cooking_time:
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

@@ -2,14 +2,14 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-cuisine: 
-course: 
-servings: 
+rating:
+favourite:
+tried:
+cuisine:
+course:
+servings:
 total_time: 12 mins 40 sec
-prep_time: 
+prep_time:
 cooking_time: 8 mins 40 sec
 source: https://www.tiktok.com/@177milkstreet/video/7172270062735232299
 created: 2023-09-19T21:58
@@ -17,7 +17,7 @@ updated: 2024-05-18T16:40
 obsidianUIMode: preview
 cssclasses:
   - obsidian-banner
-meal_type: 
+meal_type:
 banner: "[[easy-to-peel-boiled-eggs.png]]"
 ---
 

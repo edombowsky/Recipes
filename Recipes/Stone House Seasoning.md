@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Seasoning
 cuisine:
@@ -14,7 +14,7 @@ cuisine:
 course: []
 servings: 20 teaspoons
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://addapinch.com/stone-house-seasoning-recipe/
 obsidianUIMode: preview

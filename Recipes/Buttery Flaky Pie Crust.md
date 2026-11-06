@@ -2,17 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: [Bread]
-cuisine: [International]
-course: [Dessert]
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+  - Bread
+cuisine:
+  - International
+course:
+  - Dessert
 servings: 2 pie crusts
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 total_time: 2 hrs 15 mins
 source:
   - https://sallysbakingaddiction.com/baking-basics-homemade-buttery-flaky-pie-crust/

@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Appetizer
   - Lunch
@@ -18,9 +18,9 @@ course:
   - Main
   - Appetizer
 servings: 12-14 skewers
-prep_time: 
-cooking_time: 
-total_time: 
+prep_time:
+cooking_time:
+total_time:
 source: https://littlespicejar.com/thai-chicken-satay-peanut-dipping-sauce/
 obsidianUIMode: preview
 cssclasses:

@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Seasoning
   - Side
@@ -14,7 +14,7 @@ servings: 1 cup
 course: []
 total_time: 10 mins
 prep_time: 10 mins
-cooking_time: 
+cooking_time:
 source: https://www.recipetineats.com/pesto/
 obsidianUIMode: preview
 cssclasses:

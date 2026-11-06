@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -12,8 +12,8 @@ cuisine:
 servings: 1.75 cups
 course: []
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://kellyscleankitchen.com/2024/01/08/balsamic-vinaigrette/
 obsidianUIMode: preview
 cssclasses:

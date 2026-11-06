@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Seasoning
   - Side
 cuisine:
   - American
-servings: 
+servings:
 course: []
 total_time: 20 mins
 prep_time: 5 mins
 cooking_time: 15 mins
-source: 
+source:
 obsidianUIMode: preview
 cssclasses:
   - hide_properties

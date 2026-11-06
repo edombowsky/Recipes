@@ -4,9 +4,9 @@ type:
   - recipe
 rating:
   - ⭐⭐⭐⭐
-favourite: 
+favourite:
 tried: true
-vegan: 
+vegan:
 vegetarian: true
 meal_type:
   - Lunch

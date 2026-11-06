@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -14,9 +14,9 @@ cuisine:
 course:
   - Main
   - Appetizer
-servings: 
+servings:
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 total_time: 10 mins
 source: https://www.themediterraneandish.com/shirazi-salad-recipe/
 obsidianUIMode: preview

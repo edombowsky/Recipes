@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
   - Side
@@ -13,9 +13,9 @@ meal_type:
 cuisine:
   - Italian
 servings: 4 servings
-course: 
+course:
 total_time: 10 mins
-prep_time: 
+prep_time:
 cooking_time: 10 mins
 source: https://www.loveandlemons.com/balsamic-reduction/
 obsidianUIMode: preview

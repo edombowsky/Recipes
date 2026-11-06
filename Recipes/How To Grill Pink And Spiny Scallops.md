@@ -2,21 +2,21 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
 cuisine:
   - Canadian
 course:
   - Main
-servings: 
-prep_time: 
-cooking_time: 
-total_time: 
+servings:
+prep_time:
+cooking_time:
+total_time:
 source: https://skipperotto.com/whole-scallops/?__s=dps1yf82onr75un3wqeb
 obsidianUIMode: preview
 cssclasses:

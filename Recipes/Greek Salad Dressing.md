@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: true
 tried: true
 cuisine:
@@ -12,7 +12,7 @@ servings: 3/4 cup
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.tasteofhome.com/recipes/greek-salad-dressing/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:08:50.775 -0700

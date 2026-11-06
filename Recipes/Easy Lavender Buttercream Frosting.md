@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -15,7 +15,7 @@ course:
   - Dessert
 servings: 20-24 servings
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://sabrinacurrie.com/easy-lavender-buttercream-frosting-icing/
 obsidianUIMode: preview

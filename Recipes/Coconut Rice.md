@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
   - Thai
-course: 
+course:
 servings: 4 servings
 prep_time: 10 mins
 cooking_time: 20 mins

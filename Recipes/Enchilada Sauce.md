@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Seasoning
 cuisine:
   - Mexican
 course: []
-servings: 
+servings:
 total_time: 15 mins
 prep_time: 5 mins
 cooking_time: 10 mins

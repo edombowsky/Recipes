@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-prep_time: 
-cooking_time: 
-total_time: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
+servings:
+prep_time:
+cooking_time:
+total_time:
 source:
   - https://redstaryeast.com/yeast-conversion-chart/?utm_source=Sallys%20Baking%20Addiction&utm_medium=Blog%20Post&utm_campaign=Yeast%20Guide
 obsidianUIMode: preview

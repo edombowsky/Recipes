@@ -2,7 +2,7 @@
 class: Recipe
 type:
   - recipe
-rating: 
+rating:
 favourite: false
 tried: false
 cuisine:

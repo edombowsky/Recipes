@@ -2,8 +2,8 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
+rating:
+favourite:
 tried: true
 cuisine:
   - Italian

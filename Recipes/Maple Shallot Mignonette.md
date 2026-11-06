@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dressing
 cuisine:
@@ -15,7 +15,7 @@ course:
   - Main
 servings: "1"
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://wildcatch.ca/recipe/bbq-scallop-and-maple-shallot-mignonette/
 obsidianUIMode: preview

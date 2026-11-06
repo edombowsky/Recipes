@@ -21,9 +21,15 @@ source: https://whyitalians.com/caprese-salad-bites/
 obsidianUIMode: preview
 cssclasses:
   - hide_properties
-created: 2025.07.04 22:27:32.000-07:00
-updated: 2026.08.01 19:51:14.752-07:00
+created: 2025-07-04 22:27:32.000-07:00
+updated: 2026-11-05 18:41:32.818-07:00
 banner: "[[5-Minute-Caprese-Salad-Bites.jpg]]"
+cook_history:
+  - id: mw4b5rjp-jwcl
+    date: 2026-07-11
+    note: Took to Erin's as an appetizer; well received
+last_made: 2026-07-11
+cooked_count: 1
 ---
 
 Need an appetizer that looks impressive but won’t keep you in the kitchen for hours? These Caprese salad bites come together in minutes with juicy tomatoes, fresh mozzarella, and basil—drizzled in high-quality olive oil. You’ll be a kitchen hero in no time.
@@ -59,3 +65,8 @@ Need an appetizer that looks impressive but won’t keep you in the kitchen for 
 🥄 **Olive Oil—Don’t Skimp**: Don’t even think about using regular olive oil. Extra virgin is the only way to go. If you’re using the cheap stuff, why bother making these at all? You’ll taste the difference, and trust me, your guests will notice.
 
 🎯 **Make Ahead…Sort Of**: These bites are best served fresh, but you can _prep_ them ahead of time. Stick everything together (minus the oil), then drizzle the olive oil just before serving. Keep them in the fridge for up to 3 hours—any longer and the mozzarella will start to get weird.
+
+## Cook History
+
+<!-- This section managed by the Recipe Box plugin. Manual edits will be overwritten. -->
+- **2026-07-11:** Took to Erin's as an appetizer; well received <!--rb-id:mw4b5rjp-jwcl-->

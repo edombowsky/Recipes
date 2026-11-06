@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-prep_time: 
-cooking_time: 
-total_time: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
+servings:
+prep_time:
+cooking_time:
+total_time:
 source:
   - https://sallysbakingaddiction.com/how-to-knead-dough/
 obsidianUIMode: preview

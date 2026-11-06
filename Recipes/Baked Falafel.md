@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
-vegetarian: 
+vegetarian:
 meal_type:
   - Lunch
 cuisine:
@@ -14,7 +14,7 @@ cuisine:
   - Egyptian
 course:
   - Main
-servings: 
+servings:
 prep_time: 1 day 10mins
 cooking_time: 15 mins
 total_time: chilling time1 hr + 1 day 25 mins

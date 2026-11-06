@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Seasoning
 cuisine:
   - Italian
 servings: 4 cups
-course: 
+course:
 total_time: 20 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://kellyscleankitchen.com/2023/06/08/homemade-ricotta-cheese/
 obsidianUIMode: preview
 cssclasses:

@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
 course:
   - Main
 servings: 4 servings
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.norfolkandtillsonburgnews.com/life/food/recipes/recipe-rigatoni-with-heirloom-tomato-passata-and-stracciatella
 created: 2023-09-23T18:57
 updated: 2024-05-18T16:41

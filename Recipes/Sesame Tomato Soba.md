@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Asian
 course:
   - Main
 servings: 4 servings
 total_time: 20 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://www.washingtonpost.com/recipes/sesame-tomato-soba/
 created: 2023-10-28T18:18
 updated: 2024-05-18T16:41

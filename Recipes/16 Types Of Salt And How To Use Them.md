@@ -2,15 +2,15 @@
 type:
   - tip
 banner: "[[types-of-salt.webp]]"
-rating: 
-favourite: 
-tried: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.tastingtable.com/1404797/types-salt-best-uses/
 created: 2023-09-28 14:00:00.000-07:00
 updated: 2026-11-05 17:22:32.673-07:00
@@ -18,7 +18,7 @@ obsidianUIMode: preview
 class: Recipe
 cssclasses:
   - obsidian-banner
-meal_type: 
+meal_type:
 ---
 
 In the labyrinth that is modern cooking, salt is the thread that has led us through for centuries. It's a truly indispensable ingredient — not only is it absolutely necessary for human health and survival (provided it's consumed in adequate doses), but food wouldn't be the same without it. And if you think you already [know everything about salt](https://www.tastingtable.com/1179418/everything-you-need-to-know-about-salt/), think again. We are about to reveal over a dozen of its secret identities, each with a unique backstory and flavour profile.

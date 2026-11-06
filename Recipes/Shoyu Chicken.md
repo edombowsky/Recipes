@@ -1,17 +1,17 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Hawiian
 course:
   - Main
 servings: 4-6 servings
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.youtube.com/watch?v=J7ip778ulqo
 banner-y: 0.684
 created: 2023.09.27 15:00:00.000 -0700

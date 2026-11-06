@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 course: []
 servings: 1/4 - 1/3 cups
 total_time: 5 mins
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 source: https://calgaryherald.com/life/food/recipes/atco-blue-flame-kitchen-homemade-holiday-gift-ideas
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:02:08.923 -0700

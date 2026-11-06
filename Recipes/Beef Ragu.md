@@ -2,13 +2,13 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Italian
 servings: 8-10 servings
-total_time: 
+total_time:
 prep_time: 20 mins
 cooking_time: 3-4 hrs
 source: https://www.thekitchn.com/beef-ragu-recipe-23586257

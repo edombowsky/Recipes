@@ -2,15 +2,15 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Lunch
   - Dinner
 cuisine:
   - Thai
-servings: 
+servings:
 course:
   - Main
 total_time: 20 mins

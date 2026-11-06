@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Breakfast
   - Brunch
@@ -21,10 +21,10 @@ course:
   - Main
   - Soup
   - Appetizer
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.healthline.com/nutrition/mediterranean-diet-meal-plan#snackshuion%20graphics%20tablet
 obsidianUIMode: preview
 cssclasses:

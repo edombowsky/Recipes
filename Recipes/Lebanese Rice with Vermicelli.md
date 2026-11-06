@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
-vegetarian: 
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -14,8 +14,8 @@ cuisine:
 course:
   - Main
 servings: 6 servings
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 total_time: 35 mins
 source: https://www.themediterraneandish.com/lebanese-rice-with-vermicelli/
 obsidianUIMode: preview

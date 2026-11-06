@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dinner
   - Lunch
@@ -15,8 +15,8 @@ cuisine:
 course:
   - Main
 servings: 6 servings
-prep_time: 
-cooking_time: 
+prep_time:
+cooking_time:
 total_time: 40 mins
 source: https://www.themediterraneandish.com/moroccan-fish-recipe/
 obsidianUIMode: preview

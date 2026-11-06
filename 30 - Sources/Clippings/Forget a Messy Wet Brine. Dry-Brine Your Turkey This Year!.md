@@ -1,12 +1,13 @@
 ---
-title: "Forget a Messy Wet Brine. Dry-Brine Your Turkey This Year!"
-source: "https://www.allrecipes.com/article/how-dry-brine-turkey/"
+title: Forget a Messy Wet Brine. Dry-Brine Your Turkey This Year!
+source: https://www.allrecipes.com/article/how-dry-brine-turkey/
 author:
-  - "Carl Hanson"
+  - Carl Hanson
 published: 2019-10-03
 created: 2025.12.15 00:00:00.000-08:00
-description: "Learn how to dry-brine a turkey for Thanksgiving. Plus, find top-rated dry-brined turkey recipes."
-tags: ["clipping"]
+description: Learn how to dry-brine a turkey for Thanksgiving. Plus, find top-rated dry-brined turkey recipes.
+tags:
+  - clipping
 updated: 2025.12.15 18:20:21.155-08:00
 ---
 ![a golden brown roast turkey in a roasting pan](https://www.allrecipes.com/thmb/CFo2ZiXJAHmwU_aGmEvPghjK6IY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/7382634-dry-brine-turkey-photo-by-trisha-petersen-cropped-9389156602994be88c1756a02bdadbcd.jpg)

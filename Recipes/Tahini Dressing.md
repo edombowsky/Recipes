@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
@@ -13,7 +13,7 @@ servings: 3/4 cup
 course: []
 total_time: 7 mins
 prep_time: 7 mins
-cooking_time: 
+cooking_time:
 source: https://www.thekitchn.com/tahini-dressing-recipe-23309895
 obsidianUIMode: preview
 cssclasses:

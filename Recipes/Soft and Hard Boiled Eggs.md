@@ -6,8 +6,8 @@ rating:
   - ⭐⭐⭐⭐⭐
 favourite: true
 tried: true
-vegan: 
-vegetarian: 
+vegan:
+vegetarian:
 meal_type:
   - Breakfast
   - Brunch

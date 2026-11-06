@@ -2,19 +2,19 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Dressing
 cuisine:
   - Italian
-servings: 
+servings:
 course:
   - Main
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.facebook.com/groups/1131099094785867/permalink/1180311046531338/?mibextid=xfxF2i&rdid=l1J7qwlvPSaremJX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2FXnrjsYy3z3sJxLCg%2F%3Fmibextid%3DxfxF2i
 obsidianUIMode: preview
 cssclasses:

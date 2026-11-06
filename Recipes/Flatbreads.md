@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Side
 cuisine:
@@ -14,10 +14,10 @@ cuisine:
   - Mediterranean
 course:
   - Main
-servings: 
-prep_time: 
-cooking_time: 
-total_time: 
+servings:
+prep_time:
+cooking_time:
+total_time:
 source:
   - https://www.facebook.com/story.php?story_fbid=24506434472280017&id=100000204130617&post_id=100000204130617_24506434472280017&rdid=bW5adIlSbriXAXUd
 obsidianUIMode: preview

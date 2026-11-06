@@ -5,7 +5,8 @@ author:
   - Macaria Valerie
 published: 2024-02-02
 description: How much is a serving size of jasmine rice? Learn about the appropriate serving size of jasmine rice to maintain a balanced and nutritious diet.
-tags: [clipping]
+tags:
+  - clipping
 obsidianUIMode: preview
 created: 2026.04.23 22:55:03.000-07:00
 updated: 2026.04.23 23:26:15.643-07:00

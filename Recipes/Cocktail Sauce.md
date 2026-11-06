@@ -2,11 +2,11 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Condiment
 cuisine:
@@ -16,7 +16,7 @@ course:
   - Main
 servings: 4 servings
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source:
   - https://www.daringgourmet.com/cocktail-sauce/

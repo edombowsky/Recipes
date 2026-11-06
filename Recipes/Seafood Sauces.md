@@ -2,9 +2,9 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
 cuisine:
@@ -14,9 +14,9 @@ cuisine:
 servings: 1 cup
 course:
   - Appetizer
-total_time: 
+total_time:
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.recipetineats.com/5-great-prawn-dipping-sauces/
 obsidianUIMode: preview
 cssclasses:

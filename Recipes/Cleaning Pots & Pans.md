@@ -2,18 +2,18 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
+meal_type:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://thelittleshine.com/pot-pan-cleaning-guide/
 obsidianUIMode: preview
 cssclasses:

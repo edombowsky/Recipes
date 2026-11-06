@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 vegan: true
 meal_type:
   - Seasoning
 cuisine:
   - American
   - Italian
-course: 
+course:
 servings: 8 servings
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.connoisseurusveg.com/vegan-parmesan-cheese/
 obsidianUIMode: preview
 cssclasses:

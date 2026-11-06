@@ -2,19 +2,19 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
-vegan: 
-vegetarian: 
+rating:
+favourite:
+tried:
+vegan:
+vegetarian:
 meal_type:
   - Dressing
 cuisine:
   - French
-course: 
+course:
 servings: 16 servings (3/4 cup)
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 total_time: 5 mins
 source: https://www.themediterraneandish.com/dijon-vinaigrette/
 obsidianUIMode: preview

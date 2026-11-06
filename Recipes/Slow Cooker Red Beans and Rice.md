@@ -1,9 +1,9 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Tex-Mex
 course:
@@ -11,7 +11,7 @@ course:
 servings: 10 cups
 total_time: 7 hrs
 prep_time: 15 mins
-cooking_time: 
+cooking_time:
 source: https://www.southernliving.com/recipes/slow-cooker-red-beans-rice-1
 created: 2023-09-19T21:58
 updated: 2024-05-18T16:42

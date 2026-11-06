@@ -2,20 +2,20 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 meal_type:
   - Side
   - Snack
   - Condiment
 cuisine:
   - American
-servings: 
+servings:
 course: []
-total_time: 
-prep_time: 
-cooking_time: 
+total_time:
+prep_time:
+cooking_time:
 source: https://www.facebook.com/share/p/SYRRg77guB2F5VKW/
 obsidianUIMode: preview
 cssclasses:

@@ -1,16 +1,16 @@
 ---
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Middle-Eastern
 course:
   - Main
 servings: 4 servings
-total_time: 
-prep_time: 
+total_time:
+prep_time:
 cooking_time: 15 mins
 source: https://www.jamieoliver.com/recipes/vegetable-recipes/quick-falafel/
 created: 2023.10.24 16:00:00.000 -0700

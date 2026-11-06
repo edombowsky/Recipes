@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - Indian
 servings: 12 servings
 course: []
 total_time: 5 mins
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://www.liveeatlearn.com/garam-masala/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:10:52.182 -0700

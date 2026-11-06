@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - tip
-rating: 
-favourite: 
-tried: 
-vegan: 
-meal_type: 
-cuisine: 
-course: 
-servings: 
-total_time: 
-prep_time: 
-cooking_time: 
+rating:
+favourite:
+tried:
+vegan:
+meal_type:
+cuisine:
+course:
+servings:
+total_time:
+prep_time:
+cooking_time:
 source: https://www.facebook.com/photo.php?fbid=867562148883192&set=a.494646786174732&type=3
 obsidianUIMode: preview
 cssclasses:

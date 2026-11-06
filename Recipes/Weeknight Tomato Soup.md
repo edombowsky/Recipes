@@ -2,16 +2,16 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
 servings: 4 servings
 course:
   - Soup
 total_time: 45 mins
-prep_time: 
+prep_time:
 cooking_time: 30 mins
 source: https://smittenkitchen.com/2024/03/weeknight-tomato-soup/
 created: 2023.09.19 21:00:00.000 -0700

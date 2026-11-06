@@ -3,7 +3,8 @@ cssclasses:
   - cards
   - cards-1-1
   - cards-cover
-tags: [map]
+tags:
+  - map
 dvLimit: 110
 created: 2025.04.16 22:29:08.000 -0700
 updated: 2025.07.11 17:29:19.433 -0700

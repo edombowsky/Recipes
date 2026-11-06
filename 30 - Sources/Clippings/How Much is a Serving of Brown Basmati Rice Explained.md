@@ -5,7 +5,8 @@ author:
   - Macaria Valerie
 published: 2024-11-22
 description: Wondering how much is a serving of brown basmati rice? Learn the ideal portion size for balanced meals and maintaining a healthy diet.
-tags: [clipping]
+tags:
+  - clipping
 obsidianUIMode: preview
 created: 2026.04.23 17:47:18.000-07:00
 updated: 2026.04.23 23:21:06.040-07:00

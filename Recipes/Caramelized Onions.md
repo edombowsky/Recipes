@@ -2,17 +2,17 @@
 class: Recipe
 type:
   - recipe
-rating: 
-favourite: 
-tried: 
+rating:
+favourite:
+tried:
 cuisine:
   - American
-servings: 
+servings:
 course:
   - Main
 total_time: 30 mins to 1 hr
 prep_time: 5 mins
-cooking_time: 
+cooking_time:
 source: https://chefjeanpierre.com/recipes/side-dishes/making-caramelized-onions/
 created: 2023.09.19 21:00:00.000 -0700
 updated: 2025.03.17 15:43:47.309 -0700

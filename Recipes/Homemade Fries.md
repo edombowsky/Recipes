@@ -24,7 +24,9 @@ cssclasses:
 created: 2025.07.04 22:27:32.000-07:00
 updated: 2026.08.01 20:45:09.797-07:00
 banner: "[[Best-Homemade-Fries-Recipe.jpg]]"
-aliases: [french fries, chips]
+aliases:
+  - french fries
+  - chips
 ---
 
 ## The Best Baked Fries You’ll Ever Eat
