@@ -24,3 +24,34 @@
 
 // Ignore the files versioned by Syncthing
 .stversions
+
+// Don't wanty or need these plugins on mobile
+.obsidian/plugins/better-export-pdf
+.obsidian/plugins/better-paste
+.obsidian/plugins/change-case
+.obsidian/plugins/device-plugin-switcher
+.obsidian/plugins/find-orphaned-images
+.obsidian/plugins/harper
+.obsidian/plugins/image-converter
+.obsidian/plugins/kaper
+.obsidian/plugins/obsidian-git
+.obsidian/plugins/obsidian-linter
+.obsidian/plugins/obsidian-meta-bind-plugin
+.obsidian/plugins/obsidian-plugin-update-tracker
+.obsidian/plugins/obsidian-style-settings
+.obsidian/plugins/obsidian-text-format
+.obsidian/plugins/obsidian-trim-whitespace
+.obsidian/plugins/obsidian-view-mode-by-frontmatter
+.obsidian/plugins/obsidian42-brat
+.obsidian/plugins/open-tab-settings
+.obsidian/plugins/paste-image-rename-convert
+.obsidian/plugins/pexels-banner
+.obsidian/plugins/pretty-properties
+.obsidian/plugins/print
+.obsidian/plugins/recipe-grabber
+.obsidian/plugins/recipe-view
+.obsidian/plugins/sfb-better-search-and-replace
+.obsidian/plugins/substitutions
+.obsidian/plugins/syncthing-integration
+.obsidian/plugins/table-editor-obsidian
+.obsidian/plugins/templater-obsidian
