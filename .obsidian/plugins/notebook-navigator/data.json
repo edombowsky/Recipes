@@ -241,6 +241,7 @@
   "frontmatterColorField": "color",
   "frontmatterBackgroundField": "background",
   "frontmatterNameField": "",
+  "frontmatterNameFormat": "{{name}}",
   "frontmatterCreatedField": "",
   "frontmatterModifiedField": "",
   "frontmatterDateFormat": "",
@@ -558,7 +559,7 @@
     "#64748b",
     "#78716c"
   ],
-  "lastShownVersion": "3.5.0",
+  "lastShownVersion": "3.5.1",
   "rootTagOrder": [],
   "rootPropertyOrder": [],
   "useEmbeddedImageFallback": true,

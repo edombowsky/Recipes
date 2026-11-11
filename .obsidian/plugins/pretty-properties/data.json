@@ -110,7 +110,7 @@
   "dontShowColorMigrationMessage": false,
   "propertyColors": {},
   "propertyColorSettingRevealed": "",
-  "coverClassesMigrated2": false,
+  "coverClassesMigrated2": true,
   "propertySelectOptions": {},
   "enablePropertySearch": true,
   "enableSetNNColors": false,
