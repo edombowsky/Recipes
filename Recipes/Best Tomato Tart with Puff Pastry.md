@@ -23,6 +23,17 @@ cssclasses:
 created: 2025.07.04 22:27:32.000-07:00
 updated: 2026.08.03 00:06:13.195-07:00
 banner: "[[herbed-tomato-puff-pastry-cheese-tart.jpg]]"
+cook_hIstory:
+  - id: mwegoyvk-3ce3
+    date: 2026-11-13
+    note: Loved it.
+last_made: 2026-11-13
+cooked_count: 1
+recipe-share:
+  slug: best-tomato-tart-with-puff-pastry
+  token: LrKsgWBKr6xaGBiQfSJiZqMpITBEG5FP
+  created: 2026-11-13T04:13:56.062Z
+  expires: 2027-02-11T04:13:55.197Z
 ---
 
 This rustic tomato tart with puff pastry is a simple, tasty appetizer for a casual dinner party or a light lunch served with a salad and a glass of wine.
@@ -76,3 +87,7 @@ Nutrition values are estimates for one square (when tart is cut into 16 pieces f
 ### Nutrition
 
 **Calories**: 136kcal | **Carbohydrates**: 8g | Protein**:** 5g | **Fat**: 9g | **Saturated Fat**: 3g | **Polyunsaturated Fat**: 1g | **Monounsaturated Fat**: 5g | **Trans Fat**: 1g | **Cholesterol**: 20mg | **Sodium**: 193mg | **Potassium**: 90mg | **Fiber**: 1g | **Sugar**: 1g | **Vitamin A**: 289IU | **Vitamin C**: 7mg | **Calcium**: 105mg | **Iron**: 1mg
+
+## Cook History
+<!-- This section managed by the Recipe Box plugin. Manual edits will be overwritten. -->
+- **2026-11-13:** Loved it. <!--rb-id:mwegoyvk-3ce3-->
