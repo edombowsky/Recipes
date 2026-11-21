@@ -18,15 +18,27 @@
             }
           },
           {
-            "id": "cc5a63618202985a",
+            "id": "7d04fca983715ac1",
             "type": "leaf",
             "state": {
-              "type": "recipe-box-recipe-view",
+              "type": "recipe-box-gallery-view",
               "state": {
-                "file": "Recipes/2 Ingredient No Yeast Artisan Bread.md"
+                "galleryState": {
+                  "sortField": "title",
+                  "sortDirection": "asc",
+                  "folder": null,
+                  "favoriteOnly": false,
+                  "tag": null,
+                  "minRating": 0,
+                  "neverCooked": false,
+                  "excludeAllergens": false,
+                  "search": "guac",
+                  "fieldFilters": []
+                },
+                "filterPanelOpen": false
               },
-              "icon": "lucide-file",
-              "title": "2 Ingredient No Yeast Artisan Bread"
+              "icon": "layout-grid",
+              "title": "Recipe gallery"
             }
           }
         ],
@@ -115,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Recipes/2 Ingredient No Yeast Artisan Bread.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -175,7 +185,6 @@
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
       "omnisearch:Omnisearch": false,
       "print:Print note": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
@@ -197,8 +206,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71d312ff613054e5",
+  "active": "7d04fca983715ac1",
   "lastOpenFiles": [
+    "Recipes/Simple Guacamole.md",
+    "Recipes/Chicken & Dumpling Soup.md",
+    "zAttachments/Chicken & Dumpling Soup.jpeg",
+    "Recipes/Guacamole.md",
+    "Recipes/Best Tomato Tart with Puff Pastry.md",
+    "Recipes/2 Ingredient No Yeast Artisan Bread.md",
     "Recipes/16 Types Of Salt And How To Use Them.md",
     "Recipes/Vegan Crab Cakes.md",
     "90 Organize/Templates/Template - Recipe.md",
@@ -226,12 +241,6 @@
     "90 Organize",
     "30 Sources/Clippings/Vanilla Pure vs. Vanilla Extract Understanding the Difference in Measurement.md",
     "30 Sources/Clippings/How to Truss a Turkey the Easy Way.md",
-    "30 Sources/Clippings/How to Make Thanksgiving Gravy Without Turkey Drippings.md",
-    "30 Sources/Clippings/How to Make Perfect Gravy From Turkey Drippings.md",
-    "30 Sources/Clippings/How to Cook a Turkey.md",
-    "30 Sources/Clippings/How to Check the Temperature of a Turkey.md",
-    "30 Sources/Clippings/How to Brine a Turkey.md",
-    "30 Sources/Clippings/How Much is a Serving of Brown Basmati Rice Explained.md",
     "30 Sources/Clippings",
     "30 Sources",
     "zAttachments/How-To-Make-Butter-Milk.webp",
@@ -243,7 +252,6 @@
     "zAttachments/Grown Up Sloppy Joes.jpeg",
     "zAttachments/cajun-gumbo-with-rice.webp",
     "zAttachments/indian-curry.jpeg",
-    "zAttachments/japanese-curry.jpeg",
-    "zAttachments/Faster-Better-Spaghettiand-and-Meat-Sauce.jpeg"
+    "zAttachments/japanese-curry.jpeg"
   ]
 }

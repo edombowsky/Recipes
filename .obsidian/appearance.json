@@ -36,5 +36,6 @@
   "textFontFamily": "JetBrainsMono Nerd Font",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "cssTheme": "Minimal",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "showRibbon": true
 }
