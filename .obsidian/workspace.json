@@ -13,8 +13,20 @@
             "state": {
               "type": "recipe-box-dashboard-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recipe-box-dashboard-view"
+              "icon": "chef-hat",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "5e8fe37a792b09a8",
+            "type": "leaf",
+            "state": {
+              "type": "recipe-box-recipe-view",
+              "state": {
+                "file": "Recipes/Classic British Chip Shop Curry Sauce.md"
+              },
+              "icon": "lucide-file",
+              "title": "Classic British Chip Shop Curry Sauce"
             }
           },
           {
@@ -37,8 +49,8 @@
                 },
                 "filterPanelOpen": false
               },
-              "icon": "lucide-ghost",
-              "title": "recipe-box-gallery-view"
+              "icon": "layout-grid",
+              "title": "Recipe gallery"
             }
           },
           {
@@ -54,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recipes/Classic Beef Stew.md"
+                "file": "Recipes/Classic British Chip Shop Curry Sauce.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -220,10 +232,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adbeb2a1f544a0ec",
+  "active": "5e8fe37a792b09a8",
   "lastOpenFiles": [
-    "zAttachments/Classic-Beef-Stew.webp",
+    "Recipes/Classic British Chip Shop Curry Sauce.md",
+    "zAttachments/chip-shop-curry-sauce.webp",
+    "zAttachments/Unconfirmed 740556.crdownload",
     "Recipes/Classic Beef Stew.md",
+    "zAttachments/Classic-Beef-Stew.webp",
     "Recipes/Simple Guacamole.md",
     "Recipes/Chicken & Dumpling Soup.md",
     "zAttachments/Chicken & Dumpling Soup.jpeg",
@@ -255,18 +270,14 @@
     "90 Organize/Classes",
     "90 Organize/Bases",
     "90 Organize",
-    "30 Sources/Clippings/Vanilla Pure vs. Vanilla Extract Understanding the Difference in Measurement.md",
     "30 Sources/Clippings",
     "30 Sources",
     "zAttachments/How-To-Make-Butter-Milk.webp",
     "zAttachments/Pâté-Chinois.avif",
-    "zAttachments/Unconfirmed 841569.crdownload",
     "zAttachments/budget_roast_turkey.jpg",
     "zAttachments/ulster-fry.jpg",
     "zAttachments/Weeknight Steak Fajitas.jpg",
     "zAttachments/Grown Up Sloppy Joes.jpeg",
-    "zAttachments/cajun-gumbo-with-rice.webp",
-    "zAttachments/indian-curry.jpeg",
-    "zAttachments/japanese-curry.jpeg"
+    "zAttachments/cajun-gumbo-with-rice.webp"
   ]
 }
