@@ -13,8 +13,8 @@
             "state": {
               "type": "recipe-box-dashboard-view",
               "state": {},
-              "icon": "chef-hat",
-              "title": "Dashboard"
+              "icon": "lucide-ghost",
+              "title": "recipe-box-dashboard-view"
             }
           },
           {
@@ -37,12 +37,24 @@
                 },
                 "filterPanelOpen": false
               },
-              "icon": "layout-grid",
-              "title": "Recipe gallery"
+              "icon": "lucide-ghost",
+              "title": "recipe-box-gallery-view"
+            }
+          },
+          {
+            "id": "adbeb2a1f544a0ec",
+            "type": "leaf",
+            "state": {
+              "type": "recipe-box-recipe-view",
+              "state": {
+                "file": "Recipes/Classic Beef Stew.md"
+              },
+              "icon": "lucide-file",
+              "title": "Classic Beef Stew"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Recipes/Classic Beef Stew.md"
+              },
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -206,8 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d04fca983715ac1",
+  "active": "adbeb2a1f544a0ec",
   "lastOpenFiles": [
+    "zAttachments/Classic-Beef-Stew.webp",
+    "Recipes/Classic Beef Stew.md",
     "Recipes/Simple Guacamole.md",
     "Recipes/Chicken & Dumpling Soup.md",
     "zAttachments/Chicken & Dumpling Soup.jpeg",
@@ -240,7 +256,6 @@
     "90 Organize/Bases",
     "90 Organize",
     "30 Sources/Clippings/Vanilla Pure vs. Vanilla Extract Understanding the Difference in Measurement.md",
-    "30 Sources/Clippings/How to Truss a Turkey the Easy Way.md",
     "30 Sources/Clippings",
     "30 Sources",
     "zAttachments/How-To-Make-Butter-Milk.webp",
