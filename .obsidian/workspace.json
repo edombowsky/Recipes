@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Recipes/Classic British Chip Shop Curry Sauce.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -232,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e8fe37a792b09a8",
+  "active": "44e4b8c57475acc4",
   "lastOpenFiles": [
     "Recipes/Classic British Chip Shop Curry Sauce.md",
     "zAttachments/chip-shop-curry-sauce.webp",
