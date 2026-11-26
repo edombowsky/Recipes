@@ -34,53 +34,83 @@
       ],
       "navRainbow": {
         "mode": "foreground",
-        "balanceHueLuminance": true,
-        "separateThemeColors": true,
+        "intensity": 100,
         "shortcuts": {
-          "enabled": true,
-          "firstColor": "#ef4444",
-          "lastColor": "#8b5cf6",
-          "darkFirstColor": "#ef4444",
-          "darkLastColor": "#8b5cf6",
-          "transitionStyle": "rgb"
+          "theme": "custom-mwvdmhox-fdhjsu"
         },
         "recent": {
-          "enabled": true,
-          "firstColor": "#ef4444",
-          "lastColor": "#8b5cf6",
-          "darkFirstColor": "#ef4444",
-          "darkLastColor": "#8b5cf6",
-          "transitionStyle": "rgb"
+          "theme": "custom-mwvdmhox-fdhjsu"
         },
         "folders": {
-          "enabled": true,
-          "firstColor": "#ef4444",
-          "lastColor": "#8b5cf6",
-          "darkFirstColor": "#fb7185",
-          "darkLastColor": "#c084fc",
-          "transitionStyle": "hue",
+          "theme": "custom-mwvdmhox-z4bx5m",
           "scope": "root"
         },
         "tags": {
-          "enabled": false,
-          "firstColor": "#ef4444",
-          "lastColor": "#8b5cf6",
-          "darkFirstColor": "#fb7185",
-          "darkLastColor": "#c084fc",
-          "transitionStyle": "hue",
+          "theme": "none",
           "scope": "root"
         },
         "properties": {
-          "enabled": false,
-          "firstColor": "#ef4444",
-          "lastColor": "#8b5cf6",
-          "darkFirstColor": "#fb7185",
-          "darkLastColor": "#c084fc",
-          "transitionStyle": "hue",
+          "theme": "none",
           "scope": "root"
         }
       },
       "descendantExcludedFolders": []
+    }
+  ],
+  "navRainbowThemes": [
+    {
+      "id": "custom-mwvdmhox-fdhjsu",
+      "name": "Custom theme 1",
+      "stops": [
+        {
+          "color": "#ef4444",
+          "position": 0
+        },
+        {
+          "color": "#8b5cf6",
+          "position": 100
+        }
+      ],
+      "darkStops": [
+        {
+          "color": "#ef4444",
+          "position": 0
+        },
+        {
+          "color": "#8b5cf6",
+          "position": 100
+        }
+      ],
+      "separateDarkStops": true,
+      "transitionStyle": "rgb",
+      "consistentBrightness": true
+    },
+    {
+      "id": "custom-mwvdmhox-z4bx5m",
+      "name": "Custom theme 2",
+      "stops": [
+        {
+          "color": "#ef4444",
+          "position": 0
+        },
+        {
+          "color": "#8b5cf6",
+          "position": 100
+        }
+      ],
+      "darkStops": [
+        {
+          "color": "#fb7185",
+          "position": 0
+        },
+        {
+          "color": "#c084fc",
+          "position": 100
+        }
+      ],
+      "separateDarkStops": true,
+      "transitionStyle": "hue",
+      "consistentBrightness": true
     }
   ],
   "vaultTitle": "navigation",
@@ -178,7 +208,6 @@
   "showSectionIcons": true,
   "showShortcuts": true,
   "shortcutBadgeDisplay": "index",
-  "skipAutoScroll": false,
   "showRecentNotes": true,
   "hideRecentNotes": "none",
   "pinRecentNotesWithShortcuts": false,
@@ -197,6 +226,7 @@
   "folderNoteOpenLocation": "current-tab",
   "showNearestFolderNoteInSidebar": true,
   "showTags": true,
+  "tagSource": "all",
   "showTagIcons": true,
   "showAllTagsFolder": true,
   "showUntagged": false,
@@ -559,7 +589,7 @@
     "#64748b",
     "#78716c"
   ],
-  "lastShownVersion": "3.5.1",
+  "lastShownVersion": "3.5.2",
   "rootTagOrder": [],
   "rootPropertyOrder": [],
   "useEmbeddedImageFallback": true,

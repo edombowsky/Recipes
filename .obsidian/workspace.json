@@ -64,9 +64,21 @@
               "icon": "lucide-file",
               "title": "Classic Beef Stew"
             }
+          },
+          {
+            "id": "faa678b0e0658afe",
+            "type": "leaf",
+            "state": {
+              "type": "recipe-box-recipe-view",
+              "state": {
+                "file": "Recipes/Fasolakia (Greek Green Beans in Tomato Sauce).md"
+              },
+              "icon": "lucide-file",
+              "title": "Fasolakia (Greek Green Beans in Tomato Sauce)"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Recipes/Fasolakia (Greek Green Beans in Tomato Sauce).md"
+              },
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -195,8 +209,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -230,12 +243,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44e4b8c57475acc4",
+  "active": "faa678b0e0658afe",
   "lastOpenFiles": [
+    "Recipes/Good Sources of Online Recipes and Tools.md",
+    "Recipes/Fasolakia (Greek Green Beans in Tomato Sauce).md",
+    "zAttachments/fasolakia-serving.avif",
+    "zAttachments/Unconfirmed 129353.crdownload",
+    "Recipes/Classic Beef Stew.md",
+    "Untitled.md",
     "Recipes/Classic British Chip Shop Curry Sauce.md",
     "zAttachments/chip-shop-curry-sauce.webp",
     "zAttachments/Unconfirmed 740556.crdownload",
-    "Recipes/Classic Beef Stew.md",
     "zAttachments/Classic-Beef-Stew.webp",
     "Recipes/Simple Guacamole.md",
     "Recipes/Chicken & Dumpling Soup.md",
@@ -259,8 +277,6 @@
     "90 Organize/Content Maps/Recipes by Course.md",
     "90 Organize/Content Maps/Recipes Tried.md",
     "90 Organize/Content Maps/Recipe Tips.md",
-    "90 Organize/Content Maps/Favourite Recipes.md",
-    "90 Organize/Classes/Recipe.md",
     "90 Organize/Bases/Recipe Index.base",
     "90 Organize/Templates",
     "90 Organize/Lookups",
@@ -269,13 +285,11 @@
     "90 Organize/Bases",
     "90 Organize",
     "30 Sources/Clippings",
-    "30 Sources",
     "zAttachments/How-To-Make-Butter-Milk.webp",
     "zAttachments/Pâté-Chinois.avif",
     "zAttachments/budget_roast_turkey.jpg",
     "zAttachments/ulster-fry.jpg",
     "zAttachments/Weeknight Steak Fajitas.jpg",
-    "zAttachments/Grown Up Sloppy Joes.jpeg",
-    "zAttachments/cajun-gumbo-with-rice.webp"
+    "zAttachments/Grown Up Sloppy Joes.jpeg"
   ]
 }

@@ -56,6 +56,7 @@ meal_type:
 - [the kitch](https://www.thekitchn.com/​)
 - [Kitchen Passport](https://www.kitchenpassport.club/recipes)
 - [Brian Lagerstrom](https://brianlagerstrom.com/)
+- [Little Nomads Recipes](https://littlenomadsrecipes.com/)
 
 ### Baking
 
